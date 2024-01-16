@@ -15,7 +15,6 @@ const Main = () => {
           transition={{ duration: 0.5 }}
           className="mt-[180px] w-full justify-center content-center"
         >
-          <p className="text-center text-rose-500 text-5xl">Server is under maintenance</p>
           <div className="py-2 font-bold text-lg md:text-3xl text-blue-600">
             <p>Assalamu Alaikum Orohmatullah</p>
           </div>
