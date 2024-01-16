@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://mushfiq.xyz
+
+# Sitemaps
+Sitemap: https://mushfiq.xyz/sitemap.xml

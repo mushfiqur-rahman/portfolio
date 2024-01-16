@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    overflow-x: hidden;
+    @apply tracking-wide;
+    @apply dark:bg-gray-800 bg-white dark:text-slate-200;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+  button {
+    @apply shadow-sm shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#01ec83] to-[#64c499] text-black;
+  }
+  li {
+    @apply text-black dark:text-white uppercase;
+  }
+}
