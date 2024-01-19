@@ -2,6 +2,7 @@ import React from "react";
 import Ecommerce from "../public/projects/ecommerce.webp";
 import Blog from "../public/projects/djblogger.webp";
 import PlatformManagerImg from "../public/projects/usermanager.webp";
+import drfImg from "../public/projects/drf.webp";
 import gstoautocomplete from "../public/projects/customerneeds.png";
 import EventtechImg from "../public/projects/eventtech.webp";
 import Hulu from "../public/projects/hulu.webp";
@@ -43,6 +44,15 @@ const Projects = () => {
             tech="Django, React, MUI, DRF"
             alt="PlatformManagerImg"
             aria-label="django htmx project"
+          />
+
+          <ProjectItem
+            title="Django DRF Next Store"
+            backgroundImg={drfImg}
+            projectUrl="/drfstore"
+            tech="Django, Nextjs, TailwindCSS, DRF"
+            alt="PlatformManagerImg"
+            aria-label="Django REST store"
           />
 
           <ProjectItem

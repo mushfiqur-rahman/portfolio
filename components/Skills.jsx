@@ -10,6 +10,8 @@ import Redis from "../public/skills/redis.png";
 import Celery from "../public/skills/celery.png";
 import Drf from "../public/skills/drf.png";
 import pagespeed from "../public/skills/pagespeed.png";
+import ubuntu from "../public/skills/ubuntu.webp";
+import kali from "../public/skills/kali.webp";
 
 const Skills = () => {
   return (
@@ -127,6 +129,28 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Page Speed</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl shadow-gray-200 rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={ubuntu} alt="ubuntu" width={64} height={64} />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Ubuntu</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl shadow-gray-200 rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={kali} alt="kali linux" width={64} height={64} />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Kali Linux</h3>
               </div>
             </div>
           </div>
