@@ -3,6 +3,7 @@ import Ecommerce from "../public/projects/ecommerce.webp";
 import Blog from "../public/projects/djblogger.webp";
 import PlatformManagerImg from "../public/projects/usermanager.webp";
 import drfImg from "../public/projects/drf.webp";
+import bigcartImg from "../public/projects/bigcart.webp";
 import gstoautocomplete from "../public/projects/customerneeds.png";
 import EventtechImg from "../public/projects/eventtech.webp";
 import Hulu from "../public/projects/hulu.webp";
@@ -53,6 +54,15 @@ const Projects = () => {
             tech="Django, Nextjs, TailwindCSS, DRF"
             alt="PlatformManagerImg"
             aria-label="Django REST store"
+          />
+
+          <ProjectItem
+            title="Big Cart Django Store"
+            backgroundImg={bigcartImg}
+            projectUrl="/bigcart"
+            tech="Python, Django, Bootstrap"
+            alt="bigcartImgImg"
+            aria-label="Big Cart Django Store"
           />
 
           <ProjectItem
