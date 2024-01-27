@@ -77,7 +77,7 @@ const Main = () => {
               </Link>
             </div>
           </div>
-        </motion.div>
+        </motion.div>YouTube
       </div>
     </div>
   );

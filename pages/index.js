@@ -80,7 +80,7 @@ export default function Home() {
           পায়থন ইঞ্জিনিয়ার যশোর খুলনা,ecommerce website developer,best website developers,remote web developer,freelance backend developer,entry level software engineer,
           django developers,django nosql, مهندس برمجيات, مطور ويب, بيثون, جانغو, التعلم الالي"
         />
-        <link href="mushfiq.xyz" rel="canonical" />
+        <link href="https://mushfiq.xyz" rel="canonical" />
         <meta content="https://mushfiq.xyz/" property="og:url" />
         <meta content="Mushfiqur Rahman the django developer" name="author" />
         <meta content="Mushfiqur Rahman Portfolio" name="application-name" />

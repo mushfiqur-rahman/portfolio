@@ -83,61 +83,59 @@ const Navbar = () => {
           <ul
             style={{ color: `${linkColor}` }}
             className="hidden md:flex "
-            role="navigation"
+            role="menu"
+            aria-label="My Account"
           >
             <li
               className="ml-10 font-bold hover:border-b dark:text-green-500"
-              role="menuitem"
+              role="none"
             >
-              <Link href="/" aria-label="home page">
+              <Link href="/" role="menuitem">
                 Home
               </Link>
             </li>
 
             <li
               className="ml-10 font-bold hover:border-b dark:text-green-500"
-              role="menuitem"
+              role="none"
             >
-              <Link href="/#about" aria-label="about me">
+              <Link href="/#about" role="menuitem">
                 About
               </Link>
             </li>
 
             <li
               className="ml-10 font-bold hover:border-b dark:text-green-500"
-              role="menuitem"
+              role="none"
             >
-              <Link href="/#skills" aria-label="skills section">
+              <Link href="/#skills" role="menuitem">
                 Skills
               </Link>
             </li>
 
             <li
               className="ml-10 font-bold hover:border-b dark:text-green-500"
-              role="menuitem"
+              role="none"
             >
-              <Link href="/#project" aria-label="project section">
+              <Link href="/#project" role="menuitem">
                 Project
               </Link>
             </li>
 
             <li
               className="ml-10 font-bold hover:border-b dark:text-green-500"
-              role="menuitem"
+              role="none"
             >
-              <Link
-                href="/#edu&exp"
-                aria-label="education and experience section"
-              >
+              <Link href="/#edu&exp" role="menuitem">
                 Edu&Exp
               </Link>
             </li>
 
             <li
               className="ml-10 font-bold hover:border-b dark:text-green-500"
-              role="menuitem"
+              role="none"
             >
-              <Link href="/contact" aria-label="contact page">
+              <Link href="/contact" role="menuitem">
                 Contact Me
               </Link>
             </li>
@@ -179,14 +177,15 @@ const Navbar = () => {
               <ul
                 className="uppercase"
                 style={{ color: `${linkColor}` }}
-                role="navigation"
+                role="menu"
+                aria-label="My Account"
               >
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 font-bold hover:border-b dark:text-green-500"
-                  role="menuitem"
+                  role="none"
                 >
-                  <Link href="/" aria-label="home page">
+                  <Link href="/" role="menuitem">
                     Home
                   </Link>
                 </li>
@@ -194,9 +193,9 @@ const Navbar = () => {
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 font-bold hover:border-b dark:text-green-500"
-                  role="menuitem"
+                  role="none"
                 >
-                  <Link href="/#about" aria-label="about me">
+                  <Link href="/#about" role="menuitem">
                     About
                   </Link>
                 </li>
@@ -204,9 +203,9 @@ const Navbar = () => {
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 font-bold hover:border-b dark:text-green-500"
-                  role="menuitem"
+                  role="none"
                 >
-                  <Link href="/#skills" aria-label="skills section">
+                  <Link href="/#skills" role="menuitem">
                     Skills
                   </Link>
                 </li>
@@ -214,9 +213,9 @@ const Navbar = () => {
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 font-bold hover:border-b dark:text-green-500"
-                  role="menuitem"
+                  role="none"
                 >
-                  <Link href="/#project" aria-label="project">
+                  <Link href="/#project" role="menuitem">
                     Project
                   </Link>
                 </li>
@@ -224,9 +223,9 @@ const Navbar = () => {
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 font-bold hover:border-b dark:text-green-500"
-                  role="menuitem"
+                  role="none"
                 >
-                  <Link href="/#edu&exp" aria-label="edu&exp">
+                  <Link href="/#edu&exp" role="menuitem">
                     Edu&Exp
                   </Link>
                 </li>
@@ -234,9 +233,9 @@ const Navbar = () => {
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 font-bold hover:border-b dark:text-green-500"
-                  role="menuitem"
+                  role="none"
                 >
-                  <Link href="/contact" aria-label="contact page">
+                  <Link href="/contact" role="menuitem">
                     Contact Me
                   </Link>
                 </li>
