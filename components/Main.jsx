@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsTwitterX, BsYoutube } from "react-icons/bs";
+import { SiUpwork } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const Main = () => {
@@ -65,9 +66,18 @@ const Main = () => {
                 <BsYoutube />
               </Link>
             </div>
+            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-green-500 hover:text-white ease-in duration-300">
+              <Link
+                href="https://www.upwork.com/freelancers/~01645495a4cd9b4a74"
+                rel="noreferrer"
+                target="_blank"
+                aria-label="YouTube"
+              >
+                <SiUpwork />
+              </Link>
+            </div>
           </div>
         </motion.div>
-        YouTube
       </div>
     </div>
   );
