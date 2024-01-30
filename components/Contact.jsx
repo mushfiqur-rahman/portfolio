@@ -41,10 +41,6 @@ const Contact = () => {
     }
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
-
   return (
     <div className="dark:bg-gradient-to-r from-slate-900 to-slate-700">
       <div
@@ -99,7 +95,6 @@ const Contact = () => {
                 action="https://getform.io/f/c5c082f5-315e-47c3-b3b7-e0c73974c08f"
                 method="POST"
                 encType="multipart/form-data"
-                onSubmit={handleSubmit}
               >
                 <div className="flex flex-col">
                   <label className="uppercase text-sm py-2">Your Name</label>
