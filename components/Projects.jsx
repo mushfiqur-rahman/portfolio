@@ -4,6 +4,7 @@ import Blog from "../public/projects/djblogger.webp";
 import PlatformManagerImg from "../public/projects/usermanager.webp";
 import drfImg from "../public/projects/drf.webp";
 import bigcartImg from "../public/projects/bigcart.webp";
+import innoImg from "../public/projects/inno.webp";
 import gstoautocomplete from "../public/projects/customerneeds.png";
 import EventtechImg from "../public/projects/eventtech.webp";
 import Hulu from "../public/projects/hulu.webp";
@@ -68,6 +69,15 @@ const Projects = () => {
             tech="Python, Django, Bootstrap"
             alt="bigcartImgImg"
             aria-label="Big Cart Django Store"
+          />
+
+          <ProjectItem
+            title="Innovative Software"
+            backgroundImg={innoImg}
+            projectUrl="/innovative"
+            tech="Laravel 10"
+            alt="innoImg"
+            aria-label="Innovative Software Website"
           />
 
           <ProjectItem
