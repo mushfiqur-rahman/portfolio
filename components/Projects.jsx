@@ -17,15 +17,10 @@ const Projects = () => {
   return (
     <div id="project" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <p className="text-xl font-bold tracking-widest uppercase text-indigo-500">
+        <h2 className="text-xl font-bold tracking-widest uppercase text-indigo-500">
           Projects
-        </p>
-        <h2 className="py-4">
-          What I have Built{" "}
-          <span className="text-gray-400 text-xs">
-            (Out of Non-disclosure agreement)
-          </span>
         </h2>
+        <p className="py-4">What I have Built </p>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Ecommerce Project"
