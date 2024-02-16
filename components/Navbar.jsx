@@ -6,7 +6,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsTwitterX, BsYoutube } from "react-icons/bs";
 import { IoMoonOutline, IoSunnyOutline } from "react-icons/io5";
-import { SiUpwork } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -61,6 +61,12 @@ const Navbar = () => {
         />
       );
     }
+  };
+
+  const email = "mushfiq.kdu@gmail.com";
+
+  const handleClick = () => {
+    window.location.href = `mailto:${email}`;
   };
 
   return (
@@ -135,8 +141,8 @@ const Navbar = () => {
               className="ml-10 font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link href="/contact" role="menuitem">
-                Contact Me
+              <Link href="/services" role="menuitem">
+                Services
               </Link>
             </li>
           </ul>
@@ -235,8 +241,8 @@ const Navbar = () => {
                   className="py-4 font-bold hover:border-b dark:text-green-500"
                   role="none"
                 >
-                  <Link href="/contact" role="menuitem">
-                    Contact Me
+                  <Link href="/services" role="menuitem">
+                    Services
                   </Link>
                 </li>
               </ul>
@@ -265,14 +271,17 @@ const Navbar = () => {
                       <FaGithub className="text-blue-500 hover:text-white" />
                     </Link>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:bg-indigo-500 hover:text-white ease-in duration-300">
+                  <div
+                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:bg-indigo-500 hover:text-white ease-in duration-300"
+                    onClick={handleClick}
+                  >
                     <Link
-                      href="https://twitter.com/@MushfiqFeed"
+                      href={`mailto:${email}`}
                       rel="noreferrer"
                       target="_blank"
-                      aria-label="Twitter"
+                      aria-label="email"
                     >
-                      <BsTwitterX className="text-blue-500 hover:text-white" />
+                      <MdEmail className="text-blue-500 hover:text-white" />
                     </Link>
                   </div>
 

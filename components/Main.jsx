@@ -1,10 +1,16 @@
 import React from "react";
 import Link from "next/link";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsTwitterX, BsYoutube } from "react-icons/bs";
+import { BsYoutube } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
 import { motion } from "framer-motion";
 
 const Main = () => {
+  const email = "mushfiq.kdu@gmail.com";
+
+  const handleClick = () => {
+    window.location.href = `mailto:${email}`;
+  };
   return (
     <div id="home" className="w-full h-screen text-center">
       <div className="relative max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center ">
@@ -44,14 +50,17 @@ const Main = () => {
                 <FaGithub />
               </Link>
             </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300">
+            <div
+              className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300"
+              onClick={handleClick}
+            >
               <Link
-                href="https://twitter.com/MushfiqFeed"
+                href={`mailto:${email}`}
                 rel="noreferrer"
                 target="_blank"
-                aria-label="Twitter"
+                aria-label="email"
               >
-                <BsTwitterX />
+                <MdEmail />
               </Link>
             </div>
 
