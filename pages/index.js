@@ -32,7 +32,7 @@ export default function Home() {
           content="entry level django developer, jr python django developer, jr. software developer, software engineer"
           name="position"
         />
-        <link rel="canonical" href="https://mushfiq.xyz" />
+        <link rel="canonical" href="mushfiq.xyz" />
         <meta name="distribution" content="Global" />
         <meta name="coverage" content="Worldwide" />
         <meta name="rating" content="General" />

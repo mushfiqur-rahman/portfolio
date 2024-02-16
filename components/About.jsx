@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import MushfiqImg from "../public/mushfiq.png";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -33,7 +35,7 @@ const About = () => {
           <div className="py-5">
             {/* resume */}
             <Link
-              className="py-4 pr-6"
+              className="py-4"
               href="/Mushfiqur_Rahman_Resume.pdf"
               locale={false}
               rel="noopener noreferrer"
@@ -45,6 +47,9 @@ const About = () => {
               </button>
             </Link>
           </div>
+        </div>
+        <div className="w-full h-auto m-auto shadow-xl shadow-indigo-400 rounded-xl flex items-center p-4 hover:scale-105 ease-in duration-300">
+          <Image src={MushfiqImg} className="rounded-xl" alt="MushfiqImg" />
         </div>
       </div>
     </div>
