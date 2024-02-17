@@ -28,3 +28,27 @@ html {
     @apply text-black dark:text-white uppercase;
   }
 }
+
+.tgradient {
+  /** TEXT GRADIENT */
+  color: #e91e63;
+  background-image: -webkit-linear-gradient(45deg, #e91e63 38%, #312eff 67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.servGrad {
+  color: #ff5722;
+  background-image: -webkit-linear-gradient(
+    0deg,
+    #ff5722 0%,
+    #7f27ff 50%,
+    #0004ff 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
