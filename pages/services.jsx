@@ -60,6 +60,19 @@ const services = () => {
                   <FaSkype size={30} />
                 </Link>
               </div>
+              <div
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#0096DE] ease-in duration-300"
+                onClick={handleSkype}
+              >
+                <Link
+                  href={`mailto:${email}`}
+                  rel="noreferrer"
+                  target="_blank"
+                  aria-label="email"
+                >
+                  <FaSkype size={30} />
+                </Link>
+              </div>
             </div>
           </motion.div>
         </div>
