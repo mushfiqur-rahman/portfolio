@@ -12,7 +12,6 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#ecf0f3");
   const [linkColor, setlinkColor] = useState("#1f2937");
 
   // For Mobile nav
@@ -71,7 +70,6 @@ const Navbar = () => {
 
   return (
     <div
-      // style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? "fixed w-full h-20 shadow-xl z-[100] bg-white dark:bg-black/50"
@@ -143,6 +141,14 @@ const Navbar = () => {
             >
               <Link href="/services" role="menuitem">
                 Services
+              </Link>
+            </li>
+            <li
+              className="ml-10 font-bold hover:border-b dark:text-green-500"
+              role="none"
+            >
+              <Link href="/contact" role="menuitem">
+                Contact
               </Link>
             </li>
           </ul>
