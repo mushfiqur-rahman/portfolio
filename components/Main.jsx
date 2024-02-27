@@ -23,7 +23,7 @@ const Main = () => {
           <div className="py-2 font-bold text-lg md:text-3xl text-blue-600">
             <p>Assalamu Alaikum Orohmatullah</p>
           </div>
-          <div className="py-4 text-4xl font-extrabold md:text-5xl uppercase duration-300 text-violet-600">
+          <div className="py-4 text-4xl font-extrabold md:text-7xl uppercase duration-300 text-violet-600">
             <h1>Mushfiqur Rahman</h1>
           </div>
           <div className="py-2 font-bold md:text-2xl text-lg">
