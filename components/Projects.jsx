@@ -3,13 +3,7 @@ import Ecommerce from "../public/projects/ecommerce.webp";
 import Blog from "../public/projects/djblogger.webp";
 import PlatformManagerImg from "../public/projects/usermanager.webp";
 import drfImg from "../public/projects/drf.webp";
-import bigcartImg from "../public/projects/bigcart.webp";
-import innoImg from "../public/projects/inno.webp";
-import gstoautocomplete from "../public/projects/customerneeds.png";
 import EventtechImg from "../public/projects/eventtech.webp";
-import Hulu from "../public/projects/hulu.webp";
-import Netflix from "../public/projects/netflix.webp";
-import Tesla from "../public/projects/tesla.webp";
 import Metaverse from "../public/projects/metaverse.webp";
 import ProjectItem from "./ProjecItem";
 
@@ -20,7 +14,12 @@ const Projects = () => {
         <h2 className="text-xl font-bold tracking-widest uppercase text-indigo-500">
           Projects
         </h2>
-        <p className="py-4">What I have Built </p>
+        <p className="py-4">
+          What I have Built{" "}
+          <span className="font-serif text-base text-gray-400">
+            (Out of Non-disclosure agreement)
+          </span>{" "}
+        </p>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Ecommerce Project"
@@ -58,33 +57,6 @@ const Projects = () => {
           />
 
           <ProjectItem
-            title="Big Cart Django Store"
-            backgroundImg={bigcartImg}
-            projectUrl="/bigcart"
-            tech="Python, Django, Bootstrap"
-            alt="bigcartImgImg"
-            aria-label="Big Cart Django Store"
-          />
-
-          <ProjectItem
-            title="Innovative Software"
-            backgroundImg={innoImg}
-            projectUrl="/innovative"
-            tech="Laravel 10"
-            alt="innoImg"
-            aria-label="Innovative Software Website"
-          />
-
-          <ProjectItem
-            title="Customer Needs"
-            backgroundImg={gstoautocomplete}
-            projectUrl="/customerNeeds"
-            tech="Django, React, MUI"
-            alt="MUI Autocomplete"
-            aria-label="react mui autocomplete"
-          />
-
-          <ProjectItem
             title="Eventtech"
             backgroundImg={EventtechImg}
             projectUrl="/eventtech"
@@ -92,31 +64,7 @@ const Projects = () => {
             alt="Eventtech"
             aria-label="Eventtech startup website"
           />
-          <ProjectItem
-            title="Hulu Clone"
-            backgroundImg={Hulu}
-            projectUrl="/hulu"
-            tech="NextJS, TMDB API"
-            alt="Hulu"
-            aria-label="Hulu Clone Project"
-          />
 
-          <ProjectItem
-            title="Netflix Clone"
-            backgroundImg={Netflix}
-            projectUrl="/netflix"
-            tech="Next JS"
-            alt="Netflix"
-            aria-label="Netflix Clone Project"
-          />
-          <ProjectItem
-            title="Tesla Clone"
-            backgroundImg={Tesla}
-            projectUrl="/tesla"
-            tech="TailwindCSS"
-            alt="Tesla"
-            aria-label="Tesla website clone Project"
-          />
           <ProjectItem
             title="Metaverse Clone"
             backgroundImg={Metaverse}
