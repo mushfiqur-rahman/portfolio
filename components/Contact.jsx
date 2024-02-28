@@ -6,13 +6,6 @@ import { MdEmail } from "react-icons/md";
 import { FaSkype } from "react-icons/fa";
 
 const Contact = () => {
-  const [text, setText] = useState("");
-  const [error, setError] = useState("");
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
-
   //
   const email = "mushfiq.kdu@gmail.com";
   const skype = "mushfiq.style";
@@ -92,7 +85,7 @@ const Contact = () => {
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
               <form
-                action="https://getform.io/f/c5c082f5-315e-47c3-b3b7-e0c73974c08f"
+                action="#"
                 method="POST"
                 encType="multipart/form-data"
                 onSubmit={handleSubmit}
@@ -137,12 +130,6 @@ const Contact = () => {
                   Send Message
                 </button>
               </form>
-
-              {error && (
-                <p className="font-bold" style={{ color: "red" }}>
-                  {error}
-                </p>
-              )}
             </div>
           </div>
         </div>
