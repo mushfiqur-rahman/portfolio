@@ -6,6 +6,16 @@ const nextConfig = {
     defaultLocale: "default",
     localeDetection: false,
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+        port: "",
+        pathname: "/depyaowh3/**",
+      },
+    ],
+  },
 };
 
 module.exports = nextConfig;

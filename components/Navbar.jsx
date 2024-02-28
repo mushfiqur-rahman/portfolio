@@ -72,7 +72,7 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100] bg-white dark:bg-black/50"
+          ? "fixed w-full h-20 shadow-xl z-[100] bg-white dark:bg-black/70"
           : "fixed w-full h-20 z-[100]"
       }
     >
