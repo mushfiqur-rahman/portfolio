@@ -139,8 +139,13 @@ const Navbar = () => {
               className="ml-10 font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link href="/services" role="menuitem">
-                Services
+              <Link
+                href="https://writing.mushfiq.xyz/"
+                target="_blank"
+                rel="noreferrer"
+                role="menuitem"
+              >
+                Blog
               </Link>
             </li>
             <li
@@ -247,8 +252,13 @@ const Navbar = () => {
                   className="py-4 font-bold hover:border-b dark:text-green-500"
                   role="none"
                 >
-                  <Link href="/services" role="menuitem">
-                    Services
+                  <Link
+                    href="https://writing.mushfiq.xyz/"
+                    rel="noreferrer"
+                    target="_blank"
+                    role="menuitem"
+                  >
+                    Blog
                   </Link>
                 </li>
               </ul>
