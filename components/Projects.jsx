@@ -3,6 +3,7 @@ import Ecommerce from "../public/projects/ecommerce.webp";
 import Blog from "../public/projects/djblogger.webp";
 import PlatformManagerImg from "../public/projects/usermanager.webp";
 import drfImg from "../public/projects/drf.webp";
+import innoImg from "../public/projects/inno.webp";
 import EventtechImg from "../public/projects/eventtech.webp";
 import Metaverse from "../public/projects/metaverse.webp";
 import ProjectItem from "./ProjecItem";
@@ -16,7 +17,7 @@ const Projects = () => {
         </h2>
         <p className="py-4">
           What I have Built{" "}
-          <span className="font-serif text-base text-gray-400">
+          <span className="font-mono text-base text-gray-400">
             (Out of Non-disclosure agreement)
           </span>{" "}
         </p>
@@ -45,6 +46,15 @@ const Projects = () => {
             tech="Django, React, MUI, DRF"
             alt="PlatformManagerImg"
             aria-label="django htmx project"
+          />
+
+          <ProjectItem
+            title="Innovative Software"
+            backgroundImg={innoImg}
+            projectUrl="/innovative"
+            tech="Laravel 10"
+            alt="innoImg"
+            aria-label="Innovative Software Website"
           />
 
           <ProjectItem
