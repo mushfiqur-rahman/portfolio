@@ -15,6 +15,7 @@ export default function Home() {
           name="google-site-verification"
           content="UviZELNJ6Xu6G42kgGmKtVzRXpoc61MYCLpWmoV1uzA"
         />
+        <meta name="yandex-verification" content="f603ed602ebfae14" />
         <meta charSet="utf-8" />
         <meta httpEquiv="content-language" content="en" />
         <meta
