@@ -25,12 +25,12 @@ export default function Home() {
         <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
-          content="I'm Mushfiqur Rahman, this is my portfolio. I am looking for remote or hybrid job in junior python django webdeveloper position. I have been working at Upwork as a python django developer since 2022"
+          content="I'm Mushfiqur Rahman, this is my portfolio. I am looking for remote or hybrid job in python django webdeveloper position. I have been working at Upwork as a python django developer since 2022"
           key="desc"
         />
         <meta content="#ffffff" name="theme-color" />
         <meta
-          content="entry level django developer, jr python django developer, jr. software developer, software engineer"
+          content="Back-end Focused Web Developer, jr python django developer, jr. software developer, software engineer"
           name="position"
         />
         <meta name="distribution" content="Global" />
@@ -76,7 +76,7 @@ export default function Home() {
           name="keywords"
           content="ecommerce developer,django developer at khulna,django developer at jessore,python developer at jessoere,python developer at khulna,python developer jashore,পাইথন যশোর,পাইথন খুলনা,ওয়েব ডেভেলপার,পাইথন ইঞ্জিনিয়ার, 
           পায়থন ইঞ্জিনিয়ার যশোর খুলনা,ecommerce website developer,best website developers,remote web developer,freelance backend developer,entry level software engineer,
-          django developers,django nosql, مهندس برمجيات, مطور ويب, بيثون, جانغو, التعلم الالي"
+          django developers,django nosql, مهندس برمجيات, مطور ويب, بيثون, جانغو, التعلم الالي,Back-end Focused Web Developer"
         />
         <link href="https://mushfiq.xyz" rel="canonical" />
         <meta content="https://mushfiq.xyz/" property="og:url" />

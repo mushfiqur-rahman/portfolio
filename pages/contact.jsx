@@ -45,7 +45,7 @@ const Contact = () => {
                   Mushfiqur Rahman
                 </h2>
 
-                <p>Web Developer</p>
+                <p>Back-end Focused Web Developer</p>
                 <p className="font-mono">
                   Address: Chuknagar, Dumuria, Khulna - 9252
                 </p>
