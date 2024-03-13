@@ -253,7 +253,7 @@ const Navbar = () => {
                   role="none"
                 >
                   <Link
-                    href="https://mushfiqfeed.blogspot.com"
+                    href="https://mushfiqfeed.blogspot.com/"
                     rel="noreferrer"
                     target="_blank"
                     role="menuitem"
