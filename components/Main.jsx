@@ -27,7 +27,9 @@ const Main = () => {
             <h1>Mushfiqur Rahman</h1>
           </div>
           <div className="py-2 font-bold md:text-2xl text-lg">
-            <h2 className="tgradient">Back-end Focused Web Developer</h2>
+            <h2 className="tgradient">
+              {"I'm"} Back-end Focused Web Developer
+            </h2>
           </div>
           <div className="flex items-center justify-between max-w-[350px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300">
