@@ -233,6 +233,15 @@ const Navbar = () => {
                     Edu&Exp
                   </Link>
                 </li>
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 font-bold hover:border-b dark:text-green-500"
+                  role="none"
+                >
+                  <Link href="/contact" role="menuitem">
+                    Contact
+                  </Link>
+                </li>
               </ul>
               <div className="pt-20">
                 <p className="uppercase tracking-widest text-[#5651e5]">
