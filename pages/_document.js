@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body oncontextmenu="return false">
+      <body>
         <Main />
         <NextScript />
       </body>

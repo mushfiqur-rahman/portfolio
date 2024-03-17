@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import ContactImg from "../public/contactImg.webp";
@@ -7,6 +7,17 @@ import { MdEmail } from "react-icons/md";
 import { FaSkype } from "react-icons/fa";
 
 const Contact = () => {
+  useEffect(() => {
+    const handleContextmenu = (event) => {
+      event.preventDefault();
+    };
+
+    document.addEventListener("contextmenu", handleContextmenu);
+
+    return () => {
+      document.removeEventListener("contextmenu", handleContextmenu);
+    };
+  }, []);
   //
   const email = "mushfiq.kdu@gmail.com";
   const skype = "mushfiq.style";
@@ -25,7 +36,10 @@ const Contact = () => {
         <title>Contact</title>
         <link rel="canonical" href="/contact" />
         <meta name="description" content="Contact with Mushfiqur Rahman" />
-        <meta name="keywords" content="Django HTMX Bootstrap, khulna, jashore, jessore, backend focused web developer, chuknagar" />
+        <meta
+          name="keywords"
+          content="Django HTMX Bootstrap, khulna, jashore, jessore, backend focused web developer, chuknagar"
+        />
       </Head>
       <div className="dark:bg-gradient-to-r from-slate-900 to-slate-700">
         <div
