@@ -18,12 +18,12 @@ const Main = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="mt-[180px] w-full justify-center content-center"
+          className="mt-[10px] w-full justify-center content-center"
         >
           <div className="py-2 font-bold text-lg md:text-3xl text-blue-600">
             <p>Assalamu Alaikum Orohmatullah</p>
           </div>
-          <div className="py-4 text-4xl font-extrabold md:text-7xl uppercase duration-300 text-violet-600">
+          <div className="py-4 font-extrabold text-4xl lg:text-5xl xl:text-6xl uppercase duration-300 text-violet-600 leading-none">
             <h1>Mushfiqur Rahman</h1>
           </div>
           <div className="py-2 font-bold md:text-2xl text-lg">

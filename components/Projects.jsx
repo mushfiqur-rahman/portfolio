@@ -17,7 +17,7 @@ const Projects = () => {
         </h2>
         <p className="py-4">
           What I have Built{" "}
-          <span className="font-mono text-base text-gray-400">
+          <span className="font-mono text-base">
             (Out of Non-disclosure agreement)
           </span>{" "}
         </p>
