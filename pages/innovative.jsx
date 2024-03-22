@@ -3,10 +3,23 @@ import Image from "next/image";
 import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
 import InnovativeImg from "../public/projects/innoaps.webp";
+import Head from "next/head";
 
 const innovative = () => {
   return (
     <>
+      <Head>
+        <title>Innovative Software</title>
+        <link rel="canonical" href="/innovative" />
+        <meta
+          name="description"
+          content="This is One of Popular App developer company website whose app is top ranking in Book and reference category in playstore"
+        />
+        <meta
+          name="keywords"
+          content="laravel, bootstrap, fontawesome, innovative software, english to bangla dictionary"
+        />
+      </Head>
       <div className="w-full">
         <div className="w-screen h-[50vh] relative">
           <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/50 z-10" />

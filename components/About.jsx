@@ -14,22 +14,30 @@ const About = () => {
           <h2 className="py-4">Career Summary</h2>
 
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            With a dynamic four-year IT journey, my passion for programming
-            finds its zenith in Python Django Development. Armed with two years
-            of expertise, I specialize in crafting secure, efficient, and
-            scalable web applications, boasting meticulous code that aligns with
-            industry standards.
+            I have worked in various IT sectors for the past 4 years but always
+            my mind was on programming. I was a little bit confused, about which
+            programming language would give me happiness because I believe if
+            someone enjoys the work & loves the work then they can achieve what
+            they want.
           </p>
 
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            A quick learner and self-motivated, I am eager to breathe life into
-            innovative ideas. While I possess front-end proficiency, my core
-            strength lies in back-end development.{" "}
+            I am a passionate programmer, quick learner, and self-motivated. I
+            have almost 2 years of experience in Web Development. I am able to
+            develop secure, efficient and scalable web application by writing
+            standard and well documented codes.{" "}
           </p>
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            A reliable team player, I consistently deliver high-quality work. If
-            you seek a dedicated professional with a knack for turning ideas
-            into reality, I am the impressive team member you are looking for.
+            I want to utilize my professional skills along with my institutional
+            skills to implement innovative ideas to reality. I have working
+            knowledge on front-end development but main focus on back-end
+            development.
+          </p>
+          <p className="py-2 text-gray-600 dark:text-slate-200">
+            I am a team player who is comfortable working with tight deadlines
+            and can deliver high-quality work. If you are looking for a team
+            member who is dedicated and reliable, I would be the perfect fit for
+            your team.
           </p>
 
           <div className="py-5">
