@@ -110,7 +110,7 @@ const Contact = () => {
 
             <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
               <div className="p-4">
-                <form action="" method="POST" encType="multipart/form-data">
+                <form action="" method="" encType="multipart/form-data">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Your Name</label>
                     <input
