@@ -139,7 +139,7 @@ const Navbar = () => {
               role="none"
             >
               <Link
-                href="https://mushfiqfeed.blogspot.com"
+                href="https://writing.mushfiq.xyz"
                 role="menuitem"
                 target="_blank"
                 rel="noreferrer"
@@ -252,7 +252,7 @@ const Navbar = () => {
                   role="none"
                 >
                   <Link
-                    href="https://mushfiqfeed.blogspot.com"
+                    href="https://writing.mushfiq.xyz"
                     role="menuitem"
                     target="_blank"
                     rel="noreferrer"
