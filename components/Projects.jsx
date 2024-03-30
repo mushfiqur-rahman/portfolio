@@ -6,6 +6,7 @@ import drfImg from "../public/projects/drf.webp";
 import innoImg from "../public/projects/inno.webp";
 import EventtechImg from "../public/projects/eventtech.webp";
 import Metaverse from "../public/projects/metaverse.webp";
+import bigcartImg from "../public/projects/bigcart.webp";
 import ProjectItem from "./ProjecItem";
 
 const Projects = () => {
@@ -46,6 +47,15 @@ const Projects = () => {
             tech="Django, React, MUI, DRF"
             alt="PlatformManagerImg"
             aria-label="django htmx project"
+          />
+
+          <ProjectItem
+            title="Big Cart Django Store"
+            backgroundImg={bigcartImg}
+            projectUrl="/bigcart"
+            tech="Python, Django, Bootstrap"
+            alt="bigcartImgImg"
+            aria-label="Big Cart Django Store"
           />
 
           <ProjectItem
