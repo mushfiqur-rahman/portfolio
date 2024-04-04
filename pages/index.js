@@ -82,7 +82,7 @@ export default function Home() {
         />
         <link href="https://mushfiq.xyz" rel="canonical" />
         <meta content="https://mushfiq.xyz/" property="og:url" />
-        <meta content="Mushfiqur Rahman the django developer" name="author" />
+        <meta content="Mushfiqur Rahman the python django developer" name="author" />
         <meta content="Mushfiqur Rahman Portfolio" name="application-name" />
         <title>Mushfiqur Rahman - CV | Resume</title>
         <link rel="shortcut icon" href="/favicon.ico" />
