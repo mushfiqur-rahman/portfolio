@@ -74,9 +74,11 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="ecommerce developer,django developer at khulna,django developer at jessore,python developer at jessoere,python developer at khulna,python developer jashore,পাইথন যশোর,পাইথন খুলনা,ওয়েব ডেভেলপার,পাইথন ইঞ্জিনিয়ার, 
+          content="ecommerce developer,django developer at khulna,django developer at jessore,python developer at jessoere,python developer at khulna,python developer jashore,
+          পাইথন যশোর,পাইথন খুলনা,ওয়েব ডেভেলপার,পাইথন ইঞ্জিনিয়ার, 
           পায়থন ইঞ্জিনিয়ার যশোর খুলনা,ecommerce website developer,best website developers,remote web developer,freelance backend developer,entry level software engineer,
-          django developers,django nosql, مهندس برمجيات, مطور ويب, بيثون, جانغو, التعلم الالي,Back-end Focused Web Developer"
+          django developers,django nosql, مهندس برمجيات, مطور ويب, بيثون, جانغو, التعلم الالي,Back-end Focused Web Developer, python django developer in khulna, 
+          python developer in bangladesh, software engineer in bangladesh, IT officer in Bangladesh, IT officer in khulna, Network engineer in khulna, network engineer in bangladesh, aamra, aamra networks ltd, Mushfiqur Rahman khulna,"
         />
         <link href="https://mushfiq.xyz" rel="canonical" />
         <meta content="https://mushfiq.xyz/" property="og:url" />

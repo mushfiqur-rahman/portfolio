@@ -4,7 +4,7 @@ import { useTheme } from "next-themes";
 
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsTwitterX, BsYoutube } from "react-icons/bs";
+import { BsYoutube } from "react-icons/bs";
 import { IoMoonOutline, IoSunnyOutline } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 
