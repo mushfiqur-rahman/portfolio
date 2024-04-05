@@ -5,6 +5,7 @@ import { useTheme } from "next-themes";
 import { ThemeProvider } from "next-themes";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SiteSchema from "@/components/SiteName";
 
 const manrope = Manrope({
   weight: ["400", "500", "600", "700", "800"],
@@ -42,6 +43,7 @@ export default function App({ Component, pageProps }) {
       </Script>
       <ThemeProvider enableSystem={true} attribute="class">
         <main className={`${manrope.className}`}>
+          <SiteSchema />
           <Navbar />
           <Component {...pageProps} />
           <Footer />
