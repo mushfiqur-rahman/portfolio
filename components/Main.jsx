@@ -19,12 +19,10 @@ const Main = () => {
             <p>Assalamu Alaikum Orohmatullah</p>
           </div>
           <div className="py-4 font-extrabold text-4xl lg:text-5xl xl:text-6xl uppercase duration-300 text-violet-600 leading-none">
-            <h1>Mushfiqur Rahman</h1>
+            <h1>{"I'm"} Mushfiqur Rahman</h1>
           </div>
           <div className="py-2 font-bold md:text-2xl text-lg">
-            <h2 className="tgradient">
-              {"I'm"} Back-end Focused Web Developer
-            </h2>
+            <h2>Another Python Django Developer</h2>
           </div>
           <div className="flex items-center justify-between max-w-[350px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300">
