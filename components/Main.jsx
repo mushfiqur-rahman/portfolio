@@ -19,7 +19,9 @@ const Main = () => {
             <p>Assalamu Alaikum Orohmatullah</p>
           </div>
           <div className="py-4 font-extrabold text-4xl lg:text-5xl xl:text-6xl uppercase duration-300 text-violet-600 leading-none">
-            <h1>{"I'm"} Mushfiqur Rahman</h1>
+            <h1>
+              <span className="capitalize">{"I'm"}</span> Mushfiqur Rahman
+            </h1>
           </div>
           <div className="py-2 font-bold md:text-2xl text-lg">
             <h2>Another Python Django Developer</h2>

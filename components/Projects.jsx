@@ -3,6 +3,7 @@ import Ecommerce from "../public/projects/ecommerce.webp";
 import Blog from "../public/projects/djblogger.webp";
 import PlatformManagerImg from "../public/projects/usermanager.webp";
 import drfImg from "../public/projects/drf.webp";
+import gstoautocomplete from "../public/projects/customerneeds.png";
 import innoImg from "../public/projects/inno.webp";
 import EventtechImg from "../public/projects/eventtech.webp";
 import Metaverse from "../public/projects/metaverse.webp";
@@ -56,6 +57,15 @@ const Projects = () => {
             tech="Python, Django, Bootstrap"
             alt="bigcartImgImg"
             aria-label="Big Cart Django Store"
+          />
+
+          <ProjectItem
+            title="Customer Needs"
+            backgroundImg={gstoautocomplete}
+            projectUrl="/customerNeeds"
+            tech="Django, React, MUI"
+            alt="MUI Autocomplete"
+            aria-label="react mui autocomplete"
           />
 
           <ProjectItem
