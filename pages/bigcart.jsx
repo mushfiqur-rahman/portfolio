@@ -12,7 +12,7 @@ const bigcart = () => {
         <title>BigCart - Django</title>
         <link rel="canonical" href="/bigcart" />
         <meta name="description" content="Django Bootstrap Big Cart Project" />
-        <meta name="keywords" content="Django Bootstrap Bootstrap Stripe" />
+        <meta name="keywords" content="Django, Bootstrap, Stripe payment" />
       </Head>
       <div className="w-full">
         <div className="w-screen h-[50vh] relative">
