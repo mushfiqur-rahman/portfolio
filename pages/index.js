@@ -30,7 +30,7 @@ export default function Home() {
         />
         <meta content="#ffffff" name="theme-color" />
         <meta
-          content="Back-end Focused Web Developer, jr python django developer, jr. software developer, software engineer"
+          content="Mushfiqur Rahman is a Back-end Focused Web Developer, python django developer, software developer, software engineer"
           name="position"
         />
         <meta name="distribution" content="Global" />
@@ -39,6 +39,7 @@ export default function Home() {
         <meta name="author" content="Mushfiqur Rahman" />
         <meta name="owner" content="Mushfiqur Rahman" />
         <meta name="robots" content="index,follow,noodp,noydir" />
+        <meta name="copyright" content="Copyright © Mushfiqur Rahman" />
         <meta name="googlebot" content="index, follow" />
         <meta property="og:type" content="website" />
         <meta name="msvalidate.01" content="3EA8D19855F5F7D04AEABD2C2A95FA33" />
@@ -66,7 +67,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="A passionate junior web developer with django | python enthusiastic."
+          content="Mushfiqur Rahman is passionate web developer with django | python enthusiastic."
         />
         <meta
           name="twitter:image"
@@ -74,7 +75,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="ecommerce developer,django developer at khulna,django developer at jessore,python developer at jessoere,python developer at khulna,python developer jashore,
+          content="Mushfiqur Rahman, Mushfiqur Rahman lexicon, Mushfiqur Rahman khulna, Mushfiqur Rahman chuknagar, ecommerce developer,django developer at khulna,django developer at jessore,python developer at jessoere,python developer at khulna,python developer jashore,
           পাইথন যশোর,পাইথন খুলনা,ওয়েব ডেভেলপার,পাইথন ইঞ্জিনিয়ার, 
           পায়থন ইঞ্জিনিয়ার যশোর খুলনা,ecommerce website developer,best website developers,remote web developer,freelance backend developer,entry level software engineer,
           django developers,django nosql, Back-end Focused Web Developer, python django developer in khulna, 
