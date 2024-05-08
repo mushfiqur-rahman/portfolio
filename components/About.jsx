@@ -14,7 +14,7 @@ const About = () => {
           <h2 className="py-4">Career Summary</h2>
 
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            I have worked in various IT sectors for the past 4 years but always
+            I have worked in various IT sectors for the past 5 years but always
             my mind was on programming. I was a little bit confused, about which
             programming language would give me happiness because I believe if
             someone enjoys the work & loves the work then they can achieve what
