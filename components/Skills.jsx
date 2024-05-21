@@ -12,6 +12,8 @@ import Drf from "../public/skills/drf.png";
 import pagespeed from "../public/skills/pagespeed.png";
 import ubuntu from "../public/skills/ubuntu.webp";
 import next from "../public/skills/nextjs.webp";
+import Docker from "../public/skills/docker.png";
+import TypeScript from "../public/skills/typescript.png";
 
 const Skills = () => {
   return (
@@ -129,6 +131,31 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Bootstrap</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl shadow-gray-200 rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={Docker} alt="Docker" width={64} height={64} />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Docker</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl shadow-gray-200 rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src={TypeScript}
+                  alt="TypeScript"
+                  width={64}
+                  height={64}
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>TypeScript</h3>
               </div>
             </div>
           </div>
