@@ -46,7 +46,7 @@ export default function Home() {
         <meta property="og:site_name" content="Mushfiqur Rahman" />
         <meta
           property="og:description"
-          content="A passionate junior web developer with django & Next js | python enthusiastic."
+          content="A passionate web developer with django & Next js | python enthusiastic."
         />
         <meta
           property="og:title"
