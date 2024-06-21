@@ -9,15 +9,12 @@ const github = () => {
   return (
     <>
       <Head>
-        <title>Eccomerce - project</title>
-        <link rel="canonical" href="/eccomerce" />
-        <meta
-          name="description"
-          content="This is Django REST api advanced store project"
-        />
+        <title>GitHub Clone</title>
+        <link rel="canonical" href="/github" />
+        <meta name="description" content="GitHub Clone by mushfiqur rahman" />
         <meta
           name="keywords"
-          content="Django REST API Advanced Store project"
+          content="GitHub Clone Using Next js, framer Motion, react spring, cobe, tailwindcss, mushfiqur-rahman"
         />
       </Head>
       <div className="w-full">
