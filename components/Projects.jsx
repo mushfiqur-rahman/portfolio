@@ -52,7 +52,7 @@ const Projects = () => {
           />
 
           <ProjectItem
-            title="Big Cart Django Store"
+            title="GitHub Clone"
             backgroundImg={gitHubImg}
             projectUrl="/github"
             tech="TypeScript, NextJS, Framer Motion"
