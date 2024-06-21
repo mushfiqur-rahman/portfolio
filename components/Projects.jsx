@@ -8,6 +8,7 @@ import innoImg from "../public/projects/inno.webp";
 import EventtechImg from "../public/projects/eventtech.webp";
 import Metaverse from "../public/projects/metaverse.webp";
 import bigcartImg from "../public/projects/bigcart.webp";
+import gitHubImg from "../public/projects/github.webp";
 import ProjectItem from "./ProjecItem";
 
 const Projects = () => {
@@ -50,6 +51,14 @@ const Projects = () => {
             aria-label="django htmx project"
           />
 
+          <ProjectItem
+            title="Big Cart Django Store"
+            backgroundImg={gitHubImg}
+            projectUrl="/github"
+            tech="TypeScript, NextJS, Framer Motion"
+            alt="gitHubImg"
+            aria-label="GitHub Clone"
+          />
           <ProjectItem
             title="Big Cart Django Store"
             backgroundImg={bigcartImg}
