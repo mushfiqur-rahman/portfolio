@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 import { Manrope } from "next/font/google";
-import Script from "next/script";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { useTheme } from "next-themes";
 import { ThemeProvider } from "next-themes";
 import Navbar from "@/components/Navbar";
@@ -31,22 +31,13 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-J2N8PJJ379" />
-      <Script id="google-analytics" strategy="worker">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-J2N8PJJ379');
-        `}
-      </Script>
       <ThemeProvider enableSystem={true} attribute="class">
         <main className={`${manrope.className}`}>
           <SiteSchema />
           <Navbar />
           <Component {...pageProps} />
           <Footer />
+          <GoogleAnalytics gaId="G-J2N8PJJ379" />
         </main>
       </ThemeProvider>
     </>
