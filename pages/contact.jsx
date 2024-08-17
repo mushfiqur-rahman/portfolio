@@ -154,23 +154,6 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          {/* Map */}
-          <div className="w-full h-full py-8 rounded">
-            <div id="embed-ded-map-canvas" className="h-full w-full">
-              <iframe
-                className="h-full w-full border-0"
-                frameBorder={0}
-                src="https://www.google.com/maps/embed/v1/place?q=Tripti+Neer+-+তৃপ্তি+নীড়,+School+Road,+Chuknagar,+Bangladesh&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-              />
-            </div>
-
-            <style
-              dangerouslySetInnerHTML={{
-                __html:
-                  "#embed-ded-map-canvas img{max-height:none;max-width:none!important;background:none!important;}",
-              }}
-            />
-          </div>
         </div>
       </div>
     </>
