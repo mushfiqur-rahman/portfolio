@@ -20,17 +20,12 @@ const About = () => {
           </p>
 
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            I am preparing for the higher education. My Research interest: Cyber
-            Security, Computer Vision.
-          </p>
-
-          {/* <p className="py-2 text-gray-600 dark:text-slate-200">
             I am a passionate programmer, quick learner, and self-motivated. I
             have almost 2 years of experience in Web Development. I am able to
             develop secure, efficient and scalable web application by writing
             standard and well documented codes.{" "}
-          </p> */}
-          {/* <p className="py-2 text-gray-600 dark:text-slate-200">
+          </p>
+          <p className="py-2 text-gray-600 dark:text-slate-200">
             I want to utilize my professional skills along with my institutional
             skills to implement innovative ideas to reality. I have working
             knowledge on front-end development but main focus on back-end
@@ -41,7 +36,13 @@ const About = () => {
             and can deliver high-quality work. If you are looking for a team
             member who is dedicated and reliable, I would be the perfect fit for
             your team.
-          </p> */}
+          </p>
+
+          <p className="py-2 text-gray-600 dark:text-slate-200">
+            I am preparing for the higher education. My Research interest: Cyber
+            Security, Cyber Security in IOT, Cyber Security in Computer
+            Networking
+          </p>
 
           <div className="py-5">
             {/* resume */}

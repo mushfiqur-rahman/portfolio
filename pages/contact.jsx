@@ -19,7 +19,7 @@ const Contact = () => {
     };
   }, []);
   //
-  const email = "mushfiq.kdu@gmail.com";
+  const email = "mushfiqur-rahman@hotmail.com";
   const skype = "mushfiq.style";
 
   const handleEmail = () => {
@@ -58,7 +58,6 @@ const Contact = () => {
                     className="rounded-xl hover:scale-90 ease-in duration-300"
                     src={ContactImg}
                     alt="contact"
-                    priority={true}
                   />
                 </div>
 
