@@ -38,11 +38,11 @@ const About = () => {
             your team.
           </p>
 
-          <p className="py-2 text-gray-600 dark:text-slate-200">
+          {/* <p className="py-2 text-gray-600 dark:text-slate-200">
             I am preparing for the higher education. My Research interest: Cyber
             Security, Cyber Security in IOT, Cyber Security in Computer
             Networking
-          </p>
+          </p> */}
 
           <div className="py-5">
             {/* resume */}
@@ -60,9 +60,6 @@ const About = () => {
             </Link>
           </div>
         </div>
-        {/* <div className="w-full h-auto m-auto shadow-xl shadow-indigo-400 rounded-xl flex items-center p-4 hover:scale-105 ease-in duration-300">
-          <Image src={MushfiqImg} alt="MushfiqImg" priority sizes="100vh" />
-        </div> */}
       </div>
     </div>
   );
