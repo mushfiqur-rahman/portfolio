@@ -156,6 +156,27 @@ const EduExp = () => {
                       <AiFillCaretRight className=" text-blue-500 md:block" />
                       <div className="md:-mt-1 md:pl-8">
                         <span className="block font-bold dark:text-slate-200">
+                          July 2023 - Oct 2024
+                        </span>
+                        <span className="pt-2 block text-lg font-bold">
+                          International English Language Testing System{" "}
+                          <span className="capitalize">(IELTS)</span>
+                        </span>
+                        <span className="text-sm dark:text-slate-200">
+                          British Council
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </Section>
+
+                {/* Education Item  */}
+                <Section>
+                  <div className="flex mt-8 md:pl-18">
+                    <div className="mt-1 flex">
+                      <AiFillCaretRight className=" text-blue-500 md:block" />
+                      <div className="md:-mt-1 md:pl-8">
+                        <span className="block font-bold dark:text-slate-200">
                           July 2023 - Dec 2023
                         </span>
                         <span className="pt-2 block text-lg font-bold">
