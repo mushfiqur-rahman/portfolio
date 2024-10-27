@@ -156,7 +156,7 @@ const EduExp = () => {
                       <AiFillCaretRight className=" text-blue-500 md:block" />
                       <div className="md:-mt-1 md:pl-8">
                         <span className="block font-bold dark:text-slate-200">
-                          July 2023 - Oct 2024
+                          July 2024 - Oct 2024
                         </span>
                         <span className="pt-2 block text-lg font-bold">
                           International English Language Testing System{" "}
