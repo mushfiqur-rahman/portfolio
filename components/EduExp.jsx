@@ -61,26 +61,6 @@ const EduExp = () => {
                     <div className="mt-1 flex">
                       <AiFillCaretRight className=" text-blue-500 md:block" />
                       <div className="md:-mt-1 md:pl-8">
-                        <span className="block font-bold dark:text-slate-200">
-                          March 2023 - Oct 2023
-                        </span>
-                        <span className="pt-2 block text-lg font-bold">
-                          Python Django Developer
-                        </span>
-                        <span className="text-sm dark:text-slate-200">
-                          Dowell Research UK Limited
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </Section>
-
-                {/* Experience Item  */}
-                <Section>
-                  <div className="flex mt-8 md:pl-18">
-                    <div className="mt-1 flex">
-                      <AiFillCaretRight className=" text-blue-500 md:block" />
-                      <div className="md:-mt-1 md:pl-8">
                         <span className="block font-bold ">
                           Jan 2022 - Dec 2022
                         </span>
