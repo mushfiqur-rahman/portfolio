@@ -65,7 +65,7 @@ const EduExp = () => {
                           Jan 2022 - Dec 2022
                         </span>
                         <span className="pt-2 block text-lg font-bold">
-                          Trainee at{" "}
+                          Software Engineer Trainee at{" "}
                           <span className="capitalize">MicrodreamIT</span>
                         </span>
                         <span className="text-sm ">
