@@ -9,6 +9,7 @@ import EventtechImg from "../public/projects/eventtech.webp";
 import Metaverse from "../public/projects/metaverse.webp";
 import bigcartImg from "../public/projects/bigcart.webp";
 import gitHubImg from "../public/projects/github.webp";
+import VlanImg from "../public/projects/vlan.png";
 import ProjectItem from "./ProjecItem";
 
 const Projects = () => {
@@ -111,6 +112,14 @@ const Projects = () => {
             tech="Nextjs"
             alt="Metaverse"
             aria-label="figma template clone metaverse"
+          />
+          <ProjectItem
+            title="CISCO VLAN"
+            backgroundImg={VlanImg}
+            projectUrl="/vlan"
+            tech="cisco"
+            alt="vlan"
+            aria-label="cisco vlan configuration"
           />
         </div>
       </div>
