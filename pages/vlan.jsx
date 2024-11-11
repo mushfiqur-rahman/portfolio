@@ -9,11 +9,11 @@ const vlan = () => {
   return (
     <>
       <Head>
-        <title>Innovative Software</title>
+        <title>VLAN</title>
         <link rel="canonical" href="/vlan" />
         <meta
           name="description"
-          content="This is One of Popular App developer company website whose app is top ranking in Book and reference category in playstore"
+          content="A virtual local area network (VLAN) is any broadcast domain that is partitioned and isolated in a computer network at the data link layer (OSI layer 2).Basically, a VLAN behaves like a virtual switch or network link that can share the same physical structure with other VLANs while staying logically separate from them."
         />
         <meta
           name="keywords"
@@ -42,7 +42,8 @@ const vlan = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p>
-              I have tried to configure VLAN using CISCO packet tracer and it is working as per requirements.
+              I have tried to configure VLAN using CISCO packet tracer and it is
+              working as per requirements.
             </p>
             <a
               href="https://github.com/mushfiqur-rahman/VLAN"
