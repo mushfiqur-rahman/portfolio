@@ -12,43 +12,28 @@ const About = () => {
           <h2 className="py-4">Career Summary</h2>
 
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            I have worked in various IT sectors for the past 5 years but always
-            my mind was on programming. I was a little bit confused, about which
-            programming language would give me happiness because I believe if
-            someone enjoys the work & loves the work then they can achieve what
-            they want.
+            From my student years, I have always sought to help others,
+            particularly with technology-related issues. I dreamed of becoming
+            an IT expert to benefit the community.To pursue this, I began my
+            career by learning network engineering and web development, taking
+            additional training to enhance my skills and professionalism.
           </p>
-
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            I am a passionate programmer, quick learner, and self-motivated. I
-            have almost 2 years of experience in Web Development. I am able to
-            develop secure, efficient and scalable web application by writing
-            standard and well documented codes.{" "}
+            I am now looking to start a role as an IT Support Engineer. In the
+            next five years, I plan to expand my expertise in cybersecurity and
+            leadership, aiming to advance my career and better serve the
+            community.
           </p>
           <p className="py-2 text-gray-600 dark:text-slate-200">
             I want to utilize my professional skills along with my institutional
-            skills to implement innovative ideas to reality. I have working
-            knowledge on front-end development but main focus on back-end
-            development.
+            skills to implement innovative ideas to reality.
           </p>
-          <p className="py-2 text-gray-600 dark:text-slate-200">
-            I am a team player who is comfortable working with tight deadlines
-            and can deliver high-quality work. If you are looking for a team
-            member who is dedicated and reliable, I would be the perfect fit for
-            your team.
-          </p>
-
-          {/* <p className="py-2 text-gray-600 dark:text-slate-200">
-            I am preparing for the higher education. My Research interest: Cyber
-            Security, Cyber Security in IOT, Cyber Security in Computer
-            Networking
-          </p> */}
 
           <div className="py-5">
             {/* resume */}
             <Link
               className="py-4"
-              href="/Mushfiqur_Rahman_Resume.pdf"
+              href="/Mushfiqur_Rahman_CV.pdf"
               locale={false}
               rel="noopener noreferrer"
               target="_blank"
