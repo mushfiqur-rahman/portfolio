@@ -52,6 +52,7 @@ const EduExp = () => {
                             Innovative Software{" "}
                           </span>
                         </span>
+                        <span className="text-sm ">Remote</span>
                       </div>
                     </div>
                   </div>
