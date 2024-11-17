@@ -38,7 +38,7 @@ const Contact = () => {
         <meta name="description" content="Contact with Mushfiqur Rahman" />
         <meta
           name="keywords"
-          content="Django HTMX Bootstrap, khulna, jashore, jessore, backend focused web developer, chuknagar"
+          content="Django HTMX Bootstrap, khulna, jashore, jessore, IT Support Engineer"
         />
       </Head>
       <div className="dark:bg-gradient-to-r from-slate-900 to-slate-700">
@@ -67,9 +67,7 @@ const Contact = () => {
                   </h2>
 
                   <p>Back-end Focused Web Developer</p>
-                  <p className="font-mono">
-                    Address: Chuknagar, Dumuria, Khulna - 9252
-                  </p>
+                  <p className="font-mono">Address: Jashore, Khulna - 7400</p>
                   <p className="py-4">
                     I am available for freelance or full-time positions. Contact
                     me and lets talk.
@@ -109,7 +107,11 @@ const Contact = () => {
 
             <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
               <div className="p-4">
-                <form action="" method="" encType="multipart/form-data">
+                <form
+                  action="https://getform.io/f/c5c082f5-315e-47c3-b3b7-e0c73974c08f"
+                  method="POST"
+                  encType="multipart/form-data"
+                >
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Your Name</label>
                     <input
