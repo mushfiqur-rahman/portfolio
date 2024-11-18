@@ -66,7 +66,7 @@ const Contact = () => {
                     Mushfiqur Rahman
                   </h2>
 
-                  <p>Back-end Focused Web Developer</p>
+                  <p>IT Support Engineer</p>
                   <p className="font-mono">Address: Jashore, Khulna - 7400</p>
                   <p className="py-4">
                     I am available for freelance or full-time positions. Contact
