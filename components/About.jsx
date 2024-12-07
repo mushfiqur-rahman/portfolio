@@ -12,21 +12,16 @@ const About = () => {
           <h2 className="py-4">Career Summary</h2>
 
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            From my student years, I have always sought to help others,
-            particularly with technology-related issues. I dreamed of becoming
-            an IT expert to benefit the community.To pursue this, I began my
-            career by learning network engineering and web development, taking
-            additional training to enhance my skills and professionalism.
+            With nearly three years in web development, I’ve specialized in
+            Python, Django, and React.js, handling both international and local
+            freelance projects that enhanced my technical and collaborative
+            skills.
           </p>
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            I am now looking to start a role as an IT Support Engineer. In the
-            next five years, I plan to expand my expertise in cybersecurity and
-            leadership, aiming to advance my career and better serve the
-            community.
-          </p>
-          <p className="py-2 text-gray-600 dark:text-slate-200">
-            I want to utilize my professional skills along with my institutional
-            skills to implement innovative ideas to reality.
+            I am a team player who is comfortable working with tight deadlines
+            and can deliver high-quality work. If you are looking for a team
+            member who is dedicated and reliable, I would be the perfect fit for
+            your team.
           </p>
 
           <div className="py-5">

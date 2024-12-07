@@ -37,7 +37,6 @@ const EduExp = () => {
               <div className="col-span-3 lg:col-span-2 w-full h-full shadow-sm shadow-gray-300 rounded-xl p-4">
                 <h2 className="text-center text-2xl border-b-4">Experience</h2>
 
-                
                 {/* Experience Item  */}
                 <Section>
                   <div className="flex mt-8 md:pl-18">
@@ -258,51 +257,6 @@ const EduExp = () => {
                     </div>
                   </div>
                 </Section>
-                {/* Education Item  */}
-                {/* <Section>
-                  <div className="flex mt-8 md:pl-18">
-                    <div className="mt-1 flex">
-                      <AiFillCaretRight className=" text-blue-500 md:block" />
-                      <div className="md:-mt-1 md:pl-8">
-                        <span className="block font-bold dark:text-slate-200">
-                          2006 - 2008
-                        </span>
-                        <span className="pt-2 block text-lg font-bold">
-                          S.S.C(Science) at{" "}
-                          <span className="capitalize">
-                            Nurania Islamia Fazil Madrasah
-                          </span>
-                        </span>
-                        <span className="text-sm dark:text-slate-200">
-                          Chuknagar, Khulna Bangladesh
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </Section> */}
-
-                {/* Education Item  */}
-                {/* <Section>
-                  <div className="flex mt-8 md:pl-18">
-                    <div className="mt-1 flex">
-                      <AiFillCaretRight className=" text-blue-500 md:block" />
-                      <div className="md:-mt-1 md:pl-8">
-                        <span className="block font-bold dark:text-slate-200">
-                          2005
-                        </span>
-                        <span className="pt-2 block text-lg font-bold">
-                          Hifz at{" "}
-                          <span className="capitalize">
-                            Lauri Ramnagar Kamil Madrasah
-                          </span>
-                        </span>
-                        <span className="text-sm dark:text-slate-200">
-                          Manirampur, Jashore, Bangladesh
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </Section> */}
               </div>
             </div>
           </div>
