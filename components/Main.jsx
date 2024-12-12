@@ -3,7 +3,6 @@ import Link from "next/link";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsYoutube } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import { FaHackerrank } from "react-icons/fa";
 
 const Main = () => {
   const email = "mushfiq.kdu@gmail.com";
@@ -47,16 +46,7 @@ const Main = () => {
                 <FaGithub />
               </Link>
             </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300">
-              <Link
-                href="https://www.hackerrank.com/profile/mushfiq_kdu"
-                rel="noreferrer"
-                target="_blank"
-                aria-label="Hackerrank"
-              >
-                <FaHackerrank />
-              </Link>
-            </div>
+
             <div
               className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300"
               onClick={handleClick}
