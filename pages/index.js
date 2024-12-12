@@ -25,7 +25,7 @@ export default function Home() {
         <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
-          content="I'm Mushfiqur Rahman, this is my portfolio. I am looking for postgraduation opportunity in Cyber security and Threat Intelligence. My Research interest: Cyber Security, Cyber Security in IOT"
+          content="I'm Mushfiqur Rahman, this is my portfolio. I am looking for IT Support Engineer job opportunity. I am a dynamic person who is able to adapt with a new technology"
           key="desc"
         />
         <meta content="#ffffff" name="theme-color" />
@@ -46,7 +46,7 @@ export default function Home() {
         <meta property="og:site_name" content="Mushfiqur Rahman" />
         <meta
           property="og:description"
-          content="A passionate web developer with django & Next js | python enthusiastic."
+          content="I am looking for IT Support Engineer job opportunity. I am a dynamic person who is able to adapt with a new technology | IT support."
         />
         <meta
           property="og:title"
