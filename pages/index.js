@@ -10,14 +10,16 @@ export default function Home() {
   return (
     <>
       <Head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta httpEquiv="content-language" content="en" />
         <meta name="robots" content="follow, index" />
         <meta
           name="google-site-verification"
           content="UviZELNJ6Xu6G42kgGmKtVzRXpoc61MYCLpWmoV1uzA"
         />
         <meta name="yandex-verification" content="f603ed602ebfae14" />
-        <meta charSet="utf-8" />
-        <meta httpEquiv="content-language" content="en" />
+
         <meta
           name="facebook-domain-verification"
           content="0l6xk00ijn0tbpfyr2d5n7gqgn4x8f"
