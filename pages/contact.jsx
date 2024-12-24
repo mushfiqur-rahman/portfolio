@@ -20,14 +20,9 @@ const Contact = () => {
   }, []);
   //
   const email = "mushfiqur-rahman@hotmail.com";
-  const skype = "mushfiq.style";
 
   const handleEmail = () => {
     window.location.href = `mailto:${email}`;
-  };
-
-  const handleSkype = () => {
-    window.location.href = `skype:username?call`;
   };
 
   return (
@@ -86,19 +81,6 @@ const Contact = () => {
                       aria-label="email"
                     >
                       <MdEmail size={20} />
-                    </Link>
-                  </div>
-                  <div
-                    className="rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-110 hover:text-[#0096DE] ease-in duration-300"
-                    onClick={handleSkype}
-                  >
-                    <Link
-                      href={`call:${skype}`}
-                      rel="noreferrer"
-                      target="_blank"
-                      aria-label="skype"
-                    >
-                      <FaSkype size={20} />
                     </Link>
                   </div>
                 </div>
