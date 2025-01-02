@@ -48,4 +48,10 @@ export const client = [
     image:
       "https://res.cloudinary.com/depyaowh3/image/upload/v1709095622/1_ulq18t.png",
   },
+  {
+    id: 8,
+    name: "Jashore Installation Service",
+    image:
+      "https://res.cloudinary.com/depyaowh3/image/upload/v1735809643/jashore_installation_service_logo_al2spy.png",
+  },
 ];
