@@ -3,17 +3,17 @@ import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
 import { RiRadioButtonFill } from "react-icons/ri";
-import VlanImg from "../public/projects/vlan.webp";
+import BgpImg from "../public/projects/bgp.webp";
 
-const vlan = () => {
+const bgp = () => {
   return (
     <>
       <Head>
-        <title>VLAN</title>
-        <link rel="canonical" href="/vlan" />
+        <title>Border Gateway Protocol (BGP)</title>
+        <link rel="canonical" href="/bgp" />
         <meta
           name="description"
-          content="A virtual local area network (VLAN) is any broadcast domain that is partitioned and isolated in a computer network at the data link layer (OSI layer 2).Basically, a VLAN behaves like a virtual switch or network link that can share the same physical structure with other VLANs while staying logically separate from them."
+          content="Border Gateway Protocol (BGP) is a standardized exterior gateway protocol designed to exchange routing and reachability information among autonomous systems (AS) on the Internet. BGP is classified as a path-vector routing protocol, and it makes routing decisions based on paths, network policies, or rule-sets configured by a network administrator."
         />
         <meta
           name="keywords"
@@ -27,8 +27,8 @@ const vlan = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src={VlanImg}
-            alt="VlanImg"
+            src={BgpImg}
+            alt="BgpImg"
             priority
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
@@ -42,11 +42,11 @@ const vlan = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p>
-              I have tried to configure VLAN using CISCO packet tracer and it is
-              working as per requirements.
+              I have tried to configure VLAN using order Gateway Protocol (BGP)
+              with packet tracer and it is working as per requirements.
             </p>
             <a
-              href="https://github.com/mushfiqur-rahman/VLAN"
+              href="https://github.com/mushfiqur-rahman/bgp-configuration"
               target="_blank"
               rel="noreferrer"
             >
@@ -75,4 +75,4 @@ const vlan = () => {
   );
 };
 
-export default vlan;
+export default bgp;

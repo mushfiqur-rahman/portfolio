@@ -9,7 +9,8 @@ import EventtechImg from "../public/projects/eventtech.webp";
 import Metaverse from "../public/projects/metaverse.webp";
 import bigcartImg from "../public/projects/bigcart.webp";
 import gitHubImg from "../public/projects/github.webp";
-import VlanImg from "../public/projects/vlan.png";
+import VlanImg from "../public/projects/vlan.webp";
+import BgpImg from "../public/projects/bgp.webp";
 import ProjectItem from "./ProjecItem";
 
 const Projects = () => {
@@ -120,6 +121,14 @@ const Projects = () => {
             tech="cisco"
             alt="vlan"
             aria-label="cisco vlan configuration"
+          />
+          <ProjectItem
+            title="Border Gateway Protocol (BGP)"
+            backgroundImg={BgpImg}
+            projectUrl="/bgp"
+            tech="cisco"
+            alt="bgp"
+            aria-label="Border Gateway Protocol (BGP) configuration"
           />
         </div>
       </div>
