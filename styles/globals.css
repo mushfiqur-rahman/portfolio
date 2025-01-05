@@ -63,3 +63,16 @@ html {
   text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
 }
+
+.text-gradient {
+  font-size: 2em;
+  background: linear-gradient(
+    to right,
+    #6366f1,
+    #a855f7,
+    #ec4899
+  ); /* Tailwind CSS colors */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}

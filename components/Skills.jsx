@@ -32,46 +32,6 @@ const Skills = () => {
           <div className="p-6 shadow-xl shadow-gray-200 rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={CCNA} alt="CCNA" width={64} height={64} />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>CCNA</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl shadow-gray-200 rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={MTCNA} alt="MTCNA" width={64} height={64} />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>MTCNA</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl shadow-gray-200 rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={COMPTIA} alt="COMPTIA" width={64} height={64} />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>COMPTIA A+</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl shadow-gray-200 rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={SECURITY} alt="SECURITY" width={64} height={64} />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>SECURITY</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl shadow-gray-200 rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
                 <Image src={Python} alt="Python" width={64} height={64} />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -213,6 +173,46 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Ubuntu</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl shadow-gray-200 rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={CCNA} alt="CCNA" width={64} height={64} />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>CCNA</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl shadow-gray-200 rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={MTCNA} alt="MTCNA" width={64} height={64} />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>MTCNA</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl shadow-gray-200 rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={COMPTIA} alt="COMPTIA" width={64} height={64} />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>COMPTIA A+</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl shadow-gray-200 rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={SECURITY} alt="SECURITY" width={64} height={64} />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>SECURITY</h3>
               </div>
             </div>
           </div>
