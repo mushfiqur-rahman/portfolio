@@ -139,20 +139,6 @@ const Navbar = () => {
               className="ml-10 font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link
-                href="https://mushfiqfeed.blogspot.com"
-                role="menuitem"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Blog
-              </Link>
-            </li>
-
-            <li
-              className="ml-10 font-bold hover:border-b dark:text-green-500"
-              role="none"
-            >
               <Link href="/contact" role="menuitem">
                 Contact
               </Link>
@@ -248,20 +234,6 @@ const Navbar = () => {
                   </Link>
                 </li>
 
-                <li
-                  onClick={() => setNav(false)}
-                  className="py-4 font-bold hover:border-b dark:text-green-500"
-                  role="none"
-                >
-                  <Link
-                    href="https://mushfiqfeed.blogspot.com/"
-                    role="menuitem"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Blog
-                  </Link>
-                </li>
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 font-bold hover:border-b dark:text-green-500"
