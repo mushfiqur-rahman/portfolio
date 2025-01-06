@@ -134,14 +134,6 @@ const Navbar = () => {
                 Edu&Exp
               </Link>
             </li>
-            <li
-              className="ml-10 font-bold hover:border-b dark:text-green-500"
-              role="none"
-            >
-              <Link href="/service" role="menuitem">
-                Services
-              </Link>
-            </li>
 
             <li
               className="ml-10 font-bold hover:border-b dark:text-green-500"
@@ -253,16 +245,6 @@ const Navbar = () => {
                 >
                   <Link href="/#edu&exp" role="menuitem">
                     Edu&Exp
-                  </Link>
-                </li>
-
-                <li
-                  onClick={() => setNav(false)}
-                  className="py-4 font-bold hover:border-b dark:text-green-500"
-                  role="none"
-                >
-                  <Link href="/service" role="menuitem">
-                    Services
                   </Link>
                 </li>
 
