@@ -33,7 +33,7 @@ html {
     @apply font-bold;
   }
   button {
-    @apply shadow-sm shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#01ec83] to-[#64c499] text-black;
+    @apply shadow-sm shadow-gray-400 rounded-xl uppercase bg-gradient-to-r bg-[#14A800] text-black;
   }
   li {
     @apply text-black dark:text-white uppercase;

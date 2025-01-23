@@ -12,10 +12,10 @@ const About = () => {
           <h2 className="py-4">Career Summary</h2>
 
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            With nearly three years in web development, I’ve specialized in
-            Python, Django, and React.js, handling both international and local
-            freelance projects that enhanced my technical and collaborative
-            skills.
+            With nearly five years in web development, I’ve specialized in
+            Python, Django, and Next.js, WordPress handling both international
+            and local freelance projects that enhanced my technical and
+            collaborative skills.
           </p>
           <p className="py-2 text-gray-600 dark:text-slate-200">
             I am a team player who is comfortable working with tight deadlines
@@ -28,14 +28,14 @@ const About = () => {
             {/* resume */}
             <Link
               className="py-4"
-              href="/Mushfiqur_Rahman_CV.pdf"
+              href="https://www.upwork.com/freelancers/mushfiqurrahman"
               locale={false}
               rel="noopener noreferrer"
               target="_blank"
-              aria-label="Downlod Resume"
+              aria-label="Hire Me"
             >
               <button className="p-5 font-bold hover:text-white">
-                Downlod Resume
+                Hire Me
               </button>
             </Link>
           </div>

@@ -9,6 +9,7 @@ import Django from "../public/skills/django.png";
 import Redis from "../public/skills/redis.png";
 import Celery from "../public/skills/celery.png";
 import Drf from "../public/skills/drf.png";
+import WordPress from "../public/skills/wordPress.webp";
 import pagespeed from "../public/skills/pagespeed.png";
 import ubuntu from "../public/skills/ubuntu.webp";
 import next from "../public/skills/nextjs.webp";
@@ -155,6 +156,17 @@ const Skills = () => {
               </div>
             </div>
           </div>
+          <div className="p-6 shadow-xl shadow-gray-200 rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={WordPress} alt="WordPress" width={64} height={64} />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>WordPress</h3>
+              </div>
+            </div>
+          </div>
+
           <div className="p-6 shadow-xl shadow-gray-200 rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
