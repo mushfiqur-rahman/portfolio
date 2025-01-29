@@ -4,7 +4,7 @@ import Link from "next/link";
 const About = () => {
   return (
     <div id="about" className="w-full md:h-screen flex items-center p-2 py-16">
-      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center gap-8">
         <div className="col-span-2">
           <p className="uppercase text-xl font-bold tracking-widest text-indigo-500 ">
             About
@@ -28,7 +28,7 @@ const About = () => {
             {/* resume */}
             <Link
               className="py-4"
-              href="https://www.upwork.com/freelancers/mushfiqurrahman"
+              href=""
               locale={false}
               rel="noopener noreferrer"
               target="_blank"

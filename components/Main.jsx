@@ -12,7 +12,7 @@ const Main = () => {
   };
   return (
     <div id="home" className="w-full h-screen text-center">
-      <div className="relative max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center ">
+      <div className="relative max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="mt-[10px] w-full justify-center content-center">
           <div className="py-2 font-bold text-lg md:text-3xl text-blue-600">
             <p>Assalamu Alaikum Orohmatullah</p>
