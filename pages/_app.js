@@ -31,7 +31,12 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
-      <ThemeProvider enableSystem={true} attribute="class">
+      <ThemeProvider
+        attribute="class"
+        defaultTheme="system"
+        enableSystem
+        disableTransitionOnChange
+      >
         <main className={`${manrope.className}`}>
           <SiteSchema />
           <Navbar />
