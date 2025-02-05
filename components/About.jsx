@@ -12,10 +12,16 @@ const About = () => {
           <h2 className="py-4">Career Summary</h2>
 
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            With nearly three years in web development, I’ve specialized in
-            Python, Django, and React.js, handling both international and local
-            freelance projects that enhanced my technical and collaborative
-            skills.
+            Proactive and detail-oriented professional with nearly 6 years of
+            experience in web development and technical support. Adept at
+            troubleshooting technical issues, optimizing application
+            performance, and delivering customer-centric solutions in dynamic
+            environments.
+          </p>
+          <p className="py-2 text-gray-600 dark:text-slate-200">
+            Skilled in diagnosing and resolving complex challenges, contributing
+            to knowledge-sharing initiatives, and fostering collaboration to
+            ensure seamless service delivery.
           </p>
           <p className="py-2 text-gray-600 dark:text-slate-200">
             I am a team player who is comfortable working with tight deadlines
