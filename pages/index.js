@@ -79,6 +79,10 @@ export default function Home() {
           name="keywords"
           content="Mushfiqur Rahman, Mushfiqur Rahman lexicon, Cyber Security, penetration tester, security engineers"
         />
+        <meta
+          name="impact-site-verification"
+          value="0074120f-c25b-4fa8-8c30-58ad69f0ad07"
+        />
         <link href="https://mushfiq.xyz" rel="canonical" />
         <meta content="https://mushfiq.xyz/" property="og:url" />
         <meta
