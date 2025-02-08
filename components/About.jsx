@@ -14,36 +14,33 @@ const About = () => {
           <h2 className="py-4">Career Summary</h2>
 
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            Proactive and detail-oriented professional with nearly 6 years of
-            experience in web development and technical support. Adept at
-            troubleshooting technical issues, optimizing application
-            performance, and delivering customer-centric solutions in dynamic
-            environments.
+            I am Mushfiqur Rahman from Bangladesh, a web developer and an IT
+            support engineer.
           </p>
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            Skilled in diagnosing and resolving complex challenges, contributing
-            to knowledge-sharing initiatives, and fostering collaboration to
-            ensure seamless service delivery.
+            My services are Google Workspace administration, Microsoft Office
+            365 administration, email deliverability, WordPress website bug-free
+            transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website &
+            DNS issue fixes (CNAME, A records, IP, redirects), spam or junk
+            issue fix, cold mail setup, email migration, and IT consultancy.
           </p>
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            I am a team player who is comfortable working with tight deadlines
-            and can deliver high-quality work. If you are looking for a team
-            member who is dedicated and reliable, I would be the perfect fit for
-            your team.
+            You may hire me through international marketplaces, such as Upwork
+            or Fiverr, or directly.
           </p>
 
           <div className="py-5">
             {/* resume */}
             <Link
               className="py-4"
-              href="/"
+              href="/contact"
               locale={false}
               rel="noopener noreferrer"
               target="_blank"
-              aria-label="Downlod Resume"
+              aria-label="Hire Me"
             >
               <button className="p-5 font-bold hover:text-white">
-                Downlod Resume
+                Hire Me
               </button>
             </Link>
           </div>

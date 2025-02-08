@@ -1,10 +1,24 @@
 import Head from "next/head";
-import About from "@/components/About";
-import EduExp from "@/components/EduExp";
-import Main from "@/components/Main";
-import Projects from "@/components/Projects";
-import Skills from "@/components/Skills";
-import Testimonial from "@/components/Testimonial";
+import dynamic from "next/dynamic";
+
+const Main = dynamic(() => import("@/components/Main"), {
+  ssr: false,
+});
+const About = dynamic(() => import("@/components/About"), {
+  ssr: false,
+});
+const Skills = dynamic(() => import("@/components/Skills"), {
+  ssr: false,
+});
+const Projects = dynamic(() => import("@/components/Projects"), {
+  ssr: false,
+});
+const EduExp = dynamic(() => import("@/components/EduExp"), {
+  ssr: false,
+});
+const Testimonial = dynamic(() => import("@/components/Testimonial"), {
+  ssr: false,
+});
 
 export default function Home() {
   return (
@@ -27,12 +41,12 @@ export default function Home() {
         <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
-          content="I'm Mushfiqur Rahman, this is my portfolio. I am looking for IT Support Engineer job opportunity. I am a dynamic person who is able to adapt with a new technology"
+          content="I am Mushfiqur Rahman from Bangladesh, a web developer and IT support engineer. My services are Google Workspace administration, Microsoft Office 365 administration, email deliverability, WordPress website bug-free transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website & DNS issue fixes (CNAME, A records, IP, redirects), spam or junk issue fix, email migration, and IT consultancy. You may hire me through international marketplaces, such as Upwork or Fiverr, or directly."
           key="desc"
         />
         <meta content="#ffffff" name="theme-color" />
         <meta
-          content="Mushfiqur Rahman is a Back-end Focused Web Developer, python django developer, software developer, software engineer"
+          content="I am Mushfiqur Rahman from Bangladesh, a web developer and IT support engineer. My services are Google Workspace administration, Microsoft Office 365 administration, email deliverability, WordPress website bug-free transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website & DNS issue fixes (CNAME, A records, IP, redirects), spam or junk issue fix, email migration, and IT consultancy. You may hire me through international marketplaces, such as Upwork or Fiverr, or directly."
           name="position"
         />
         <meta name="distribution" content="Global" />
@@ -48,11 +62,11 @@ export default function Home() {
         <meta property="og:site_name" content="Mushfiqur Rahman" />
         <meta
           property="og:description"
-          content="I am looking for IT Support Engineer job opportunity. I am a dynamic person who is able to adapt with a new technology | IT support."
+          content="I am Mushfiqur Rahman from Bangladesh, a web developer and an IT support engineer. My services are Google Workspace administration, Microsoft Office 365 administration, email deliverability, WordPress website bug-free transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website & DNS issue fixes (CNAME, A records, IP, redirects), spam or junk issue fix, cold mail setup, email migration, and IT consultancy. You may hire me through international marketplaces, such as Upwork or Fiverr, or directly."
         />
         <meta
           property="og:title"
-          content="Mushfiqur Rahman Portfolio that presents his CV or Resume"
+          content="Mushfiqur Rahman a web developer and an IT support engineer"
         />
         <meta
           property="og:image"
@@ -65,11 +79,11 @@ export default function Home() {
         <meta name="twitter:site" content="@MushfiqFeed" />
         <meta
           name="twitter:title"
-          content="Mushfiqur Rahman Portfolio that presents his CV or Resume"
+          content="Mushfiqur Rahman a web developer and an IT support engineer"
         />
         <meta
           name="twitter:description"
-          content="Mushfiqur Rahman is passionate web developer with django | python enthusiastic."
+          content="I am Mushfiqur Rahman from Bangladesh, a web developer and an IT support engineer. My services are Google Workspace administration, Microsoft Office 365 administration, email deliverability, WordPress website bug-free transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website & DNS issue fixes (CNAME, A records, IP, redirects), spam or junk issue fix, cold mail setup, email migration, and IT consultancy. You may hire me through international marketplaces, such as Upwork or Fiverr, or directly."
         />
         <meta
           name="twitter:image"
@@ -77,7 +91,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="Mushfiqur Rahman, Mushfiqur Rahman lexicon, Cyber Security, penetration tester, security engineers"
+          content="Mushfiqur Rahman, Mushfiqur Rahman lexicon, Google Workspace administration, Microsoft Office 365 administration, email deliverability, WordPress website bug-free transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website & DNS issue fixes (CNAME, A records, IP, redirects), spam or junk issue fix, cold mail setup, email migration, and IT consultancy"
         />
         <meta
           name="impact-site-verification"
@@ -86,7 +100,7 @@ export default function Home() {
         <link href="https://mushfiq.xyz" rel="canonical" />
         <meta content="https://mushfiq.xyz/" property="og:url" />
         <meta
-          content="Mushfiqur Rahman the python django developer"
+          content="Mushfiqur Rahman a web developer and an IT support engineer"
           name="author"
         />
         <meta content="Mushfiqur Rahman Portfolio" name="application-name" />
