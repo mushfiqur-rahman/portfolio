@@ -36,7 +36,6 @@ const About = () => {
               href="/contact"
               locale={false}
               rel="noopener noreferrer"
-              target="_blank"
               aria-label="Hire Me"
             >
               <button className="p-5 font-bold hover:text-white">
