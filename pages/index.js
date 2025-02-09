@@ -1,24 +1,11 @@
 import Head from "next/head";
 import dynamic from "next/dynamic";
-
-const Main = dynamic(() => import("@/components/Main"), {
-  ssr: false,
-});
-const About = dynamic(() => import("@/components/About"), {
-  ssr: false,
-});
-const Skills = dynamic(() => import("@/components/Skills"), {
-  ssr: false,
-});
-const Projects = dynamic(() => import("@/components/Projects"), {
-  ssr: false,
-});
-const EduExp = dynamic(() => import("@/components/EduExp"), {
-  ssr: false,
-});
-const Testimonial = dynamic(() => import("@/components/Testimonial"), {
-  ssr: false,
-});
+import Main from "@/components/Main";
+import About from "@/components/About";
+import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
+import EduExp from "@/components/EduExp";
+import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
   return (
