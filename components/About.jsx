@@ -14,15 +14,15 @@ const About = () => {
           <h2 className="py-4">Career Summary</h2>
 
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            I am Mushfiqur Rahman from Bangladesh, a web developer and an IT
-            support engineer.
+            I am Mushfiq, a web developer and an IT support engineer.
           </p>
           <p className="py-2 text-gray-600 dark:text-slate-200">
             My services are Google Workspace administration, Microsoft Office
             365 administration, email deliverability, WordPress website bug-free
             transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website &
             DNS issue fixes (CNAME, A records, IP, redirects), spam or junk
-            issue fix, cold mail setup, email migration, and IT consultancy.
+            issue fix, cold mail setup, email migration, Web Development and IT
+            consultancy.
           </p>
           <p className="py-2 text-gray-600 dark:text-slate-200">
             You may hire me through international marketplaces, such as Upwork

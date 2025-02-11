@@ -11,6 +11,7 @@ import bigcartImg from "../public/projects/bigcart.webp";
 import gitHubImg from "../public/projects/github.webp";
 import VlanImg from "../public/projects/vlan.webp";
 import BgpImg from "../public/projects/bgp.webp";
+import FlaressaImg from "../public/projects/flaressa.webp";
 import ProjectItem from "./ProjecItem";
 
 const Projects = () => {
@@ -27,6 +28,14 @@ const Projects = () => {
           </span>{" "}
         </p>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="Jashore Installation Service"
+            backgroundImg={FlaressaImg}
+            projectUrl="/flaressa"
+            tech="WordPress"
+            alt="Flaressa"
+            aria-label="Service Provider"
+          />
           <ProjectItem
             title="Ecommerce Project"
             backgroundImg={Ecommerce}
