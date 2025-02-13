@@ -1,23 +1,20 @@
 import React from "react";
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
-import InnovativeImg from "../public/projects/innoaps.webp";
-import Head from "next/head";
+import gitHubImg from "../../public/projects/github.webp";
 
-const innovative = () => {
+const github = () => {
   return (
     <>
       <Head>
-        <title>Innovative Software</title>
-        <link rel="canonical" href="/innovative" />
-        <meta
-          name="description"
-          content="This is One of Popular App developer company website whose app is top ranking in Book and reference category in playstore"
-        />
+        <title>GitHub Clone</title>
+        <link rel="canonical" href="/github" />
+        <meta name="description" content="GitHub Clone by mushfiqur rahman" />
         <meta
           name="keywords"
-          content="laravel, bootstrap, fontawesome, innovative software, english to bangla dictionary"
+          content="GitHub Clone Using Next js, framer Motion, react spring, cobe, tailwindcss, mushfiqur-rahman"
         />
       </Head>
       <div className="w-full">
@@ -27,13 +24,13 @@ const innovative = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src={InnovativeImg}
-            alt="InnovativeImg"
+            src={gitHubImg}
+            alt="gitHubImg"
             priority
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Innovative Software Website</h2>
-            <h3>Laravel 10 / MySQL </h3>
+            <h2 className="py-2">GitHub Clone</h2>
+            <h3>NextJS / TS </h3>
           </div>
         </div>
 
@@ -42,25 +39,18 @@ const innovative = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p>
-              I have developed this website for an Android apps company whose
-              dictionary apps are most popular in Bangladesh in book and
-              reference categories in the Google Play Store.
+              I am trying to clone GitHub using TypeScripts. I am still learning
+              typescript.
             </p>
-            <p>
-              <span className="font-bold font-serif">
-                Why I choose Laravel:
-              </span>{" "}
-              <span>
-                For django application need better server for better
-                performance. According the requirements I think laravel is the
-                best for both server quality and cost optimization.
-              </span>
-            </p>
-            <a href="" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/mushfiqur-rahman/github-clone"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className="px-8 py-2 mt-4 mr-8">Code</button>
             </a>
             <a
-              href="https://innovativesoftware.eu/"
+              href="https://github-clone-cyan-nine.vercel.app/"
               target="_blank"
               rel="noreferrer"
             >
@@ -72,16 +62,19 @@ const innovative = () => {
               <p className="text-center font-bold pb-2">Technologies</p>
               <div className="grid grid-cols-3 md:grid-cols-1">
                 <p className="text-gray-600 dark:text-slate-200 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> PHP
+                  <RiRadioButtonFill className="pr-1" /> NEXTJS 14
                 </p>
                 <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                  <RiRadioButtonFill className="pr-1" /> MySQL
+                  <RiRadioButtonFill className="pr-1" /> Framer Motion
                 </p>
                 <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                  <RiRadioButtonFill className="pr-1" /> Laravel 10
+                  <RiRadioButtonFill className="pr-1" /> TailwindCSS
                 </p>
                 <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                  <RiRadioButtonFill className="pr-1" /> Bootstrap
+                  <RiRadioButtonFill className="pr-1" /> React Spring
+                </p>
+                <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
+                  <RiRadioButtonFill className="pr-1" /> Cobe
                 </p>
               </div>
             </div>
@@ -95,4 +88,4 @@ const innovative = () => {
   );
 };
 
-export default innovative;
+export default github;

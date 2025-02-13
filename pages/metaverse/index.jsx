@@ -1,23 +1,23 @@
-import React from "react";
-import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
+import React from "react";
+import MetaImg from "../../public/projects/metaverse.webp";
 import { RiRadioButtonFill } from "react-icons/ri";
-import EcommerceImg from "../public/projects/ecommerce.webp";
+import Link from "next/link";
+import Head from "next/head";
 
-const eccomerce = () => {
+const metaverse = () => {
   return (
     <>
       <Head>
-        <title>Eccomerce - project</title>
-        <link rel="canonical" href="/eccomerce" />
+        <title>Metaverse - project</title>
+        <link rel="canonical" href="/metaverse" />
         <meta
           name="description"
-          content="This is Django REST api advanced store project"
+          content="Figma clone using next js tailwind css"
         />
         <meta
           name="keywords"
-          content="Django REST API Advanced Store project"
+          content="Next js, React js, Framer Motion, frontend"
         />
       </Head>
       <div className="w-full">
@@ -27,12 +27,12 @@ const eccomerce = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src={EcommerceImg}
-            alt="EcommerceImg"
+            src={MetaImg}
+            alt="MetaImg"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Advanced Ecmmerce Project</h2>
-            <h3>Django / MySQL </h3>
+            <h2 className="py-2">Metaverse app</h2>
+            <h3>Nextt JS / Tailwind / FramerMotion</h3>
           </div>
         </div>
 
@@ -41,44 +41,37 @@ const eccomerce = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p>
-              I am developing this project for advance learning of python
-              django. Category, Products, Cart, User , User Group, Image Upload{" "}
-              <br />
-              Authentication : JWT • Parallel Tasking - Celery • Cache - Redis •
-              Email send • Automated Testing • Performance Testing • Deployment.
-              <br />
-              Database - MySQL and many more features that will include step by
-              step.
+              I built this application in Next JS and is hosted on Vercel. This
+              app features eyecaching style with tailwind gradient background
+              and framermotion slider, scroll animation and manymore.
             </p>
             <a
-              href="https://github.com/mushfiqur-rahman/ecommerce"
+              href="https://github.com/mushfiqur-rahman/metaverse"
               target="_blank"
               rel="noreferrer"
             >
               <button className="px-8 py-2 mt-4 mr-8">Code</button>
             </a>
-            <a href="" target="_blank" rel="noreferrer">
+            <a
+              href="https://metaverse-bay-pi.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className="px-8 py-2 mt-4">Demo</button>
             </a>
           </div>
-          <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4 ">
-            <div className="p-2 dark:text-slate-200">
+          <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
+            <div className="p-2">
               <p className="text-center font-bold pb-2">Technologies</p>
               <div className="grid grid-cols-3 md:grid-cols-1">
-                <p className="text-gray-600 dark:text-slate-200 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Django
+                <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
+                  <RiRadioButtonFill className="pr-1" /> NextJS 13 beta
                 </p>
                 <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                  <RiRadioButtonFill className="pr-1" /> MySQL
+                  <RiRadioButtonFill className="pr-1" /> Tailwind
                 </p>
                 <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                  <RiRadioButtonFill className="pr-1" /> Redis
-                </p>
-                <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                  <RiRadioButtonFill className="pr-1" /> Celery
-                </p>
-                <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                  <RiRadioButtonFill className="pr-1" /> JWT
+                  <RiRadioButtonFill className="pr-1" /> FramerMotion
                 </p>
               </div>
             </div>
@@ -92,4 +85,4 @@ const eccomerce = () => {
   );
 };
 
-export default eccomerce;
+export default metaverse;

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
-import drfImg from "../public/projects/drf.webp";
+import drfImg from "../../public/projects/drf.webp";
 
 const drfstore = () => {
   return (

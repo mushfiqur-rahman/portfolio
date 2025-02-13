@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import eventtechImg from "../public/projects/eventtech.webp";
+import eventtechImg from "../../public/projects/eventtech.webp";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 

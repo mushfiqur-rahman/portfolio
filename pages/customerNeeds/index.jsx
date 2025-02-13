@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import gstoautocompleteImg from "../public/projects/customerneeds.png";
+import gstoautocompleteImg from "../../public/projects/customerneeds.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Head from "next/head";

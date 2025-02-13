@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
-import ContactImg from "../public/contactImg.webp";
+import ContactImg from "../../public/contactImg.webp";
 import Link from "next/link";
 import { MdEmail } from "react-icons/md";
-import { FaSkype } from "react-icons/fa";
 
 const Contact = () => {
   useEffect(() => {

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
-import bigcartImg from "../public/projects/bigcart.webp";
+import bigcartImg from "../../public/projects/bigcart.webp";
 import Head from "next/head";
 
 const bigcart = () => {

@@ -1,20 +1,23 @@
 import React from "react";
+import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
-import gitHubImg from "../public/projects/github.webp";
+import BgpImg from "../../public/projects/bgp.webp";
 
-const github = () => {
+const bgp = () => {
   return (
     <>
       <Head>
-        <title>GitHub Clone</title>
-        <link rel="canonical" href="/github" />
-        <meta name="description" content="GitHub Clone by mushfiqur rahman" />
+        <title>Border Gateway Protocol (BGP)</title>
+        <link rel="canonical" href="/bgp" />
+        <meta
+          name="description"
+          content="Border Gateway Protocol (BGP) is a standardized exterior gateway protocol designed to exchange routing and reachability information among autonomous systems (AS) on the Internet. BGP is classified as a path-vector routing protocol, and it makes routing decisions based on paths, network policies, or rule-sets configured by a network administrator."
+        />
         <meta
           name="keywords"
-          content="GitHub Clone Using Next js, framer Motion, react spring, cobe, tailwindcss, mushfiqur-rahman"
+          content="cisco, vlan config, networking, lan config, it support engineer"
         />
       </Head>
       <div className="w-full">
@@ -24,13 +27,12 @@ const github = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src={gitHubImg}
-            alt="gitHubImg"
-            priority
+            src={BgpImg}
+            alt="BgpImg"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">GitHub Clone</h2>
-            <h3>NextJS / TS </h3>
+            <h2 className="py-2">VLAN Configuration</h2>
+            <h3>CISCO CCNA</h3>
           </div>
         </div>
 
@@ -39,22 +41,15 @@ const github = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p>
-              I am trying to clone GitHub using TypeScripts. I am still learning
-              typescript.
+              I have tried to configure VLAN using order Gateway Protocol (BGP)
+              with packet tracer and it is working as per requirements.
             </p>
             <a
-              href="https://github.com/mushfiqur-rahman/github-clone"
+              href="https://github.com/mushfiqur-rahman/bgp-configuration"
               target="_blank"
               rel="noreferrer"
             >
               <button className="px-8 py-2 mt-4 mr-8">Code</button>
-            </a>
-            <a
-              href="https://github-clone-cyan-nine.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button className="px-8 py-2 mt-4">Demo</button>
             </a>
           </div>
           <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4 ">
@@ -62,19 +57,10 @@ const github = () => {
               <p className="text-center font-bold pb-2">Technologies</p>
               <div className="grid grid-cols-3 md:grid-cols-1">
                 <p className="text-gray-600 dark:text-slate-200 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> NEXTJS 14
+                  <RiRadioButtonFill className="pr-1" /> CISCO
                 </p>
                 <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                  <RiRadioButtonFill className="pr-1" /> Framer Motion
-                </p>
-                <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                  <RiRadioButtonFill className="pr-1" /> TailwindCSS
-                </p>
-                <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                  <RiRadioButtonFill className="pr-1" /> React Spring
-                </p>
-                <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                  <RiRadioButtonFill className="pr-1" /> Cobe
+                  <RiRadioButtonFill className="pr-1" /> Packet Tracer
                 </p>
               </div>
             </div>
@@ -88,4 +74,4 @@ const github = () => {
   );
 };
 
-export default github;
+export default bgp;

@@ -1,21 +1,24 @@
 import React from "react";
 import Image from "next/image";
-import blogImg from "../public/projects/djblogger.webp";
-import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
+import { RiRadioButtonFill } from "react-icons/ri";
+import FlaressaImg from "../../public/projects/flaressa.webp";
 import Head from "next/head";
 
-const blog = () => {
+const flaressa = () => {
   return (
     <>
       <Head>
-        <title>blog - project</title>
-        <link rel="canonical" href="/blog" />
+        <title>Jashore Installation Service -Blog</title>
+        <link rel="canonical" href="/flaressa" />
         <meta
           name="description"
-          content="This is Django HTMX Bootstrap Blog Project"
+          content="This is a startup company website, who provides service at jashore bangladesh area"
         />
-        <meta name="keywords" content="Django HTMX Bootstrap Blog" />
+        <meta
+          name="keywords"
+          content="WordPress, MySQL, Content Management System, jashore installation service blog"
+        />
       </Head>
       <div className="w-full">
         <div className="w-screen h-[50vh] relative">
@@ -24,12 +27,12 @@ const blog = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src={blogImg}
-            alt="blogImg"
+            src={FlaressaImg}
+            alt="FlaressaImg"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Blog</h2>
-            <h3>Django / PostgreSQL / HTMX </h3>
+            <h2 className="py-2">Jashore Installation Service</h2>
+            <h3>WordPress / MySQL </h3>
           </div>
         </div>
 
@@ -37,24 +40,23 @@ const blog = () => {
           <div className="col-span-4">
             <p>Project</p>
             <h2>Overview</h2>
+            <p>This is</p>
             <p>
-              I built this application in Django and PostgreSQL. It has
-              pagination with infinite scroll, serach option, markdown post
-              format, Tag wise view etc I tested this project using pytest and
-              host it render.com as a free.
+              <span className="font-bold font-serif">
+                Why I choose WordPress:
+              </span>{" "}
+              <span>
+                They just started a business, so they have very limited budget.
+                I tried to understand their requirements and expectation. I
+                developed their website using Most popular Content Management
+                System WordPress. It has fast loadign speed and SEO optimised
+                with social media integration.
+              </span>
             </p>
-            <a
-              href="https://github.com/mushfiqur-rahman/blog"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="" target="_blank" rel="noreferrer">
               <button className="px-8 py-2 mt-4 mr-8">Code</button>
             </a>
-            <a
-              href="https://djangoapp-ro69.onrender.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://flaressa.com/" target="_blank" rel="noreferrer">
               <button className="px-8 py-2 mt-4">Demo</button>
             </a>
           </div>
@@ -63,19 +65,16 @@ const blog = () => {
               <p className="text-center font-bold pb-2">Technologies</p>
               <div className="grid grid-cols-3 md:grid-cols-1">
                 <p className="text-gray-600 dark:text-slate-200 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Django
+                  <RiRadioButtonFill className="pr-1" /> PHP
                 </p>
                 <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                  <RiRadioButtonFill className="pr-1" /> Bootstrap 5.3
+                  <RiRadioButtonFill className="pr-1" /> WordPress
                 </p>
                 <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                  <RiRadioButtonFill className="pr-1" /> HTMX
+                  <RiRadioButtonFill className="pr-1" /> MySQL
                 </p>
                 <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                  <RiRadioButtonFill className="pr-1" /> PostgreSQL
-                </p>
-                <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                  <RiRadioButtonFill className="pr-1" /> Pytest
+                  <RiRadioButtonFill className="pr-1" /> Elementor
                 </p>
               </div>
             </div>
@@ -89,4 +88,4 @@ const blog = () => {
   );
 };
 
-export default blog;
+export default flaressa;
