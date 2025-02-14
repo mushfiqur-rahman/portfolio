@@ -24,6 +24,29 @@ const Contact = () => {
     window.location.href = `mailto:${email}`;
   };
 
+  async function handleSubmit(event) {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "cc24ffa7-efdd-4575-8f1e-5192062370da");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    });
+    const result = await response.json();
+    if (result.success) {
+      console.log(result);
+    }
+  }
+
   return (
     <>
       <Head>
@@ -88,7 +111,7 @@ const Contact = () => {
 
             <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
               <div className="p-4">
-                <form action="" method="POST" encType="multipart/form-data">
+                <form onSubmit={handleSubmit}>
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Your Name</label>
                     <input
