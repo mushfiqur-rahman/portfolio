@@ -4,6 +4,7 @@ import Image from "next/image";
 import ContactImg from "../../public/contactImg.webp";
 import Link from "next/link";
 import { MdEmail } from "react-icons/md";
+import { FaSkype } from "react-icons/fa";
 
 const Contact = () => {
   useEffect(() => {
@@ -52,7 +53,10 @@ const Contact = () => {
       <Head>
         <title>Contact</title>
         <link rel="canonical" href="/contact" />
-        <meta name="description" content="Contact with Mushfiqur Rahman" />
+        <meta
+          name="description"
+          content="I am Mushfiqur Rahman from Bangladesh, a web developer and IT support engineer. My services are Google Workspace administration, Microsoft Office 365 administration, email deliverability, WordPress website bug-free transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website & DNS issue fixes (CNAME, A records, IP, redirects), spam or junk issue fix, email migration, and IT consultancy. You may hire me through international marketplaces, such as Upwork or Fiverr, or directly."
+        />
         <meta
           name="keywords"
           content="Django HTMX Bootstrap, khulna, jashore, jessore, IT Support Engineer"
@@ -104,6 +108,18 @@ const Contact = () => {
                     >
                       <MdEmail size={20} />
                     </Link>
+                  </div>
+
+                  {/* Skype Button */}
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-110 hover:text-yellow-500 ease-in duration-300">
+                    <a
+                      href="skype:live:mushfiq.style?chat"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Skype"
+                    >
+                      <FaSkype size={20} />
+                    </a>
                   </div>
                 </div>
               </div>
