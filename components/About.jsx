@@ -14,19 +14,25 @@ const About = () => {
           <h2 className="py-4">Career Summary</h2>
 
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            I am Mushfiq, a web developer and an IT support engineer.
+            I am a highly skilled and dynamic IT professional with a strong
+            passion for technology. With a keen ability to learn quickly, I
+            excel in tackling complex IT challenges and delivering outstanding
+            results. My expertise spans web development and IT support, and I
+            have successfully completed numerous projects, earning recognition
+            for my dedication and proficiency.
           </p>
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            My services are Google Workspace administration, Microsoft Office
-            365 administration, email deliverability, WordPress website bug-free
-            transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website &
-            DNS issue fixes (CNAME, A records, IP, redirects), spam or junk
-            issue fix, cold mail setup, email migration, Web Development and IT
-            consultancy.
+            Currently, I run a startup providing IT services locally while also
+            freelancing on Upwork as a Web Developer and IT Support Engineer. To
+            strengthen my technical foundation, I have obtained the CompTIA A+
+            certification. My strengths lie in diagnosing and resolving
+            intricate technical issues, contributing to knowledge-sharing
+            initiatives, and fostering collaboration to ensure seamless service
+            delivery.
           </p>
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            You may hire me through international marketplaces, such as Upwork
-            or Fiverr, or directly.
+            You can hire me through international platforms like Upwork or
+            directly for professional IT solutions
           </p>
 
           <div className="py-5">
