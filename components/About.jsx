@@ -39,7 +39,8 @@ const About = () => {
             {/* resume */}
             <Link
               className="py-4"
-              href="/contact"
+              href="https://www.upwork.com/freelancers/mushfiqurrahman"
+              target="_blank"
               locale={false}
               rel="noopener noreferrer"
               aria-label="Hire Me"
