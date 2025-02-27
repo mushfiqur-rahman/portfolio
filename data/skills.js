@@ -71,22 +71,7 @@ export const skill = [
   },
   {
     id: 15,
-    name: "WordPress",
-    image: "/skills/wordPress.webp",
-  },
-  {
-    id: 16,
     name: "Docker",
     image: "/skills/docker.png",
-  },
-  {
-    id: 17,
-    name: "CCNA",
-    image: "/skills/ccna.png",
-  },
-  {
-    id: 18,
-    name: "MTCNA",
-    image: "/skills/mtcna.png",
   },
 ];
