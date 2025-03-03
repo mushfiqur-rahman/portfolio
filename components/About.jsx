@@ -22,8 +22,7 @@ const About = () => {
             for my dedication and proficiency.
           </p>
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            Currently, I run a startup providing IT services locally while also
-            freelancing on Upwork as a Web Developer and IT Support Engineer. To
+            Currently, freelancing on Upwork as an IT Support Engineer. To
             strengthen my technical foundation, I have obtained the CompTIA A+
             certification. My strengths lie in diagnosing and resolving
             intricate technical issues, contributing to knowledge-sharing
