@@ -30,24 +30,41 @@ const About = () => {
             delivery.
           </p>
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            You can hire me through international platforms like Upwork or
-            directly for professional IT solutions
+            If you have any issues, please feel free to knock me! I will try to
+            help you in better way
           </p>
 
-          <div className="py-5">
-            {/* resume */}
-            <Link
-              className="py-4"
-              href="https://www.upwork.com/freelancers/mushfiqurrahman"
-              target="_blank"
-              locale={false}
-              rel="noopener noreferrer"
-              aria-label="Hire Me"
-            >
-              <button className="p-5 font-bold hover:text-white">
-                Hire Me
-              </button>
-            </Link>
+          <div className="flex gap-10">
+            <div className="py-5 grid">
+              {/* resume */}
+              <Link
+                className="py-4"
+                href="https://www.upwork.com/freelancers/mushfiqurrahman"
+                target="_blank"
+                locale={false}
+                rel="noopener noreferrer"
+                aria-label="Hire Me"
+              >
+                <button className="p-5 font-bold hover:text-white">
+                  Hire Me
+                </button>
+              </Link>
+            </div>
+            <div className="py-5 grid">
+              {/* resume */}
+              <Link
+                className="py-4"
+                href="/service"
+                target="_blank"
+                locale={false}
+                rel="noopener noreferrer"
+                aria-label="Hire Me"
+              >
+                <button className="p-5 font-bold hover:text-white">
+                  Services
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center p-4 hover:scale-105 ease-in duration-300">

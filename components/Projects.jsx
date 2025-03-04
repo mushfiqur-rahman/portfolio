@@ -1,6 +1,6 @@
 import React from "react";
 import Ecommerce from "../public/projects/ecommerce.webp";
-import Blog from "../public/projects/djblogger.webp";
+import DjblogImg from "../public/projects/djblogger.webp";
 import PlatformManagerImg from "../public/projects/usermanager.webp";
 import drfImg from "../public/projects/drf.webp";
 import gstoautocomplete from "../public/projects/customerneeds.png";
@@ -46,10 +46,10 @@ const Projects = () => {
           />
           <ProjectItem
             title="Django & HTMX Blog"
-            backgroundImg={Blog}
-            projectUrl="/blog"
+            backgroundImg={DjblogImg}
+            projectUrl="/djblog"
             tech="Django, HTMX, Bootstrap 5, PostgreSQL"
-            alt="blogger"
+            alt="Dj blog"
             aria-label="django htmx project"
           />
 

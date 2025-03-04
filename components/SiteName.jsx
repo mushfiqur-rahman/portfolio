@@ -9,7 +9,7 @@ const SiteSchema = () => {
           url: "https://mushfiq.xyz",
           name: "Mushfiqur Rahman Portfolio",
           description:
-            "I'm Mushfiqur Rahman, this is my portfolio. I am looking for remote or hybrid job in python django webdeveloper position. I have been working at Upwork as a python django developer since 2022",
+            "I am Mushfiqur Rahman from Bangladesh, a web developer and IT support engineer. My services are Google Workspace administration, Microsoft Office 365 administration, email deliverability, WordPress website bug-free transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website & DNS issue fixes (CNAME, A records, IP, redirects), spam or junk issue fix, email migration, and IT consultancy. You may hire me through international marketplaces, such as Upwork or Fiverr, or directly.",
         }),
       }}
     />

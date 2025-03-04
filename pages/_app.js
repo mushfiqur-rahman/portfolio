@@ -1,11 +1,12 @@
 import "@/styles/globals.css";
-import { Manrope } from "next/font/google";
+import { Manrope, Merriweather } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { useTheme } from "next-themes";
 import { ThemeProvider } from "next-themes";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SiteSchema from "@/components/SiteName";
+import Progress from "@/components/Progress";
 
 const manrope = Manrope({
   weight: ["400", "500", "600", "700", "800"],
@@ -39,6 +40,7 @@ export default function App({ Component, pageProps }) {
       >
         <main className={`${manrope.className}`}>
           <SiteSchema />
+          <Progress />
           <Navbar />
           <Component {...pageProps} />
           <Footer />
