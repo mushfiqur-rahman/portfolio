@@ -10,6 +10,10 @@ export const services = [
       "Build high-performance web applications with React & Next.js.",
   },
   {
+    title: "WordPress Website",
+    description: "Most popular and SEO Optimized Content Management System",
+  },
+  {
     title: "Website using Django",
     description: "Develop secure, scalable websites with Django & Python.",
   },
