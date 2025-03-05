@@ -39,14 +39,12 @@ const About = () => {
               {/* resume */}
               <Link
                 className="py-4"
-                href="https://www.upwork.com/freelancers/mushfiqurrahman"
-                target="_blank"
+                href="/contact"
                 locale={false}
-                rel="noopener noreferrer"
-                aria-label="Hire Me"
+                aria-label="help"
               >
                 <button className="p-5 font-bold hover:text-white">
-                  Hire Me
+                  Eager to Help
                 </button>
               </Link>
             </div>
@@ -58,7 +56,7 @@ const About = () => {
                 target="_blank"
                 locale={false}
                 rel="noopener noreferrer"
-                aria-label="Hire Me"
+                aria-label="services"
               >
                 <button className="p-5 font-bold hover:text-white">
                   Services
