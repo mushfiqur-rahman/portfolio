@@ -43,13 +43,11 @@ const EduExp = () => {
                       <AiFillCaretRight className=" text-blue-500 md:block" />
                       <div className="md:-mt-1 md:pl-8">
                         <span className="block font-bold dark:text-slate-200">
-                          Nov 2023 - Present
+                          Jan 2025 - Present
                         </span>
                         <span className="pt-2 block text-lg font-bold">
                           IT Support Engineer at{" "}
-                          <span className="capitalize">
-                            INNOVATIVE SOFTWARE{" "}
-                          </span>
+                          <span className="capitalize">Upwork</span>
                         </span>
                         <span className="text-sm ">Remote</span>
                       </div>
@@ -64,7 +62,7 @@ const EduExp = () => {
                       <AiFillCaretRight className=" text-blue-500 md:block" />
                       <div className="md:-mt-1 md:pl-8">
                         <span className="block font-bold dark:text-slate-200">
-                          April 2022 - March 2024
+                          April 2022 - Present
                         </span>
                         <span className="pt-2 block text-lg font-bold">
                           Python Django Developer at{" "}
