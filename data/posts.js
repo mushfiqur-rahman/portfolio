@@ -18,4 +18,13 @@ export const blogPosts = [
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
     image: "",
   },
+  {
+    title: "Startup with a Minimal Investment on IT",
+    slug: "guideline-purchage-domain-make-webiste",
+    date: "March 13, 2025",
+    category: "IT Support",
+    description: "Learn how to properly configure a secure LAN/Wi-Fi network.",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+    image: "",
+  },
 ];

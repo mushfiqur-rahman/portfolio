@@ -40,6 +40,11 @@ export const skill = [
     image: "/skills/css.png",
   },
   {
+    id: 8,
+    name: "Bootstrap",
+    image: "/skills/css.png",
+  },
+  {
     id: 9,
     name: "TailWind CSS",
     image: "/skills/tailwindcss.png",
