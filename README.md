@@ -42,3 +42,35 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/b
 ## Security
 
 If you believe you have found a security vulnerability in Next.js, we encourage you to responsibly disclose this and NOT open a public issue. We will investigate all legitimate reports. Email security@vercel.com to disclose any security vulnerabilities. Alternatively, you can visit [this](https://vercel.com/security) link to know more about Vercel's security and report any security vulnerabilities.
+
+```bash script
+my-blog/
+├── public/                     # Static assets (images, fonts, etc.)
+│   └── images/                 # Store static images
+├── src/
+│   ├── components/             # Reusable components
+│   │   ├── Header.js           # Header component
+│   │   ├── Footer.js           # Footer component
+│   │   └── CommentForm.js      # Comment form component
+│   ├── lib/                    # Utility functions and configurations
+│   │   └── supabase.js         # Supabase client initialization
+│   ├── pages/
+│   │   ├── api/                # API routes
+│   │   │   ├── upload-image.js # Cloudinary image upload API
+│   │   │   └── comments.js     # API for handling comments
+│   │   ├── admin/              # Admin dashboard
+│   │   │   └── index.js        # Admin dashboard page
+│   │   ├── blog/               # Blog post pages
+│   │   │   └── [slug].js       # Dynamic blog post page
+│   │   ├── index.js            # Home page (list of blog posts)
+│   │   ├── login.js            # User login page
+│   │   └── signup.js           # User signup page
+│   ├── styles/                 # CSS or SCSS files
+│   │   └── globals.css         # Global styles
+│   └── utils/                  # Utility functions
+│       └── validation.js       # Validation functions (e.g., for comments)
+├── .env.local                  # Environment variables (Supabase, Cloudinary)
+├── next.config.js              # Next.js configuration
+├── package.json                # Project dependencies
+└── README.md                   # Project documentation
+```

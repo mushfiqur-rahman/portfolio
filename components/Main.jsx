@@ -23,7 +23,7 @@ const Main = () => {
             </h1>
           </div>
           <div className="py-2 font-bold md:text-2xl text-sm">
-            <h2>Web Developer|IT Support Engineer</h2>
+            <h2>IT Support Engineer | Web Developer</h2>
           </div>
           <div className="flex items-center justify-between max-w-[350px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300">
