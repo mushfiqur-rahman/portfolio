@@ -103,44 +103,16 @@ const Navbar = () => {
               className="ml-10 font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link href="/#about" role="menuitem">
-                About
-              </Link>
-            </li>
-
-            <li
-              className="ml-10 font-bold hover:border-b dark:text-green-500"
-              role="none"
-            >
-              <Link href="/#skills" role="menuitem">
-                Skills
-              </Link>
-            </li>
-
-            <li
-              className="ml-10 font-bold hover:border-b dark:text-green-500"
-              role="none"
-            >
-              <Link href="/#project" role="menuitem">
-                Project
-              </Link>
-            </li>
-
-            <li
-              className="ml-10 font-bold hover:border-b dark:text-green-500"
-              role="none"
-            >
-              <Link href="/#edu&exp" role="menuitem">
-                Edu&Exp
-              </Link>
-            </li>
-
-            <li
-              className="ml-10 font-bold hover:border-b dark:text-green-500"
-              role="none"
-            >
               <Link href="/service" role="menuitem">
                 Service
+              </Link>
+            </li>
+            <li
+              className="ml-10 font-bold hover:border-b dark:text-green-500"
+              role="none"
+            >
+              <Link href="/blog" role="menuitem">
+                Blog
               </Link>
             </li>
             <li
@@ -207,47 +179,17 @@ const Navbar = () => {
                   className="py-4 font-bold hover:border-b dark:text-green-500"
                   role="none"
                 >
-                  <Link href="/#about" role="menuitem">
-                    About
-                  </Link>
-                </li>
-
-                <li
-                  onClick={() => setNav(false)}
-                  className="py-4 font-bold hover:border-b dark:text-green-500"
-                  role="none"
-                >
-                  <Link href="/#skills" role="menuitem">
-                    Skills
-                  </Link>
-                </li>
-
-                <li
-                  onClick={() => setNav(false)}
-                  className="py-4 font-bold hover:border-b dark:text-green-500"
-                  role="none"
-                >
-                  <Link href="/#project" role="menuitem">
-                    Project
-                  </Link>
-                </li>
-
-                <li
-                  onClick={() => setNav(false)}
-                  className="py-4 font-bold hover:border-b dark:text-green-500"
-                  role="none"
-                >
-                  <Link href="/#edu&exp" role="menuitem">
-                    Edu&Exp
-                  </Link>
-                </li>
-                <li
-                  onClick={() => setNav(false)}
-                  className="py-4 font-bold hover:border-b dark:text-green-500"
-                  role="none"
-                >
                   <Link href="/service" role="menuitem">
                     Service
+                  </Link>
+                </li>
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 font-bold hover:border-b dark:text-green-500"
+                  role="none"
+                >
+                  <Link href="/blog" role="menuitem">
+                    Blog
                   </Link>
                 </li>
 
