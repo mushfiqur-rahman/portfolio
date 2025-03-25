@@ -1,5 +1,6 @@
 import SEO from "@/components/SEO";
 import { blogPosts } from "@/data/posts";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -17,7 +18,7 @@ const blog = () => {
             {blogPosts.map((post) => (
               <Link key={post.slug} href={`/blog/${post.slug}`}>
                 <div className="border p-4 rounded-lg shadow-md cursor-pointer hover:shadow-lg transition">
-                  <img
+                  <Image
                     src={post.image}
                     alt={post.title}
                     className="w-full h-40 object-cover rounded"

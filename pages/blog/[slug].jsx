@@ -21,13 +21,13 @@ const BlogPost = () => {
   return (
     <>
       <SEO title={post.title} description={post.description} />
-      <div className="bg-gray-100 min-h-screen py-12">
-        <div className="max-w-3xl mx-auto bg-white p-6 sm:p-10 shadow-md rounded-lg">
+      <div className="min-h-screen py-12">
+        <div className="max-w-3xl mx-auto p-6 sm:p-10 shadow-md rounded-lg">
           {/* Post Title */}
           <h1 className="text-4xl font-bold leading-snug">{post.title}</h1>
 
           {/* Post Meta Info */}
-          <div className="flex items-center space-x-4 text-gray-600 text-sm mt-2">
+          <div className="flex items-center space-x-4 text-sm mt-2">
             <Image
               src={post.authorImage}
               alt={post.authorName}
@@ -56,7 +56,7 @@ const BlogPost = () => {
 
           {/* Post Content */}
           <div
-            className={`${merriweather.variable} font-serif text-lg text-gray-800 prose lg:prose-lg`}
+            className={`${merriweather.variable} font-serif text-lg prose lg:prose-lg`}
           >
             <div dangerouslySetInnerHTML={{ __html: post.content }} />
           </div>
@@ -64,18 +64,11 @@ const BlogPost = () => {
           {/* Share & Bookmark Section */}
           <div className="flex justify-between items-center mt-8">
             <div className="flex space-x-3">
-              <button className="px-4 py-2 bg-gray-200 rounded-md">
-                👍 Like
-              </button>
-              <button className="px-4 py-2 bg-gray-200 rounded-md">
-                💾 Bookmark
-              </button>
+              <button className="px-4 py-2  rounded-md">👍 Like</button>
+              <button className="px-4 py-2  rounded-md">💾 Bookmark</button>
             </div>
             <div className="flex space-x-3">
-              <a
-                href="#"
-                className="px-4 py-2 bg-blue-500 text-white rounded-md"
-              >
+              <a href="#" className="px-4 py-2 bg-blue-500 rounded-md">
                 Share
               </a>
             </div>
