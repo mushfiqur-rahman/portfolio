@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SiteSchema from "@/components/SiteName";
 import Progress from "@/components/Progress";
+import PinterestTag from "@/components/PinterestTag";
 
 const manrope = Manrope({
   weight: ["400", "500", "600", "700", "800"],
@@ -39,6 +40,7 @@ export default function App({ Component, pageProps }) {
         disableTransitionOnChange
       >
         <main className={`${manrope.className}`}>
+          <PinterestTag />
           <SiteSchema />
           <Progress />
           <Navbar />
