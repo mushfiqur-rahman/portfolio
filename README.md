@@ -205,8 +205,3 @@ portfolio/
 ┣ server.js
 ┗ tailwind.config.js
 ```
-
-![portfolio_screenshot](https://github.com/user-attachments/assets/c3c70f6d-da0a-4426-9fc5-9d2bf64e4da4)
-
-
-
