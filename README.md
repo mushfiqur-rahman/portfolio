@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+This is a [Next.js](https://nextjs.org) portfolio bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+
+## Routing
+
+page route
+
+## First deplopment with next js 12
 
 ## Getting Started
 
@@ -12,6 +18,18 @@ yarn dev
 pnpm dev
 # or
 bun dev
+```
+
+To Geenrate Sitemap, after build file
+
+```bash
+npm run sitemap
+# or
+yarn sitemap
+# or
+pnpm sitemap
+# or
+bun sitemap
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -44,33 +62,144 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/b
 If you believe you have found a security vulnerability in Next.js, we encourage you to responsibly disclose this and NOT open a public issue. We will investigate all legitimate reports. Email security@vercel.com to disclose any security vulnerabilities. Alternatively, you can visit [this](https://vercel.com/security) link to know more about Vercel's security and report any security vulnerabilities.
 
 ```bash script
-my-blog/
-├── public/                     # Static assets (images, fonts, etc.)
-│   └── images/                 # Store static images
-├── src/
-│   ├── components/             # Reusable components
-│   │   ├── Header.js           # Header component
-│   │   ├── Footer.js           # Footer component
-│   │   └── CommentForm.js      # Comment form component
-│   ├── lib/                    # Utility functions and configurations
-│   │   └── supabase.js         # Supabase client initialization
-│   ├── pages/
-│   │   ├── api/                # API routes
-│   │   │   ├── upload-image.js # Cloudinary image upload API
-│   │   │   └── comments.js     # API for handling comments
-│   │   ├── admin/              # Admin dashboard
-│   │   │   └── index.js        # Admin dashboard page
-│   │   ├── blog/               # Blog post pages
-│   │   │   └── [slug].js       # Dynamic blog post page
-│   │   ├── index.js            # Home page (list of blog posts)
-│   │   ├── login.js            # User login page
-│   │   └── signup.js           # User signup page
-│   ├── styles/                 # CSS or SCSS files
-│   │   └── globals.css         # Global styles
-│   └── utils/                  # Utility functions
-│       └── validation.js       # Validation functions (e.g., for comments)
-├── .env.local                  # Environment variables (Supabase, Cloudinary)
-├── next.config.js              # Next.js configuration
-├── package.json                # Project dependencies
-└── README.md                   # Project documentation
+portfolio/
+┣ components/
+┃ ┣ About.jsx
+┃ ┣ BlogCard.jsx
+┃ ┣ EduExp.jsx
+┃ ┣ Footer.jsx
+┃ ┣ Main.jsx
+┃ ┣ Navbar.jsx
+┃ ┣ PinterestTag.jsx
+┃ ┣ Progress.jsx
+┃ ┣ ProjecItem.jsx
+┃ ┣ Projects.jsx
+┃ ┣ SEO.jsx
+┃ ┣ ServiceCard.jsx
+┃ ┣ SiteName.jsx
+┃ ┣ Skills.jsx
+┃ ┗ Testimonial.jsx
+┣ data/
+┃ ┣ client.js
+┃ ┣ posts.js
+┃ ┣ services.js
+┃ ┗ skills.js
+┣ pages/
+┃ ┣ admin/
+┃ ┃ ┗ edit/
+┃ ┣ api/
+┃ ┃ ┗ hello.js
+┃ ┣ bgp/
+┃ ┃ ┗ index.jsx
+┃ ┣ bigcart/
+┃ ┃ ┗ index.jsx
+┃ ┣ blog/
+┃ ┃ ┣ index.jsx
+┃ ┃ ┗ [slug].jsx
+┃ ┣ contact/
+┃ ┃ ┗ index.jsx
+┃ ┣ customerNeeds/
+┃ ┃ ┗ index.jsx
+┃ ┣ djblog/
+┃ ┃ ┗ index.jsx
+┃ ┣ drfstore/
+┃ ┃ ┗ index.jsx
+┃ ┣ eccomerce/
+┃ ┃ ┗ index.jsx
+┃ ┣ eventtech/
+┃ ┃ ┗ index.jsx
+┃ ┣ flaressa/
+┃ ┃ ┗ index.js
+┃ ┣ github/
+┃ ┃ ┗ index.jsx
+┃ ┣ innovative/
+┃ ┃ ┗ index.jsx
+┃ ┣ metaverse/
+┃ ┃ ┗ index.jsx
+┃ ┣ platformManager/
+┃ ┃ ┗ index.jsx
+┃ ┣ service/
+┃ ┃ ┗ index.jsx
+┃ ┣ signup/
+┃ ┣ upwork/
+┃ ┣ vlan/
+┃ ┃ ┗ index.jsx
+┃ ┣ 404.js
+┃ ┣ 500.js
+┃ ┣ index.js
+┃ ┣ _app.js
+┃ ┗ _document.js
+┣ public/
+┃ ┣ blog-images/
+┃ ┣ clients/
+┃ ┃ ┣ avatar.png
+┃ ┃ ┗ dwll.png
+┃ ┣ icons/
+┃ ┃ ┣ android-chrome-192x192.png
+┃ ┃ ┣ android-chrome-512x512.png
+┃ ┃ ┣ apple-touch-icon.png
+┃ ┃ ┣ favicon-16x16.png
+┃ ┃ ┗ favicon-32x32.png
+┃ ┣ projects/
+┃ ┃ ┣ bgp.webp
+┃ ┃ ┣ bigcart.webp
+┃ ┃ ┣ customerneeds.png
+┃ ┃ ┣ djblogger.webp
+┃ ┃ ┣ drf.webp
+┃ ┃ ┣ ecommerce.webp
+┃ ┃ ┣ eventtech.webp
+┃ ┃ ┣ flaressa.webp
+┃ ┃ ┣ github.webp
+┃ ┃ ┣ home.webp
+┃ ┃ ┣ inno.webp
+┃ ┃ ┣ innoaps.webp
+┃ ┃ ┣ metaverse.webp
+┃ ┃ ┣ usermanager.webp
+┃ ┃ ┗ vlan.webp
+┃ ┣ skills/
+┃ ┃ ┣ bootstrap.png
+┃ ┃ ┣ ccna.png
+┃ ┃ ┣ celery.png
+┃ ┃ ┣ comptia.svg
+┃ ┃ ┣ css.png
+┃ ┃ ┣ django.png
+┃ ┃ ┣ dns.webp
+┃ ┃ ┣ docker.png
+┃ ┃ ┣ drf.png
+┃ ┃ ┣ googleWorkspace.webp
+┃ ┃ ┣ html.png
+┃ ┃ ┣ kali.png
+┃ ┃ ┣ mtcna.png
+┃ ┃ ┣ nextjs.webp
+┃ ┃ ┣ office365.webp
+┃ ┃ ┣ pagespeed.png
+┃ ┃ ┣ redis.png
+┃ ┃ ┣ security.png
+┃ ┃ ┣ tailwindcss.png
+┃ ┃ ┣ typescript.png
+┃ ┃ ┣ ubuntu.webp
+┃ ┃ ┗ wordPress.webp
+┃ ┣ contactImg.webp
+┃ ┣ favicon.ico
+┃ ┣ manifest.json
+┃ ┣ mushfiqur.jpg
+┃ ┣ robots.txt
+┃ ┣ sitemap-0.xml
+┃ ┗ sitemap.xml
+┣ styles/
+┃ ┗ globals.css
+┣ .eslintrc.json
+┣ .gitattributes
+┣ .gitignore
+┣ jsconfig.json
+┣ LICENSE
+┣ next-sitemap.config.js
+┣ next.config.js
+┣ package-lock.json
+┣ package.json
+┣ postcss.config.js
+┣ README.md
+┣ SECURITY.md
+┣ server.js
+┗ tailwind.config.js
 ```
