@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) portfolio bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+![screencapture-portfolio-tau-three-50-vercel-app-2025-03-28-08_27_31](https://github.com/user-attachments/assets/5d101029-0e8c-4a6e-8616-300db39fb75e)This is a [Next.js](https://nextjs.org) portfolio bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Routing
 
@@ -60,6 +60,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/b
 ## Security
 
 If you believe you have found a security vulnerability in Next.js, we encourage you to responsibly disclose this and NOT open a public issue. We will investigate all legitimate reports. Email security@vercel.com to disclose any security vulnerabilities. Alternatively, you can visit [this](https://vercel.com/security) link to know more about Vercel's security and report any security vulnerabilities.
+
+## File Structure
 
 ```bash script
 portfolio/
@@ -203,3 +205,8 @@ portfolio/
 ┣ server.js
 ┗ tailwind.config.js
 ```
+
+![portfolio_screenshot](https://github.com/user-attachments/assets/c3c70f6d-da0a-4426-9fc5-9d2bf64e4da4)
+
+
+
