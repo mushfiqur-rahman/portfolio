@@ -1,5 +1,5 @@
 import "@/styles/globals.css";
-import { Manrope, Merriweather } from "next/font/google";
+import localFont from "next/font/local";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { useTheme } from "next-themes";
 import { ThemeProvider } from "next-themes";
@@ -9,11 +9,7 @@ import SiteSchema from "@/components/SiteName";
 import Progress from "@/components/Progress";
 import PinterestTag from "@/components/PinterestTag";
 
-const manrope = Manrope({
-  weight: ["400", "500", "600", "700", "800"],
-  subsets: ["latin"],
-  display: "swap",
-});
+const Manrope = localFont({ src: "../public/fonts/ManropeRegular.woff2" });
 
 export default function App({ Component, pageProps }) {
   const { SystemTheme, theme, setTheme } = useTheme();
@@ -39,7 +35,7 @@ export default function App({ Component, pageProps }) {
         enableSystem
         disableTransitionOnChange
       >
-        <main className={`${manrope.className}`}>
+        <main className={`${Manrope.className}`}>
           <PinterestTag />
           <SiteSchema />
           <Progress />

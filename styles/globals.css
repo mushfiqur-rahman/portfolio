@@ -76,3 +76,10 @@ html {
   -webkit-background-clip: text;
   color: transparent;
 }
+
+.backgroundImage {
+  background-image: url("/bg-abstract.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-x;
+}
