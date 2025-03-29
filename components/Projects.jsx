@@ -1,4 +1,5 @@
 import React from "react";
+import HomeImg from "../public/projects/home.webp";
 import Ecommerce from "../public/projects/ecommerce.webp";
 import DjblogImg from "../public/projects/djblogger.webp";
 import PlatformManagerImg from "../public/projects/usermanager.webp";
@@ -27,11 +28,19 @@ const Projects = () => {
             (Out of Non-disclosure agreement)
           </span>{" "}
         </p>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
+          <ProjectItem
+            title="Full Stack SASS Project"
+            backgroundImg={HomeImg}
+            projectUrl="/gerfin"
+            tech="Djnago, Next JS"
+            alt="Full Stack SASS Project"
+            aria-label="Service Provider"
+          />
           <ProjectItem
             title="Jashore Installation Service"
             backgroundImg={FlaressaImg}
-            projectUrl="/flaressa"
+            projectUrl="/jis"
             tech="WordPress"
             alt="Flaressa"
             aria-label="Service Provider"
