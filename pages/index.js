@@ -56,7 +56,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/depyaowh3/image/upload/v1718128563/bswl9g6jmkfghdyx50ky.png"
+          content="https://res.cloudinary.com/depyaowh3/image/upload/v1743254614/mushfiq-wide_image_q4up1c.png"
         />
         <meta property="fb:app_id" content="353614617613762" />
         <meta property="og:image:width" content="1200" />
@@ -73,7 +73,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/depyaowh3/image/upload/v1718128563/bswl9g6jmkfghdyx50ky.png"
+          content="https://res.cloudinary.com/depyaowh3/image/upload/v1743254614/mushfiq-wide_image_q4up1c.png"
         />
         <meta
           name="keywords"
