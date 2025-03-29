@@ -1,14 +1,11 @@
 import Head from "next/head";
 
-const SEO = ({ title, description }) => {
+const SEO = ({ title, description, keywords }) => {
   return (
     <Head>
       <title>{title}</title>
       <meta name="description" content={description} />
-      <meta
-        name="keywords"
-        content="Web Development, IT Support, Next.js, Portfolio, Mushfiq"
-      />
+      <meta name="keywords" content={keywords} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta
