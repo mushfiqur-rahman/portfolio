@@ -11,7 +11,7 @@ const Main = () => {
     window.location.href = `mailto:${email}`;
   };
   return (
-    <div id="home" className="w-full h-screen text-center backgroundImage">
+    <div id="home" className="w-full h-screen text-center">
       <div className="relative max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="mt-[10px] w-full justify-center content-center">
           <div className="py-2 font-bold text-sm md:text-3xl text-blue-600">
