@@ -3,7 +3,6 @@ import HomeImg from "../public/projects/home.webp";
 import Ecommerce from "../public/projects/ecommerce.webp";
 import DjblogImg from "../public/projects/djblogger.webp";
 import PlatformManagerImg from "../public/projects/usermanager.webp";
-import drfImg from "../public/projects/drf.webp";
 import gstoautocomplete from "../public/projects/customerneeds.png";
 import innoImg from "../public/projects/inno.webp";
 import EventtechImg from "../public/projects/eventtech.webp";
@@ -104,15 +103,6 @@ const Projects = () => {
             tech="Laravel 10"
             alt="innoImg"
             aria-label="Innovative Software Website"
-          />
-
-          <ProjectItem
-            title="Django DRF Next Store"
-            backgroundImg={drfImg}
-            projectUrl="/drfstore"
-            tech="Django, Nextjs, TailwindCSS, DRF"
-            alt="PlatformManagerImg"
-            aria-label="Django REST store"
           />
 
           <ProjectItem
