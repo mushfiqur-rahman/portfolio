@@ -103,20 +103,15 @@ const Navbar = () => {
               className="ml-10 font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link href="/service" role="menuitem">
-                Service
+              <Link href="/services" role="menuitem">
+                Services
               </Link>
             </li>
             <li
               className="ml-10 font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link
-                href="https://mushfiq.hashnode.dev/"
-                target="_blank"
-                rel="noopener noreferrer"
-                role="menuitem"
-              >
+              <Link href="/blog" role="menuitem">
                 Blog
               </Link>
             </li>
@@ -184,8 +179,8 @@ const Navbar = () => {
                   className="py-4 font-bold hover:border-b dark:text-green-500"
                   role="none"
                 >
-                  <Link href="/service" role="menuitem">
-                    Service
+                  <Link href="/services" role="menuitem">
+                    Services
                   </Link>
                 </li>
                 <li
@@ -193,12 +188,7 @@ const Navbar = () => {
                   className="py-4 font-bold hover:border-b dark:text-green-500"
                   role="none"
                 >
-                  <Link
-                    href="https://mushfiq.hashnode.dev/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    role="menuitem"
-                  >
+                  <Link href="/blog" role="menuitem">
                     Blog
                   </Link>
                 </li>

@@ -20,6 +20,8 @@ const service = () => {
                 key={index}
                 title={service.title}
                 description={service.description}
+                image={service.image}
+                slug={service.slug} // ✅ Ensure slug is passed
               />
             ))}
           </div>
