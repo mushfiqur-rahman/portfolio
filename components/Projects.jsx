@@ -31,7 +31,7 @@ const Projects = () => {
           <ProjectItem
             title="Full Stack SASS Project"
             backgroundImg={HomeImg}
-            projectUrl="/gerfin"
+            projectUrl="/fsass"
             tech="Djnago, Next JS"
             alt="Full Stack SASS Project"
             aria-label="Service Provider"

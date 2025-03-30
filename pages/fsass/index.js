@@ -5,7 +5,7 @@ import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
 import HomeImg from "../../public/projects/home.webp";
 
-const gerfin = () => {
+const fsass = () => {
   return (
     <>
       <Head>
@@ -92,4 +92,4 @@ const gerfin = () => {
   );
 };
 
-export default gerfin;
+export default fsass;
