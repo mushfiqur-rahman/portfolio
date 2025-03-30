@@ -9,7 +9,10 @@ const service = () => {
       <SEO
         title="Remote Services"
         keywords="Best email marketing setup for Google Workspace in the US, Microsoft 365 email marketing for businesses in the US, Affordable website development services in the US, squarespace dns configuration, email migration, domain migration in US, IT Service in the US"
-        description="Explore my web development & IT services, including React, Next.js, Django, DNS setup, and mail migrations, Email Deliverability & Security, Domain & DNS Management, Expertise in GoDaddy, Cloudflare, Namecheap, Squarespace, HubSpot, IONOS, Bluehost, SiteGround, Shopify, HostGator, etc, Cold Email & Marketing Setup, CCTV Installation & Troubleshooting"
+        description="Explore my web development & IT services, including React, Next.js, Django, DNS setup, and mail migrations, Email Deliverability & Security,squarespace website design
+, Domain & DNS Management, Expertise in GoDaddy, Cloudflare, Namecheap, Squarespace, HubSpot, IONOS,managed it services for small businesses
+, Bluehost, SiteGround, Shopify, HostGator, etc,it support companies near me
+, Cold Email & Marketing Setup, CCTV Installation & Troubleshooting"
       />
       <div className="w-full min-h-screen py-12 pt-[100px]">
         <div className="max-w-[1240px] mx-auto px-4">
