@@ -8,8 +8,6 @@ import Footer from "@/components/Footer";
 import SiteSchema from "@/components/SiteName";
 import Progress from "@/components/Progress";
 import PinterestTag from "@/components/PinterestTag";
-import { AnimatePresence } from "framer-motion";
-import EidGreeting from "../components/EidGreeting";
 
 const Manrope = localFont({ src: "../public/fonts/ManropeRegular.woff2" });
 
@@ -42,10 +40,7 @@ export default function App({ Component, pageProps }) {
           <SiteSchema />
           <Progress />
           <Navbar />
-          <AnimatePresence mode="wait">
-            <Component {...pageProps} />
-          </AnimatePresence>
-          <EidGreeting />
+          <Component {...pageProps} />
           <Footer />
           <GoogleAnalytics gaId="G-J2N8PJJ379" />
         </main>
