@@ -43,9 +43,9 @@ const ServiceDetail = () => {
                   line.startsWith("✅")
                     ? "flex items-start mb-2"
                     : line.startsWith("💡")
-                    ? "bg-blue-50 p-4 rounded-lg my-4 border-l-4 border-blue-500"
+                    ? "p-4 rounded-lg my-4 border-4 border-blue-500"
                     : line.startsWith("🚀")
-                    ? "bg-green-50 p-4 rounded-lg my-4 border-l-4 border-green-500"
+                    ? "p-4 rounded-lg my-4 border-4 border-green-500"
                     : "mb-4"
                 }
               >
