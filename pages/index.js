@@ -27,12 +27,12 @@ export default function Home() {
         <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
-          content="I am Mushfiqur Rahman from Bangladesh, a web developer and IT support engineer. My services are Google Workspace administration, Microsoft Office 365 administration, email deliverability, WordPress website bug-free transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website & DNS issue fixes (CNAME, A records, IP, redirects), spam or junk issue fix, email migration, and IT consultancy. You may hire me through international marketplaces, such as Upwork or Fiverr, or directly."
+          content="Experienced IT Support Engineer & Web Developer helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
           key="desc"
         />
         <meta content="#ffffff" name="theme-color" />
         <meta
-          content="I am Mushfiqur Rahman from Bangladesh, a web developer and IT support engineer. My services are Google Workspace administration, Microsoft Office 365 administration, email deliverability, WordPress website bug-free transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website & DNS issue fixes (CNAME, A records, IP, redirects), spam or junk issue fix, email migration, and IT consultancy. You may hire me through international marketplaces, such as Upwork or Fiverr, or directly."
+          content="Experienced IT Support Engineer & Web Developer helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
           name="position"
         />
         <meta name="distribution" content="Global" />
@@ -48,7 +48,7 @@ export default function Home() {
         <meta property="og:site_name" content="Mushfiqur Rahman" />
         <meta
           property="og:description"
-          content="I am Mushfiqur Rahman from Bangladesh, a web developer and an IT support engineer. My services are Google Workspace administration, Microsoft Office 365 administration, email deliverability, WordPress website bug-free transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website & DNS issue fixes (CNAME, A records, IP, redirects), spam or junk issue fix, cold mail setup, email migration, and IT consultancy. You may hire me through international marketplaces, such as Upwork or Fiverr, or directly."
+          content="Experienced IT Support Engineer & Web Developer helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
         />
         <meta
           property="og:title"
@@ -69,7 +69,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="I am Mushfiqur Rahman from Bangladesh, a web developer and an IT support engineer. My services are Google Workspace administration, Microsoft Office 365 administration, email deliverability, WordPress website bug-free transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website & DNS issue fixes (CNAME, A records, IP, redirects), spam or junk issue fix, cold mail setup, email migration, and IT consultancy. You may hire me through international marketplaces, such as Upwork or Fiverr, or directly."
+          content="Experienced IT Support Engineer & Web Developer helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
         />
         <meta
           name="twitter:image"
