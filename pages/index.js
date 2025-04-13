@@ -27,7 +27,7 @@ export default function Home() {
         <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
-          content="Experienced IT Support Engineer & Web Developer helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
+          content="Experienced IT Support Engineer & Web Developer helping remotly US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
           key="desc"
         />
         <meta content="#ffffff" name="theme-color" />
