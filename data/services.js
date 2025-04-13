@@ -1,5 +1,57 @@
 export const services = [
   {
+    title: "Domain Transfer Service",
+    slug: "domain-transfer",
+    shortDescription:
+      "Seamless domain transfers between registrars with zero downtime",
+    description: [
+      "Professional domain transfer service to move your domain to a better registrar.",
+      "✅ Smooth transfer process with no downtime",
+      "✅ DNS configuration preservation",
+      "✅ Email service continuity",
+      "✅ Registrar-specific guidance",
+      "✅ Post-transfer verification",
+      "💡 Benefit: Move to a better registrar without service interruptions",
+      "🚀 Impact: Improved domain management with better pricing and features",
+      "📌 Perfect for: Businesses wanting better domain control or pricing",
+    ].join("\n"),
+    image: "/services/domain-transfer.png",
+  },
+  {
+    title: "WordPress Website Transfer",
+    slug: "wordpress-website-transfer",
+    shortDescription: "Flawless WordPress site migration to new hosting",
+    description: [
+      "Expert WordPress website migration to new hosting with all functionality intact.",
+      "✅ Complete website transfer with no data loss",
+      "✅ Database migration",
+      "✅ URL structure preservation",
+      "✅ Email service continuity",
+      "✅ Post-migration testing",
+      "💡 Benefit: Move to better hosting without losing SEO or functionality",
+      "🚀 Impact: Improved site performance with proper server configuration",
+      "📌 Perfect for: WordPress sites needing better hosting performance",
+    ].join("\n"),
+    image: "/services/wordpress-transfer.png",
+  },
+  {
+    title: "Mail Transfer Service",
+    slug: "mail-transfer",
+    shortDescription: "Professional email migration between providers",
+    description: [
+      "Complete email transfer service between providers with all historical data.",
+      "✅ Full mailbox migration (emails, contacts, calendars)",
+      "✅ Zero data loss guarantee",
+      "✅ Minimal downtime during transition",
+      "✅ Client configuration assistance",
+      "✅ Post-migration support",
+      "💡 Benefit: Switch email providers without losing critical communications",
+      "🚀 Impact: Seamless transition to better email services",
+      "📌 Perfect for: Businesses changing email providers or hosting",
+    ].join("\n"),
+    image: "/services/mail-transfer.png",
+  },
+  {
     title: "Figma to HTML",
     slug: "figma-to-html",
     description: [
