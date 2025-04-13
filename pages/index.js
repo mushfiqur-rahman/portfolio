@@ -90,7 +90,7 @@ export default function Home() {
           name="author"
         />
         <meta content="Mushfiqur Rahman Portfolio" name="application-name" />
-        <title>Mushfiqur Rahman - CV | Resume</title>
+        <title>MUSHFIQ - Web Developer | IT Support Engineer</title>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
 
