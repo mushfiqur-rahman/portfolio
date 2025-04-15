@@ -77,7 +77,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="Mushfiqur Rahman, experienced freelancer, IT Expert,Remote Services, IT support engineer, Start up web developer, web developer, Next js Web developer, python django web developer, Google Workspace administration, Microsoft Office 365 administration, email deliverability, WordPress website bug-free transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website & DNS issue fixes (CNAME, A records, IP, redirects), spam or junk issue fix, cold mail setup, email migration, and IT consultancy"
+          content="Mushfiqur Rahman, experienced freelancer, IT Expert,Remote Services,Remote IT Service, IT support engineer, Start up web developer, web developer, Next js Web developer, python django web developer, Google Workspace administration, Microsoft Office 365 administration, email deliverability, WordPress website bug-free transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website & DNS issue fixes (CNAME, A records, IP, redirects), spam or junk issue fix, cold mail setup, email migration, and IT consultancy"
         />
         <meta
           name="impact-site-verification"

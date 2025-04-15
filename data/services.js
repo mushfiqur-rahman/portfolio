@@ -15,11 +15,11 @@ export const services = [
       "🚀 Impact: Improved domain management with better pricing and features",
       "📌 Perfect for: Businesses wanting better domain control or pricing",
     ].join("\n"),
-    image: "/services/domain-transfer.png",
+    image: "/services/domain transfer.png",
   },
   {
-    title: "WordPress Website Transfer",
-    slug: "wordpress-website-transfer",
+    title: "WordPress Website Migration",
+    slug: "wordpress-website-migration",
     shortDescription: "Flawless WordPress site migration to new hosting",
     description: [
       "Expert WordPress website migration to new hosting with all functionality intact.",
@@ -32,14 +32,15 @@ export const services = [
       "🚀 Impact: Improved site performance with proper server configuration",
       "📌 Perfect for: WordPress sites needing better hosting performance",
     ].join("\n"),
-    image: "/services/wordpress-transfer.png",
+    image:
+      "https://res.cloudinary.com/depyaowh3/image/upload/v1744712301/wordpress_migration_pveysd.png",
   },
   {
-    title: "Mail Transfer Service",
-    slug: "mail-transfer",
+    title: "Mail Migration Service",
+    slug: "mail-migration",
     shortDescription: "Professional email migration between providers",
     description: [
-      "Complete email transfer service between providers with all historical data.",
+      "Complete email migration service between providers with all historical data.",
       "✅ Full mailbox migration (emails, contacts, calendars)",
       "✅ Zero data loss guarantee",
       "✅ Minimal downtime during transition",
@@ -63,7 +64,8 @@ export const services = [
       "💡 Benefit: Launch your design exactly as envisioned without compromising on quality or responsiveness",
       "🚀 Impact: Faster time-to-market with a website that looks professional on any device",
     ].join("\n"),
-    image: "/services/figma-to-html.png",
+    image:
+      "https://res.cloudinary.com/depyaowh3/image/upload/v1744712232/Figma_to_Next_Js_pbuisv.png",
   },
   {
     title: "Website using React, Next.js",
@@ -91,7 +93,8 @@ export const services = [
       "💡 Benefit: Complete control over your content with no coding knowledge required",
       "🚀 Impact: Establish an online presence quickly with a system that grows with your business",
     ].join("\n"),
-    image: "/services/wordpress.png",
+    image:
+      "https://res.cloudinary.com/depyaowh3/image/upload/v1744470974/WordPress_website_jume1a.png",
   },
   {
     title: "Website using Django",
@@ -119,7 +122,8 @@ export const services = [
       "💡 Benefit: Faster loading times that reduce bounce rates and improve conversions",
       "🚀 Impact: Higher search rankings and better user engagement metrics",
     ].join("\n"),
-    image: "/services/speed-optimization.png",
+    image:
+      "https://res.cloudinary.com/depyaowh3/image/upload/v1744712632/1_dqipny.png",
   },
   {
     title: "DNS Configuration",
@@ -194,7 +198,7 @@ export const services = [
       "💡 Benefit: Seamless integration with Microsoft ecosystem",
       "🚀 Impact: Enhanced productivity with familiar tools in a cloud environment",
     ].join("\n"),
-    image: "/services/office365.png",
+    image: "/services/microsoft365.jpg",
   },
   {
     title: "High-Converting Landing Page Design",
