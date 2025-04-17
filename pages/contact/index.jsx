@@ -1,32 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import ContactImg from "../../public/contactImg.webp";
-import Link from "next/link";
-import { MdEmail } from "react-icons/md";
-import { FaSkype } from "react-icons/fa";
 
 const Contact = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-
-  useEffect(() => {
-    const handleContextmenu = (event) => {
-      event.preventDefault();
-    };
-
-    document.addEventListener("contextmenu", handleContextmenu);
-
-    return () => {
-      document.removeEventListener("contextmenu", handleContextmenu);
-    };
-  }, []);
-
-  const email = "mushfiqur-rahman@hotmail.com";
-
-  const handleEmail = () => {
-    window.location.href = `mailto:${email}`;
-  };
 
   async function handleSubmit(event) {
     event.preventDefault();
@@ -63,15 +42,15 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Contact</title>
+        <title>Contact - Remote Service</title>
         <link rel="canonical" href="/contact" />
         <meta
           name="description"
-          content="I am Mushfiqur Rahman from Bangladesh, a web developer and IT support engineer. My services are Google Workspace administration, Microsoft Office 365 administration, email deliverability, WordPress website bug-free transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website & DNS issue fixes (CNAME, A records, IP, redirects), spam or junk issue fix, email migration, and IT consultancy. You may hire me through international marketplaces, such as Upwork or Fiverr, or directly."
+          content="Experienced IT Support Engineer & Web Developer helping remotly US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
         />
         <meta
           name="keywords"
-          content="Django HTMX Bootstrap, khulna, jashore, jessore, IT Support Engineer"
+          content="Remote Service, IT Support, US B2B, UK B2B, UK businesses, google workspace, freelance, microsoft 365, landing page, website speed optimization, mobile apps"
         />
       </Head>
       <div className="dark:bg-gradient-to-r from-slate-900 to-slate-700">
@@ -99,40 +78,16 @@ const Contact = () => {
                     Mushfiqur Rahman
                   </h2>
 
-                  <p>IT Support Engineer</p>
-                  <p className="font-mono">Address: Jashore, Khulna - 7400</p>
+                  <p className="font-bold">
+                    <span>IT Support Engineer</span> |{" "}
+                    <span>Web Developer</span>
+                  </p>
+                  <p>Khulna, Bangladesh</p>
+                  <p className="font-bold">info@mushfiq.xyz</p>
                   <p className="py-4">
                     I am available for freelance or full-time positions. Contact
                     me and lets talk.
                   </p>
-                </div>
-
-                <div className="flex items-center justify-center gap-4 max-w-[350px] m-auto py-4">
-                  <div
-                    className="rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-110 hover:text-yellow-500 ease-in duration-300"
-                    onClick={handleEmail}
-                  >
-                    <Link
-                      href={`mailto:${email}`}
-                      rel="noreferrer"
-                      target="_blank"
-                      aria-label="email"
-                    >
-                      <MdEmail size={20} />
-                    </Link>
-                  </div>
-
-                  {/* Skype Button */}
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-110 hover:text-yellow-500 ease-in duration-300">
-                    <a
-                      href="skype:live:mushfiq.style?chat"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Skype"
-                    >
-                      <FaSkype size={20} />
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>

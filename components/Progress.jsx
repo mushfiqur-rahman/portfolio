@@ -19,7 +19,7 @@ const Progress = () => {
 
   return (
     <motion.div
-      className="fixed bottom-0 left-0 right-0 h-1 bg-[#ff0088] z-50"
+      className="fixed bottom-0 left-0 right-0 h-1 bg-indigo-600 z-50"
       style={{ width: `${scrollProgress}%` }}
     />
   );
