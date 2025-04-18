@@ -1,6 +1,8 @@
 # *
 User-agent: *
 Allow: /
+Disallow: /blog/
+Disallow: /services/
 
 # Host
 Host: https://mushfiq.xyz

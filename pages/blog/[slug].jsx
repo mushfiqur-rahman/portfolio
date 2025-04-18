@@ -80,7 +80,7 @@ const BlogPost = () => {
     <>
       <SEO title={post.title} description={post.description} />
       <div className="min-h-screen py-12">
-        <div className="max-w-3xl mx-auto p-6 sm:p-10 shadow-md rounded-lg">
+        <div className="max-w-[1140px] mx-auto p-6 sm:p-10 shadow-md rounded-lg">
           {/* Post Title */}
           <h1 className="text-4xl font-bold leading-snug">{post.title}</h1>
 
@@ -109,7 +109,11 @@ const BlogPost = () => {
           <div
             className={`${merriweather.variable} font-serif text-lg prose lg:prose-lg`}
           >
-            <div dangerouslySetInnerHTML={{ __html: post.content }} />
+            {post.content.split("\n").map((para, index) => (
+              <p key={index} className="mb-4">
+                {para.trim()}
+              </p>
+            ))}
           </div>
 
           {/* Share & Bookmark Section */}

@@ -22,6 +22,8 @@ const blog = () => {
                     src={post.image}
                     alt={post.title}
                     className="w-full h-40 object-cover rounded"
+                    width={100}
+                    height={100}
                   />
                   <h2 className="text-xl font-semibold mt-3">{post.title}</h2>
                   <p className="text-sm text-gray-600">
