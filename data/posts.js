@@ -13,7 +13,7 @@ export const blogPosts = [
   },
   {
     title: "Buy Google Workspace or Microsoft 365 from Main Provider - 2025",
-    slug: "buy-mail-service-from-provider",
+    slug: "buy-webmail-service-from-provider",
     date: "April 18, 2025",
     category: "webmail",
     description:
