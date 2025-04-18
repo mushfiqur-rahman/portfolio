@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import ContactImg from "../../public/contactImg.webp";
+import SEO from "@/components/SEO";
 
 const Contact = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -53,6 +54,12 @@ const Contact = () => {
           content="Remote Service, IT Support, US B2B, UK B2B, UK businesses, google workspace, freelance, microsoft 365, landing page, website speed optimization, mobile apps"
         />
       </Head>
+      <SEO
+        title="Contact - Mushfiqur Rahman"
+        description="Get in touch with Mushfiqur Rahman, a web developer and IT support engineer."
+        keywords="contact, web developer, IT support, Mushfiq"
+      />
+
       <div className="dark:bg-gradient-to-r from-slate-900 to-slate-700">
         <div
           id="contact"

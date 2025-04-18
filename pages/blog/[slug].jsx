@@ -78,7 +78,20 @@ const BlogPost = () => {
 
   return (
     <>
-      <SEO title={post.title} description={post.description} />
+      <SEO
+        title={post.title}
+        description={post.description}
+        type="blogpost"
+        schemaData={{
+          title: post.title,
+          description: post.description,
+          image: post.image,
+          slug: post.slug,
+          datePublished: post.date,
+          author: post.authorName,
+        }}
+      />
+
       <div className="min-h-screen py-12">
         <div className="max-w-[1140px] mx-auto p-6 sm:p-10 shadow-md rounded-lg">
           {/* Post Title */}
