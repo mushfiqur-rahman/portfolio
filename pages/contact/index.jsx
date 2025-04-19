@@ -90,7 +90,6 @@ const Contact = () => {
                     <span>Web Developer</span>
                   </p>
                   <p>Khulna, Bangladesh</p>
-                  <p className="font-bold">info@mushfiq.xyz</p>
                   <p className="py-4">
                     I am available for freelance or full-time positions. Contact
                     me and lets talk.
