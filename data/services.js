@@ -50,7 +50,8 @@ export const services = [
       "🚀 Impact: Seamless transition to better email services",
       "📌 Perfect for: Businesses changing email providers or hosting",
     ].join("\n"),
-    image: "/services/mail-transfer.png",
+    image:
+      "https://res.cloudinary.com/depyaowh3/image/upload/v1745081665/mail%20migration.png",
   },
   {
     title: "Figma to HTML",
