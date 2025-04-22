@@ -70,4 +70,15 @@ Go direct. Stay in control. Grow with confidence.
     image:
       "https://res.cloudinary.com/depyaowh3/image/upload/v1744970096/Buy_Google_Workspace_or_Microsoft_365_from_Main_Provider_x0mrbq.png",
   },
+  {
+    title:
+      "Deploy Next JS Web Application On Amazon Through Github CI/CD Pipeline",
+    slug: "deploy-nextjs-aws-github-cicd-pipeline",
+    date: "May 1, 2025",
+    category: "aws",
+    description:
+      "Deploy Next JS Web Application On Amazon EC2 Through Github CI/CD Pipeline by MUSHFIQ....",
+    content: "Coming Soon...",
+    image: "",
+  },
 ];
