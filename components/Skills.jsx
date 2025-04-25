@@ -4,7 +4,7 @@ import { skill } from "@/data/skills";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full lg:h-screen p-2 ">
+    <div id="skills" className="w-full lg:min-h-screen p-2 ">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <div className="text-xl font-bold tracking-widest uppercase text-indigo-500">
           <p>Skills</p>
