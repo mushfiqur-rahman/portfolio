@@ -19,63 +19,70 @@ export const skill = [
     name: "COMPTIA A+",
     image: "/skills/comptia.svg",
   },
+
   {
     id: 5,
-    name: "SECURITY",
-    image: "/skills/security.png",
-  },
-  {
-    id: 6,
-    name: "Kali Linux",
-    image: "/skills/kali.png",
-  },
-  {
-    id: 7,
-    name: "HTML",
-    image: "/skills/html.png",
-  },
-  {
-    id: 8,
-    name: "CSS",
-    image: "/skills/css.png",
-  },
-  {
-    id: 8,
-    name: "Bootstrap",
-    image: "/skills/css.png",
-  },
-  {
-    id: 9,
-    name: "TailWind CSS",
-    image: "/skills/tailwindcss.png",
-  },
-  {
-    id: 10,
-    name: "Django",
-    image: "/skills/django.png",
-  },
-  {
-    id: 11,
-    name: "DRF",
-    image: "/skills/drf.png",
-  },
-  {
-    id: 12,
-    name: "NEXT JS",
-    image: "/skills/nextjs.webp",
-  },
-  {
-    id: 13,
-    name: "pagespeed",
-    image: "/skills/pagespeed.png",
-  },
-  {
-    id: 14,
     name: "ubuntu",
     image: "/skills/ubuntu.webp",
   },
   {
+    id: 6,
+    name: "AWS",
+    image: "/skills/aws.png",
+  },
+  {
+    id: 7,
+    name: "SECURITY",
+    image: "/skills/security.png",
+  },
+  {
+    id: 8,
+    name: "Kali Linux",
+    image: "/skills/kali.png",
+  },
+  {
+    id: 9,
+    name: "HTML",
+    image: "/skills/html.png",
+  },
+  {
+    id: 10,
+    name: "CSS",
+    image: "/skills/css.png",
+  },
+  {
+    id: 11,
+    name: "Bootstrap",
+    image: "/skills/css.png",
+  },
+  {
+    id: 12,
+    name: "TailWind CSS",
+    image: "/skills/tailwindcss.png",
+  },
+  {
+    id: 13,
+    name: "Django",
+    image: "/skills/django.png",
+  },
+  {
+    id: 14,
+    name: "DRF",
+    image: "/skills/drf.png",
+  },
+  {
     id: 15,
+    name: "NEXT JS",
+    image: "/skills/nextjs.webp",
+  },
+  {
+    id: 16,
+    name: "pagespeed",
+    image: "/skills/pagespeed.png",
+  },
+
+  {
+    id: 17,
     name: "Docker",
     image: "/skills/docker.png",
   },
