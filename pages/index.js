@@ -83,8 +83,8 @@ export default function Home() {
           name="impact-site-verification"
           value="0074120f-c25b-4fa8-8c30-58ad69f0ad07"
         />
-        <link href="www.mushfiq.xyz" rel="canonical" />
-        <meta content="www.mushfiq.xyz" property="og:url" />
+        <link href="https://mushfiq.xyz" rel="canonical" />
+        <meta content="https://mushfiq.xyz/" property="og:url" />
         <meta
           content="Mushfiqur Rahman a web developer and an IT support engineer"
           name="author"
