@@ -19,11 +19,11 @@ const Main = () => {
           </div>
           <div className="py-4 font-extrabold text-lg lg:text-5xl xl:text-6xl uppercase duration-300 text-violet-600 leading-none">
             <h1>
-              <span className="capitalize">{"I'm"}</span> Mushfiqur Rahman
+              <span className="capitalize">{"I'm"}</span> MUSHFIQ
             </h1>
           </div>
           <div className="py-2 font-bold md:text-2xl text-sm">
-            <h2>IT Support Engineer | Web Developer</h2>
+            <h2>An IT Support Engineer</h2>
           </div>
           <div className="flex items-center justify-between max-w-[350px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300">
