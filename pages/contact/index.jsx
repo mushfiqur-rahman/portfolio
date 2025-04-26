@@ -87,7 +87,7 @@ const Contact = () => {
 
                   <p className="font-bold">
                     <span>IT Support Engineer</span> |{" "}
-                    <span>Web Developer</span>
+                    <span>Software Engineer</span>
                   </p>
                   <p>Khulna, Bangladesh</p>
                   <p className="py-4">
