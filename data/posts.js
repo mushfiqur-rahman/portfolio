@@ -77,7 +77,7 @@ Go direct. Stay in control. Grow with confidence.
     category: "aws",
     description:
       "Deploy Next JS Web Application On Amazon EC2 Through Github CI/CD Pipeline by MUSHFIQ....",
-    content: "Coming Soon...",
+    content: "Watch on Youtube",
     image:
       "https://res.cloudinary.com/depyaowh3/image/upload/v1745468239/Deploy_Next_JS_On_AWS_Github_CICD_orbtnx.png",
   },
