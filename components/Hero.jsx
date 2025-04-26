@@ -19,7 +19,7 @@ const Main = () => {
           </div>
           <div className="py-4 font-extrabold text-lg lg:text-5xl xl:text-6xl uppercase duration-300 text-violet-600 leading-none">
             <h1>
-              <span className="capitalize">{"I'm"}</span> MUSHFIQ
+              <span className="capitalize">{"I'm"}</span> Mushfiqur Rahaman
             </h1>
           </div>
           <div className="py-2 font-bold md:text-2xl text-sm">

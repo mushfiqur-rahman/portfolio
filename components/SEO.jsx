@@ -19,7 +19,7 @@ const SEO = ({
     url: "https://mushfiq.xyz",
     name: "Mushfiqur Rahman Portfolio",
     description:
-      "Experienced IT Support Engineer & Web Developer helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites.",
+      "Experienced IT Support Engineer & Software Engineer helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites.",
   };
 
   const blogSchema =

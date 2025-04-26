@@ -27,12 +27,12 @@ export default function Home() {
         <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
-          content="Experienced IT Support Engineer & Web Developer helping remotly US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
+          content="Experienced IT Support Engineer & Software Engineer helping remotly US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
           key="desc"
         />
         <meta content="#ffffff" name="theme-color" />
         <meta
-          content="Experienced IT Support Engineer & Web Developer helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
+          content="Experienced IT Support Engineer & Software Engineer helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
           name="position"
         />
         <meta name="distribution" content="Global" />
@@ -48,11 +48,11 @@ export default function Home() {
         <meta property="og:site_name" content="Mushfiqur Rahman" />
         <meta
           property="og:description"
-          content="Experienced IT Support Engineer & Web Developer helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
+          content="Experienced IT Support Engineer & Software Engineer helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
         />
         <meta
           property="og:title"
-          content="Mushfiqur Rahman a web developer and an IT support engineer"
+          content="Mushfiqur Rahman a Software Engineer and an IT support engineer"
         />
         <meta
           property="og:image"
@@ -65,11 +65,11 @@ export default function Home() {
         <meta name="twitter:site" content="@MushfiqFeed" />
         <meta
           name="twitter:title"
-          content="Mushfiqur Rahman a web developer and an IT support engineer"
+          content="Mushfiqur Rahman a Software Engineer and an IT support engineer"
         />
         <meta
           name="twitter:description"
-          content="Experienced IT Support Engineer & Web Developer helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
+          content="Experienced IT Support Engineer & Software Engineer helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
         />
         <meta
           name="twitter:image"
@@ -77,7 +77,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="Mushfiqur Rahman, experienced freelancer, IT Expert,Remote Services,Remote IT Service, IT support engineer, Start up web developer, web developer, Next js Web developer, python django web developer, Google Workspace administration, Microsoft Office 365 administration, email deliverability, WordPress website bug-free transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website & DNS issue fixes (CNAME, A records, IP, redirects), spam or junk issue fix, cold mail setup, email migration, and IT consultancy"
+          content="Mushfiqur Rahman, experienced freelancer, IT Expert,Remote Services,Remote IT Service, IT support engineer, Start up Software Engineer, Software Engineer, Next js Software Engineer, python django Software Engineer, Google Workspace administration, Microsoft Office 365 administration, email deliverability, WordPress website bug-free transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website & DNS issue fixes (CNAME, A records, IP, redirects), spam or junk issue fix, cold mail setup, email migration, and IT consultancy"
         />
         <meta
           name="impact-site-verification"
@@ -86,11 +86,11 @@ export default function Home() {
         <link href="https://mushfiq.xyz" rel="canonical" />
         <meta content="https://mushfiq.xyz/" property="og:url" />
         <meta
-          content="Mushfiqur Rahman a web developer and an IT support engineer"
+          content="Mushfiqur Rahman a Software Engineer and an IT support engineer"
           name="author"
         />
         <meta content="Mushfiqur Rahman Portfolio" name="application-name" />
-        <title>MUSHFIQ - Web Developer | IT Support Engineer</title>
+        <title>MUSHFIQ - IT Support Engineer| Software Engineer</title>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
 
