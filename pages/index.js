@@ -84,7 +84,7 @@ export default function Home() {
           value="0074120f-c25b-4fa8-8c30-58ad69f0ad07"
         />
         <link href="https://mushfiq.xyz" rel="canonical" />
-        <meta content="https://mushfiq.xyz/" property="og:url" />
+        <meta content="https://mushfiq.xyz" property="og:url" />
         <meta
           content="Mushfiqur Rahman a Software Engineer and an IT support engineer"
           name="author"

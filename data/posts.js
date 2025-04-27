@@ -73,10 +73,21 @@ Go direct. Stay in control. Grow with confidence.
   {
     title: "Deploy Next JS On AWS Github CI/CD Pipeline",
     slug: "deploy-nextjs-aws-github-cicd-pipeline",
-    date: "May 1, 2025",
+    date: "April 24, 2025",
     category: "aws",
     description:
       "Deploy Next JS Web Application On Amazon EC2 Through Github CI/CD Pipeline by MUSHFIQ....",
+    content: "Watch on Youtube",
+    image:
+      "https://res.cloudinary.com/depyaowh3/image/upload/v1745468239/Deploy_Next_JS_On_AWS_Github_CICD_orbtnx.png",
+  },
+  {
+    title: "Squarespace - Google Workspace Configuration",
+    slug: "squarespace-google-workspace-config",
+    date: "May 1, 2025",
+    category: "squarespace",
+    description:
+      "squarespace domain configuration with google workspace - Expert Opinion",
     content: "Watch on Youtube",
     image:
       "https://res.cloudinary.com/depyaowh3/image/upload/v1745468239/Deploy_Next_JS_On_AWS_Github_CICD_orbtnx.png",
