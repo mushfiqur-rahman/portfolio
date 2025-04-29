@@ -1,9 +1,7 @@
 import Head from "next/head";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-import Skills from "@/components/Skills";
-import Projects from "@/components/Projects";
-import EduExp from "@/components/EduExp";
+
 import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
@@ -96,9 +94,7 @@ export default function Home() {
 
       <Hero />
       <About />
-      <Skills />
-      <Projects />
-      <EduExp />
+
       <Testimonial />
     </>
   );

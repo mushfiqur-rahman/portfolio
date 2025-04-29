@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
+import { InlineWidget } from "react-calendly";
 
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsYoutube } from "react-icons/bs";
 import { IoMoonOutline, IoSunnyOutline } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
+import Calendy from "./Calendy";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -76,31 +78,32 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 cursor-pointer ">
+      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 cursor-pointer">
+        {/* Left Side - Logo */}
         <Link href="/">
           <div className="text-3xl font-serif dark:text-green-500">
-            <h2>Mushfiq</h2>
+            <h2>MUSHFIQ</h2>
           </div>
         </Link>
 
-        <div className="flex justify-between items-center">
+        {/* Center - Menu */}
+        <div className="hidden md:flex flex-1 justify-center">
           <ul
             style={{ color: `${linkColor}` }}
-            className="hidden md:flex "
+            className="flex space-x-10"
             role="menu"
-            aria-label="My Account"
+            aria-label="Main Navigation"
           >
             <li
-              className="ml-10 font-bold hover:border-b dark:text-green-500"
+              className="font-bold hover:border-b dark:text-green-500"
               role="none"
             >
               <Link href="/" role="menuitem">
                 Home
               </Link>
             </li>
-
             <li
-              className="ml-10 font-bold hover:border-b dark:text-green-500"
+              className="font-bold hover:border-b dark:text-green-500"
               role="none"
             >
               <Link href="/services" role="menuitem">
@@ -108,15 +111,15 @@ const Navbar = () => {
               </Link>
             </li>
             <li
-              className="ml-10 font-bold hover:border-b dark:text-green-500"
+              className="font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link href="/blog" role="menuitem">
-                Blog
+              <Link href="/about" role="menuitem">
+                About
               </Link>
             </li>
             <li
-              className="ml-10 font-bold hover:border-b dark:text-green-500"
+              className="font-bold hover:border-b dark:text-green-500"
               role="none"
             >
               <Link href="/contact" role="menuitem">
@@ -124,9 +127,18 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          <div className="p-4">{renderThemeChanger()}</div>
+        </div>
+
+        {/* Right Side - CTA Button + Mobile Menu Button */}
+        <div className="flex items-center space-x-4">
+          <div className="px-6 py-2 bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-full font-semibold hover:scale-105 hover:shadow-lg transition">
+            <Calendy />
+          </div>
+          {/* Theme changer (if you have it) */}
+          <div className="p-2">{mounted && renderThemeChanger()}</div>
+          {/* Mobile menu open icon */}
           <div onClick={handleNav} className="md:hidden dark:text-white">
-            <AiOutlineMenu />
+            <AiOutlineMenu size={25} />
           </div>
         </div>
       </div>

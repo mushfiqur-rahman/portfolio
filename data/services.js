@@ -82,35 +82,7 @@ export const services = [
     ].join("\n"),
     image: "/services/react-nextjs.png",
   },
-  {
-    title: "WordPress Website",
-    slug: "wordpress-website",
-    description: [
-      "Most popular and SEO-optimized Content Management System that's easy to manage.",
-      "✅ Custom theme development",
-      "✅ WooCommerce integration",
-      "✅ SEO-optimized structure",
-      "✅ Regular security updates",
-      "💡 Benefit: Complete control over your content with no coding knowledge required",
-      "🚀 Impact: Establish an online presence quickly with a system that grows with your business",
-    ].join("\n"),
-    image:
-      "https://res.cloudinary.com/depyaowh3/image/upload/v1744470974/WordPress_website_jume1a.png",
-  },
-  {
-    title: "Website using Django",
-    slug: "website-using-django",
-    description: [
-      "Develop secure, scalable websites with Django & Python for complex business needs.",
-      "✅ Robust admin dashboard",
-      "✅ High-level security against common vulnerabilities",
-      "✅ Database optimization",
-      "✅ REST API development",
-      "💡 Benefit: Enterprise-grade security and scalability for your web application",
-      "🚀 Impact: Handle growing traffic and complex operations without performance issues",
-    ].join("\n"),
-    image: "/services/django.png",
-  },
+
   {
     title: "Website Speed Optimization",
     slug: "website-speed-optimization",
@@ -200,41 +172,5 @@ export const services = [
       "🚀 Impact: Enhanced productivity with familiar tools in a cloud environment",
     ].join("\n"),
     image: "/services/microsoft365.jpg",
-  },
-  {
-    title: "High-Converting Landing Page Design",
-    slug: "landing-page-design",
-    shortDescription:
-      "Professionally designed landing pages that boost conversions",
-    description: [
-      "Custom landing pages designed to maximize conversions for your marketing campaigns.",
-      "✅ Mobile-optimized responsive design",
-      "✅ Clear call-to-action placement",
-      "✅ Fast-loading performance",
-      "✅ A/B testing integration",
-      "✅ Lead capture form optimization",
-      "💡 Benefit: Turn more visitors into customers with psychology-driven design",
-      "🚀 Impact: Higher conversion rates and better ROI on your ad spend",
-      "📌 Perfect for: Product launches, lead generation, event registrations",
-    ].join("\n"),
-    image: "/services/landing-page-design.png",
-  },
-
-  {
-    title: "Website Management & Maintenance",
-    slug: "website-management",
-    shortDescription: "Ongoing care and updates for your website",
-    description: [
-      "Comprehensive website management to keep your site secure and up-to-date.",
-      "✅ Regular security updates",
-      "✅ Performance monitoring",
-      "✅ Content updates",
-      "✅ Backup management",
-      "✅ Uptime monitoring",
-      "💡 Benefit: Peace of mind knowing your site is always working perfectly",
-      "🚀 Impact: No unexpected downtime or security vulnerabilities",
-      "📌 Perfect for: Businesses without in-house web teams",
-    ].join("\n"),
-    image: "/services/website-management.png",
   },
 ];

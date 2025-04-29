@@ -15,7 +15,7 @@ const Main = () => {
       <div className="relative max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="mt-[10px] w-full justify-center content-center">
           <div className="py-2 font-bold text-sm md:text-3xl text-blue-600">
-            <p>Assalamu Alaikum Orohmatullah</p>
+            <p>Web site is renovating for something new</p>
           </div>
           <div className="py-4 font-extrabold text-lg lg:text-5xl xl:text-6xl uppercase duration-300 text-violet-600 leading-none">
             <h1>

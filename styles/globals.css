@@ -32,54 +32,8 @@ html {
   h6 {
     @apply font-bold;
   }
-  button {
-    @apply shadow-sm shadow-gray-400 rounded-xl uppercase bg-gradient-to-r bg-[#14A800] text-black;
-  }
+
   li {
     @apply text-black dark:text-white uppercase;
   }
-}
-
-.tgradient {
-  /** TEXT GRADIENT */
-  color: #e91e63;
-  background-image: -webkit-linear-gradient(45deg, #e91e63 38%, #312eff 67%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  text-fill-color: transparent;
-  -webkit-text-fill-color: transparent;
-}
-
-.servGrad {
-  color: #ff5722;
-  background-image: -webkit-linear-gradient(
-    0deg,
-    #ff5722 0%,
-    #7f27ff 50%,
-    #0004ff 100%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  text-fill-color: transparent;
-  -webkit-text-fill-color: transparent;
-}
-
-.text-gradient {
-  font-size: 2em;
-  background: linear-gradient(
-    to right,
-    #6366f1,
-    #a855f7,
-    #ec4899
-  ); /* Tailwind CSS colors */
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
-.backgroundImage {
-  background-image: url("/bg-abstract.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: repeat-x;
 }
