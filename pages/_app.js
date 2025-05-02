@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import localFont from "next/font/local";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { Analytics } from "@vercel/analytics/react";
 import { useTheme } from "next-themes";
 import { ThemeProvider } from "next-themes";
 import Navbar from "@/components/Navbar";
@@ -43,6 +44,7 @@ export default function App({ Component, pageProps }) {
           <Component {...pageProps} />
           <Footer />
           <GoogleAnalytics gaId="G-J2N8PJJ379" />
+          <Analytics />
         </main>
       </ThemeProvider>
     </>
