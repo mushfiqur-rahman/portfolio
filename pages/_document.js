@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en-US">
       <Head />
+      <link rel="alternate" hreflang="en-US" href="https://mushfiq.xyz" />
       <script
         dangerouslySetInnerHTML={{
           __html: `

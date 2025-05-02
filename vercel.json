@@ -1,0 +1,8 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [{ "key": "x-vercel-cache", "value": "usa" }]
+    }
+  ]
+}
