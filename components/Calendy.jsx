@@ -16,7 +16,7 @@ const Calendy = () => {
     return false;
   };
 
-  return <button onClick={openCalendly}>Get Started</button>;
+  return <button onClick={openCalendly}>Book Now</button>;
 };
 
 export default Calendy;
