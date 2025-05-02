@@ -1,9 +1,73 @@
 export const services = [
   {
+    title: "Mail Migration Service",
+    slug: "mail-migration-remote-work",
+    shortDescription:
+      "Professional email migration between providers 2025 - Remote Work",
+    description: [
+      "Complete email migration service between providers with all historical data.",
+      "✅ Full mailbox migration (emails, contacts, calendars)",
+      "✅ Zero data loss guarantee",
+      "✅ Minimal downtime during transition",
+      "✅ Client configuration assistance",
+      "✅ Post-migration support",
+      "💡 Benefit: Switch email providers without losing critical communications",
+      "🚀 Impact: Seamless transition to better email services",
+      "📌 Perfect for: Businesses changing email providers or hosting",
+    ].join("\n"),
+    image:
+      "https://res.cloudinary.com/depyaowh3/image/upload/v1745081665/mail%20migration.png",
+  },
+  {
+    title: "Google Workspace Configuration",
+    slug: "google-workspace-configuration",
+    shortDescription:
+      "Professional Google Worksapce configuration, email deliverability, spam issue fixed in 2025 - Remote Work",
+    description: [
+      "Professional setup of Google Workspace for seamless business communication.",
+      "✅ Proper MX record configuration",
+      "✅ User account provisioning",
+      "✅ Security settings optimization",
+      "✅ Data migration assistance",
+      "💡 Benefit: Get business-class email with 99.9% uptime and collaboration tools",
+      "🚀 Impact: Professional image with reliable communication infrastructure",
+    ].join("\n"),
+    image: "/services/google-workspace.png",
+  },
+  {
+    title: "Office 365 Configuration",
+    slug: "office-365-configuration",
+    shortDescription: "Optimized Office 365 setup for business productivity",
+    description: [
+      "Professional configuration of Microsoft Office 365 for your business needs.",
+      "✅ Exchange Online setup",
+      "✅ SharePoint configuration",
+      "✅ Security and compliance settings",
+      "✅ Team collaboration tools",
+      "💡 Benefit: Seamless integration with Microsoft ecosystem",
+      "🚀 Impact: Enhanced productivity with familiar tools in a cloud environment",
+    ].join("\n"),
+    image: "/services/microsoft365.jpg",
+  },
+  {
+    title: "DNS Configuration - Technical Support",
+    slug: "dns-configuration",
+    description: [
+      "Professional DNS management for optimal email delivery and website performance.",
+      "✅ Correct MX, SPF, DKIM, DMARC records",
+      "✅ Proper TTL configuration",
+      "✅ Subdomain setup",
+      "✅ DNS security best practices",
+      "💡 Benefit: Ensure your emails never go to spam and your website loads reliably",
+      "🚀 Impact: Improved deliverability and reduced downtime for critical business operations",
+    ].join("\n"),
+    image: "/services/dns.png",
+  },
+  {
     title: "Domain Transfer Service",
     slug: "domain-transfer",
     shortDescription:
-      "Seamless domain transfers between registrars with zero downtime",
+      "Seamless domain transfers between registrars with zero downtime - Remote Work",
     description: [
       "Professional domain transfer service to move your domain to a better registrar.",
       "✅ Smooth transfer process with no downtime",
@@ -35,24 +99,7 @@ export const services = [
     image:
       "https://res.cloudinary.com/depyaowh3/image/upload/v1744712301/wordpress_migration_pveysd.png",
   },
-  {
-    title: "Mail Migration Service",
-    slug: "mail-migration",
-    shortDescription: "Professional email migration between providers",
-    description: [
-      "Complete email migration service between providers with all historical data.",
-      "✅ Full mailbox migration (emails, contacts, calendars)",
-      "✅ Zero data loss guarantee",
-      "✅ Minimal downtime during transition",
-      "✅ Client configuration assistance",
-      "✅ Post-migration support",
-      "💡 Benefit: Switch email providers without losing critical communications",
-      "🚀 Impact: Seamless transition to better email services",
-      "📌 Perfect for: Businesses changing email providers or hosting",
-    ].join("\n"),
-    image:
-      "https://res.cloudinary.com/depyaowh3/image/upload/v1745081665/mail%20migration.png",
-  },
+
   {
     title: "Figma to HTML",
     slug: "figma-to-html",
@@ -98,34 +145,7 @@ export const services = [
     image:
       "https://res.cloudinary.com/depyaowh3/image/upload/v1744712632/1_dqipny.png",
   },
-  {
-    title: "DNS Configuration",
-    slug: "dns-configuration",
-    description: [
-      "Professional DNS management for optimal email delivery and website performance.",
-      "✅ Correct MX, SPF, DKIM, DMARC records",
-      "✅ Proper TTL configuration",
-      "✅ Subdomain setup",
-      "✅ DNS security best practices",
-      "💡 Benefit: Ensure your emails never go to spam and your website loads reliably",
-      "🚀 Impact: Improved deliverability and reduced downtime for critical business operations",
-    ].join("\n"),
-    image: "/services/dns.png",
-  },
-  {
-    title: "Google Workspace Configuration",
-    slug: "google-workspace-configuration",
-    description: [
-      "Professional setup of Google Workspace for seamless business communication.",
-      "✅ Proper MX record configuration",
-      "✅ User account provisioning",
-      "✅ Security settings optimization",
-      "✅ Data migration assistance",
-      "💡 Benefit: Get business-class email with 99.9% uptime and collaboration tools",
-      "🚀 Impact: Professional image with reliable communication infrastructure",
-    ].join("\n"),
-    image: "/services/google-workspace.png",
-  },
+
   {
     title: "Outlook to Google Workspace Mail Migration",
     slug: "outlook-to-google-workspace",
@@ -156,21 +176,5 @@ export const services = [
       "🚀 Impact: Maintain business continuity while getting better domain management",
     ].join("\n"),
     image: "/services/domain-migration.png",
-  },
-
-  {
-    title: "Office 365 Configuration",
-    slug: "office-365-configuration",
-    shortDescription: "Optimized Office 365 setup for business productivity",
-    description: [
-      "Professional configuration of Microsoft Office 365 for your business needs.",
-      "✅ Exchange Online setup",
-      "✅ SharePoint configuration",
-      "✅ Security and compliance settings",
-      "✅ Team collaboration tools",
-      "💡 Benefit: Seamless integration with Microsoft ecosystem",
-      "🚀 Impact: Enhanced productivity with familiar tools in a cloud environment",
-    ].join("\n"),
-    image: "/services/microsoft365.jpg",
   },
 ];
