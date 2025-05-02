@@ -43,19 +43,10 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Contact - Remote Service</title>
         <link rel="canonical" href="/contact" />
-        <meta
-          name="description"
-          content="Experienced IT Support Engineer & Web Developer helping remotly US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
-        />
-        <meta
-          name="keywords"
-          content="Remote Service, IT Support, US B2B, UK B2B, UK businesses, google workspace, freelance, microsoft 365, landing page, website speed optimization, mobile apps"
-        />
       </Head>
       <SEO
-        title="Contact - Mushfiqur Rahman"
+        title="Contact - Remote Service"
         description="Get in touch with Mushfiqur Rahman, a web developer and IT support engineer."
         keywords="contact, web developer, IT support, Mushfiq"
       />
