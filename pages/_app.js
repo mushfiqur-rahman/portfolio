@@ -2,7 +2,7 @@ import "@/styles/globals.css";
 import localFont from "next/font/local";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { useTheme } from "next-themes";
 import { ThemeProvider } from "next-themes";
 import Navbar from "@/components/Navbar";
