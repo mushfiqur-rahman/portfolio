@@ -14,16 +14,17 @@ const Main = () => {
     <div id="home" className="w-full h-screen text-center">
       <div className="relative max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="mt-[10px] w-full justify-center content-center">
-          <div className="py-2 font-bold text-sm md:text-3xl text-blue-600">
-            <p>Web site is renovating for something new</p>
-          </div>
-          <div className="py-4 font-extrabold text-lg lg:text-5xl xl:text-6xl uppercase duration-300 text-violet-600 leading-none">
+          <div className="py-4 font-bold text-sm lg:text-3xl xl:text-4xl duration-300 leading-none">
             <h1>
-              <span className="capitalize">{"I'm"}</span> Mushfiqur Rahaman
+              Website Development, Google Workspace Setup & Email Marketing
+              Support for Your Business
             </h1>
           </div>
-          <div className="py-2 font-bold md:text-2xl text-sm">
-            <h2>An IT Support Engineer</h2>
+          <div className="py-2 text-xs md:text-2xl">
+            <h3>
+              Helping B2B businesses in the US build websites, secure
+              professional emails, and grow online presence.
+            </h3>
           </div>
           <div className="flex items-center justify-between max-w-[350px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300">
