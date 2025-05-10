@@ -32,7 +32,8 @@ export const services = [
       "💡 Benefit: Get business-class email with 99.9% uptime and collaboration tools",
       "🚀 Impact: Professional image with reliable communication infrastructure",
     ].join("\n"),
-    image: "/services/google-workspace.png",
+    image:
+      "https://res.cloudinary.com/depyaowh3/image/upload/v1746860236/google_workspace_rcddjy.png",
   },
   {
     title: "Office 365 Configuration",
@@ -160,7 +161,8 @@ export const services = [
       "💡 Benefit: Enjoy Google's superior collaboration tools without losing your historical data",
       "🚀 Impact: Improved team productivity with seamless access to Gmail, Drive, and Meet",
     ].join("\n"),
-    image: "/services/outlook-to-google.png",
+    image:
+      "https://res.cloudinary.com/depyaowh3/image/upload/v1746860236/Email_Data_Migration_z5u8n3.png",
   },
   {
     title: "Domain Migration",
