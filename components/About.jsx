@@ -62,7 +62,7 @@ const About = () => {
               {/* resume */}
               <Link
                 className="py-4"
-                href="/service"
+                href="/services"
                 target="_blank"
                 locale={false}
                 rel="noopener noreferrer"
