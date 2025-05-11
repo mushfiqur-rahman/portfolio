@@ -4,8 +4,6 @@ import About from "@/components/About";
 
 import Testimonial from "@/components/Testimonial";
 import Projects from "@/components/Projects";
-import Skills from "@/components/Skills";
-import EduExp from "@/components/EduExp";
 
 export default function Home() {
   return (
@@ -98,8 +96,7 @@ export default function Home() {
       <Hero />
       <About />
       <Projects />
-      <Skills />
-      <EduExp />
+
       <Testimonial />
     </>
   );
