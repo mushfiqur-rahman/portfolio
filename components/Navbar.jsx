@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
-import { InlineWidget } from "react-calendly";
 
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsYoutube } from "react-icons/bs";
 import { IoMoonOutline, IoSunnyOutline } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
-import Calendy from "./Calendy";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -114,7 +112,7 @@ const Navbar = () => {
               className="font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link href="/about" role="menuitem">
+              <Link href="#about" role="menuitem">
                 About
               </Link>
             </li>
@@ -131,9 +129,6 @@ const Navbar = () => {
 
         {/* Right Side - CTA Button + Mobile Menu Button */}
         <div className="flex items-center space-x-4">
-          <div className="px-6 py-2 bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-full font-semibold hover:scale-105 hover:shadow-lg transition">
-            <Calendy />
-          </div>
           {/* Theme changer (if you have it) */}
           <div className="p-2">{mounted && renderThemeChanger()}</div>
           {/* Mobile menu open icon */}
