@@ -126,6 +126,6 @@ Starting your business website doesn't have to be expensive or complicated. Here
 
 #Startup #WordPress #SmallBusinessWebsite #EmailMarketing #GoogleWorkspace #Hostinger #BusinessTips
   `,
-    image: "",
+    image: "https://res.cloudinary.com/depyaowh3/image/upload/v1747812069/start_business_minimal_cost_vtssd4.png",
   },
 ];
