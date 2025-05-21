@@ -95,7 +95,7 @@ Go direct. Stay in control. Grow with confidence.
     title: "Start Your Business Website with Minimal Setup",
     slug: "start-business-minimal-setup",
     date: "May 21, 2025",
-    category: "wordpress",
+    category: "startup",
     description:
       "Launch your online business with a domain, AI-powered WordPress website, and branded email at low cost.",
     content: `
