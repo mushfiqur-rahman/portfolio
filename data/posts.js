@@ -93,11 +93,11 @@ Go direct. Stay in control. Grow with confidence.
   },
   {
     title: "Start Your Business Website with Minimal Setup",
-    slug: "startup-website-minimal-cost",
+    slug: "start-business-minimal-setup",
     date: "May 21, 2025",
     category: "wordpress",
     description:
-      "Launch your startup website, business email, and outreach strategy at the lowest cost possible.",
+      "Launch your online business with a domain, AI-powered WordPress website, and branded email at low cost.",
     content: `
 Starting your business website doesn't have to be expensive or complicated. Here's a step-by-step roadmap to go live fast with minimal investment:
 
