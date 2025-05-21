@@ -82,14 +82,14 @@ Go direct. Stay in control. Grow with confidence.
       "https://res.cloudinary.com/depyaowh3/image/upload/v1745468239/Deploy_Next_JS_On_AWS_Github_CICD_orbtnx.png",
   },
   {
-    title: "Deploy Next JS on AWS EC2",
-    slug: "Deploy-nextjs-aws-cicd",
+    title: "Squarespace - Google Workspace Configuration",
+    slug: "squarespace-google-workspace-config",
     date: "May 1, 2025",
     category: "squarespace",
-    description: "Deploy Next JS Web application on AWS using github CI/CD",
+    description:
+      "squarespace domain configuration with google workspace - Expert Opinion",
     content: "Watch on Youtube",
-    image:
-      "https://res.cloudinary.com/depyaowh3/image/upload/v1745468239/Deploy_Next_JS_On_AWS_Github_CICD_orbtnx.png",
+    image: "",
   },
   {
     title: "Start Your Business Website with Minimal Setup",
