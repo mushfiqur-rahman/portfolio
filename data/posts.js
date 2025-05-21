@@ -82,14 +82,50 @@ Go direct. Stay in control. Grow with confidence.
       "https://res.cloudinary.com/depyaowh3/image/upload/v1745468239/Deploy_Next_JS_On_AWS_Github_CICD_orbtnx.png",
   },
   {
-    title: "Squarespace - Google Workspace Configuration",
-    slug: "squarespace-google-workspace-config",
+    title: "Deploy Next JS on AWS EC2",
+    slug: "Deploy-nextjs-aws-cicd",
     date: "May 1, 2025",
     category: "squarespace",
-    description:
-      "squarespace domain configuration with google workspace - Expert Opinion",
+    description: "Deploy Next JS Web application on AWS using github CI/CD",
     content: "Watch on Youtube",
     image:
       "https://res.cloudinary.com/depyaowh3/image/upload/v1745468239/Deploy_Next_JS_On_AWS_Github_CICD_orbtnx.png",
+  },
+  {
+    title: "Start Your Business Website with Minimal Setup",
+    slug: "startup-website-minimal-cost",
+    date: "May 21, 2025",
+    category: "wordpress",
+    description:
+      "Launch your startup website, business email, and outreach strategy at the lowest cost possible.",
+    content: `
+Starting your business website doesn't have to be expensive or complicated. Here's a step-by-step roadmap to go live fast with minimal investment:
+
+1. **Buy Domain & Hosting with 20% Discount**  
+   Get reliable hosting and a domain name from Hostinger at a budget-friendly price.  
+   👉 [https://hostinger.com?REFERRALCODE=MUSHFIQ](https://hostinger.com?REFERRALCODE=MUSHFIQ)
+
+2. **Build Your Website with AI-Powered WordPress**  
+   No coding needed—just pick a template and go live.  
+   👉 [Start Building](https://www.hostinger.com/cart?product=hosting%3Ahostinger_business&period=12&referral_type=cart_link&REFERRALCODE=MUSHFIQ&referral_id=0196f194-90b2-72c0-b1ee-0c9f384d4df9&product_type=website-builder)
+
+3. **Create a Professional Email Address**  
+   Make your business look credible with an address like yourname@yourdomain.com using Google Workspace.  
+   👉 [Get Google Workspace](https://workspace.google.com/pricing.html)
+
+4. **Integrate Your Domain with Google Workspace**  
+   Set up your DNS to activate email and improve deliverability.
+
+5. **Begin Cold Email Outreach**  
+   - Find real people on LinkedIn who might need your service.  
+   - Send at least 5 personalized emails per day for the first month.  
+   - Track email opens and tweak your message to increase responses. 
+
+💡 This lean strategy gets your business online, builds trust, and starts generating leads—all without breaking the bank.
+🎯 A professional website + email builds trust and drives business. Start small, grow smart.
+
+#Startup #WordPress #SmallBusinessWebsite #EmailMarketing #GoogleWorkspace #Hostinger #BusinessTips
+  `,
+    image: "",
   },
 ];

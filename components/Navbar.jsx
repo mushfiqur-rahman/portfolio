@@ -112,8 +112,8 @@ const Navbar = () => {
               className="font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link href="#about" role="menuitem">
-                About
+              <Link href="/blog" role="menuitem">
+                Blog
               </Link>
             </li>
             <li
