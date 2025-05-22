@@ -1,11 +1,8 @@
 import Head from "next/head";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-
 import Testimonial from "@/components/Testimonial";
-import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
-import ServiceCard from "@/components/ServiceCard";
 
 export default function Home() {
   return (
@@ -97,7 +94,6 @@ export default function Home() {
 
       <Hero />
       <About />
-      <Projects />
       <Skills />
       <Testimonial />
     </>
