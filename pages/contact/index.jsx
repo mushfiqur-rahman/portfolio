@@ -76,10 +76,7 @@ const Contact = () => {
                     Mushfiqur Rahman
                   </h2>
 
-                  <p className="font-bold">
-                    <span>IT Support Engineer</span> |{" "}
-                    <span>Software Engineer</span>
-                  </p>
+                  <p className="font-bold">IT Support Engineer</p>
                   <p>Khulna, Bangladesh</p>
                   <p className="py-4">
                     I am available for freelance or full-time positions. Contact

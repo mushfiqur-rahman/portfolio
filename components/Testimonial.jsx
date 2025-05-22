@@ -18,8 +18,8 @@ const Testimonial = () => {
             <Marquee
               direction="left"
               reverse={false}
-              // pauseOnHover={true}
-              speed={100}
+              pauseOnHover={true}
+              speed={50}
             >
               {message.map((item, index) => (
                 <div key={index} className="w-full flex carousel-item mx-2">
@@ -28,6 +28,7 @@ const Testimonial = () => {
                       <Image
                         src={item.image}
                         alt={item.name}
+                        message={message}
                         width={100}
                         height={100}
                         className="rounded-xl size-40"

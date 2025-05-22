@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Testimonial from "@/components/Testimonial";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
+import ServiceCard from "@/components/ServiceCard";
 
 export default function Home() {
   return (

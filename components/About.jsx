@@ -8,40 +8,33 @@ const About = () => {
     <div id="about" className="w-full md:h-screen flex items-center p-2 py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
-          <p className="uppercase text-xl font-bold tracking-widest text-indigo-500 ">
+          <h2 className="uppercase text-xl font-bold tracking-widest text-indigo-500">
             About
-          </p>
-          <h2 className="py-4">Career Summary</h2>
+          </h2>
 
-          <p className="py-2 text-gray-600 dark:text-slate-200">
-            Hi, I’m Mushfiq — a passionate IT Support Engineer and Web Developer
-            with years of hands-on experience solving complex tech challenges
-            and building impactful digital solutions.
+          <p className="py-2 dark:text-slate-200">
+            Hi, I am Mushfiq — an experienced IT Support Engineer helping
+            individuals, startups, and small businesses solve complex IT
+            problems with simple, effective solutions. With years of hands-on
+            experience in tools like Microsoft 365, Google Workspace, domain &
+            DNS management, and email deliverability, I specialize in keeping
+            your business running smoothly and securely online.
           </p>
-          <p className="py-2 text-gray-600 dark:text-slate-200">
-            {`By day, I help individuals and businesses stay connected and secure,
-            offering expert support in Microsoft 365, Google Workspace,
-            domain/DNS management, email migration, and more. I specialize in
-            making technical issues simple and seamless — whether it’s fixing
-            email deliverability, setting up cloud tools, or securing your
-            systems.`}
-          </p>
-          <p className="py-2 text-gray-600 dark:text-slate-200">
-            {`By night (and sometimes weekends), I turn ideas into websites. I
-            build fast, modern, SEO-friendly sites using Next.js, Tailwind CSS, WordPress, squarespace, 
-            Custom theme, wix,TypeScript, and Framer Motion. My projects focus on performance,
-            user experience, and scalability — whether it's a sleek portfolio,
-            business site, or a dynamic blog.`}
-          </p>
-          <p className="py-2 text-gray-600 dark:text-slate-200">
-            {` I’m always learning, improving, and looking for ways to deliver
-            better tech experiences. When I’m not coding or troubleshooting,
-            you’ll probably find me exploring new tools, writing tech tips, or
-            helping startups grow their online presence.`}
-          </p>
-          <p className="py-2 text-gray-600 dark:text-slate-200">
-            {`Let’s connect — I’d love to hear about your project or help you
-            solve a tricky tech issue.`}
+          <h3 className="py-2 dark:text-slate-200">What I Do:</h3>
+          <ul className="list-disc pl-6 space-y-2 dark:text-slate-200 text-lg">
+            <li>Professional email setup (Google Workspace, Microsoft 365)</li>
+            <li>Email migration & troubleshooting</li>
+            <li>Domain configuration, DNS, SPF, DKIM, DMARC setup</li>
+            <li>Email security and reputation management</li>
+            <li>Cloud app support for modern business workflows</li>
+          </ul>
+          <p className="py-2 dark:text-slate-200">
+            Whether {`you're`} launching a business or scaling operations, I
+            make sure your digital foundation is{" "}
+            <span className="font-semibold">
+              reliable, secure, and professionally managed
+            </span>{" "}
+            — so you can focus on what matters most.
           </p>
 
           <div className="flex gap-10">
@@ -54,22 +47,7 @@ const About = () => {
                 aria-label="help"
               >
                 <button className="p-5 font-bold hover:text-white">
-                  Eager to Help
-                </button>
-              </Link>
-            </div>
-            <div className="py-5 grid">
-              {/* resume */}
-              <Link
-                className="py-4"
-                href="/services"
-                target="_blank"
-                locale={false}
-                rel="noopener noreferrer"
-                aria-label="services"
-              >
-                <button className="p-5 font-bold hover:text-white">
-                  Services
+                  contact
                 </button>
               </Link>
             </div>
