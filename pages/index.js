@@ -80,7 +80,7 @@ export default function Home() {
         <link href="https://mushfiq.xyz" rel="canonical" />
         <meta content="https://mushfiq.xyz" property="og:url" />
         <meta
-          content="Mushfiqur Rahman a Software Engineer and an IT support engineer"
+          content="Mushfiqur Rahman is an IT support engineer"
           name="author"
         />
         <meta content="Mushfiqur Rahman Portfolio" name="application-name" />
