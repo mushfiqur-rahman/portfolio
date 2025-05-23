@@ -2,11 +2,9 @@ import "@/styles/globals.css";
 import localFont from "next/font/local";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from '@vercel/speed-insights/next';
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useTheme } from "next-themes";
 import { ThemeProvider } from "next-themes";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import SiteSchema from "@/components/SiteName";
 import Progress from "@/components/Progress";
 import PinterestTag from "@/components/PinterestTag";
@@ -41,9 +39,9 @@ export default function App({ Component, pageProps }) {
           <PinterestTag />
           <SiteSchema />
           <Progress />
-          <Navbar />
+          {/* <Navbar /> */}
           <Component {...pageProps} />
-          <Footer />
+          {/* <Footer /> */}
           <GoogleAnalytics gaId="G-J2N8PJJ379" />
           <SpeedInsights />
           <Analytics />
