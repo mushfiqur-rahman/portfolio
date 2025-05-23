@@ -1,8 +1,4 @@
 import Head from "next/head";
-import Hero from "@/components/Hero";
-import About from "@/components/About";
-import Testimonial from "@/components/Testimonial";
-import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
@@ -25,12 +21,12 @@ export default function Home() {
         <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
-          content="Experienced IT Support Engineer & Software Engineer helping remotly US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
+          content="Experienced IT Support Engineer helping remotly US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
           key="desc"
         />
         <meta content="#ffffff" name="theme-color" />
         <meta
-          content="Experienced IT Support Engineer & Software Engineer helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
+          content="Experienced IT Support Engineer helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
           name="position"
         />
         <meta name="distribution" content="Global" />
@@ -46,11 +42,11 @@ export default function Home() {
         <meta property="og:site_name" content="Mushfiqur Rahman" />
         <meta
           property="og:description"
-          content="Experienced IT Support Engineer & Software Engineer helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
+          content="Experienced IT Support Engineer helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
         />
         <meta
           property="og:title"
-          content="Mushfiqur Rahman a Software Engineer and an IT support engineer"
+          content="Mushfiqur Rahman  and an IT support engineer"
         />
         <meta
           property="og:image"
@@ -63,11 +59,11 @@ export default function Home() {
         <meta name="twitter:site" content="@MushfiqFeed" />
         <meta
           name="twitter:title"
-          content="Mushfiqur Rahman a Software Engineer and an IT support engineer"
+          content="Mushfiqur Rahman and an IT support engineer"
         />
         <meta
           name="twitter:description"
-          content="Experienced IT Support Engineer & Software Engineer helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
+          content="Experienced IT Support Engineer  helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
         />
         <meta
           name="twitter:image"
@@ -91,11 +87,6 @@ export default function Home() {
         <title>MUSHFIQ - IT Support Engineer| Software Engineer</title>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
-
-      <Hero />
-      <About />
-      <Skills />
-      <Testimonial />
     </>
   );
 }
