@@ -62,7 +62,8 @@ export const services = [
       "💡 Benefit: Ensure your emails never go to spam and your website loads reliably",
       "🚀 Impact: Improved deliverability and reduced downtime for critical business operations",
     ].join("\n"),
-    image: "/services/dns.png",
+    image:
+      "https://res.cloudinary.com/depyaowh3/image/upload/v1748018248/DNS_Management_i22w7h.png",
   },
   {
     title: "Domain Transfer Service",
