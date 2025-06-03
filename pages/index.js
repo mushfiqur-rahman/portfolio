@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Hero from "@/components/Hero";
+import Projects from "@/components/Projects";
 import Testimonial from "@/components/Testimonial";
 import Head from "next/head";
 
@@ -92,6 +93,7 @@ export default function Home() {
       </Head>
       <Hero />
       <About />
+      <Projects />
       <Testimonial />
     </>
   );

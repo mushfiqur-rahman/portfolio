@@ -12,6 +12,7 @@ import gitHubImg from "../public/projects/github.webp";
 import VlanImg from "../public/projects/vlan.webp";
 import BgpImg from "../public/projects/bgp.webp";
 import FlaressaImg from "../public/projects/flaressa.webp";
+import AwardsImg from "../public/projects/awards.webp";
 import ProjectItem from "./ProjecItem";
 
 const Projects = () => {
@@ -30,114 +31,124 @@ const Projects = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <ProjectItem
             title="Full Stack SASS Project"
-            backgroundImg={HomeImg}
+            backgroundImg={AwardsImg}
             projectUrl="/fsass"
             tech="Djnago, Next JS"
             alt="Full Stack SASS Project"
             aria-label="Service Provider"
           />
-          <ProjectItem
-            title="Jashore Installation Service"
-            backgroundImg={FlaressaImg}
-            projectUrl="/jis"
-            tech="WordPress"
-            alt="Flaressa"
-            aria-label="Service Provider"
-          />
-          <ProjectItem
-            title="Ecommerce Project"
-            backgroundImg={Ecommerce}
-            projectUrl="/eccomerce"
-            tech="Django, MySQL, Redis, Auth Token"
-            alt="ecommerce"
-            aria-label="Ecommerce Project"
-          />
-          <ProjectItem
-            title="Django & HTMX Blog"
-            backgroundImg={DjblogImg}
-            projectUrl="/djblog"
-            tech="Django, HTMX, Bootstrap 5, PostgreSQL"
-            alt="Dj blog"
-            aria-label="django htmx project"
-          />
+          <div className="grid md:grid-cols-3 gap-8">
+            <ProjectItem
+              title="Full Stack SASS Project"
+              backgroundImg={HomeImg}
+              projectUrl="/fsass"
+              tech="Djnago, Next JS"
+              alt="Full Stack SASS Project"
+              aria-label="Service Provider"
+            />
+            <ProjectItem
+              title="Jashore Installation Service"
+              backgroundImg={FlaressaImg}
+              projectUrl="/jis"
+              tech="WordPress"
+              alt="Flaressa"
+              aria-label="Service Provider"
+            />
+            <ProjectItem
+              title="Ecommerce Project"
+              backgroundImg={Ecommerce}
+              projectUrl="/eccomerce"
+              tech="Django, MySQL, Redis, Auth Token"
+              alt="ecommerce"
+              aria-label="Ecommerce Project"
+            />
+            <ProjectItem
+              title="Django & HTMX Blog"
+              backgroundImg={DjblogImg}
+              projectUrl="/djblog"
+              tech="Django, HTMX, Bootstrap 5, PostgreSQL"
+              alt="Dj blog"
+              aria-label="django htmx project"
+            />
 
-          <ProjectItem
-            title="Platform Manager"
-            backgroundImg={PlatformManagerImg}
-            projectUrl="/platformManager"
-            tech="Django, React, MUI, DRF"
-            alt="PlatformManagerImg"
-            aria-label="django htmx project"
-          />
+            <ProjectItem
+              title="Platform Manager"
+              backgroundImg={PlatformManagerImg}
+              projectUrl="/platformManager"
+              tech="Django, React, MUI, DRF"
+              alt="PlatformManagerImg"
+              aria-label="django htmx project"
+            />
 
-          <ProjectItem
-            title="GitHub Clone"
-            backgroundImg={gitHubImg}
-            projectUrl="/github"
-            tech="TypeScript, NextJS, Framer Motion"
-            alt="gitHubImg"
-            aria-label="GitHub Clone"
-          />
-          <ProjectItem
-            title="Big Cart Django Store"
-            backgroundImg={bigcartImg}
-            projectUrl="/bigcart"
-            tech="Python, Django, Bootstrap"
-            alt="bigcartImgImg"
-            aria-label="Big Cart Django Store"
-          />
+            <ProjectItem
+              title="GitHub Clone"
+              backgroundImg={gitHubImg}
+              projectUrl="/github"
+              tech="TypeScript, NextJS, Framer Motion"
+              alt="gitHubImg"
+              aria-label="GitHub Clone"
+            />
+            <ProjectItem
+              title="Big Cart Django Store"
+              backgroundImg={bigcartImg}
+              projectUrl="/bigcart"
+              tech="Python, Django, Bootstrap"
+              alt="bigcartImgImg"
+              aria-label="Big Cart Django Store"
+            />
 
-          <ProjectItem
-            title="Customer Needs"
-            backgroundImg={gstoautocomplete}
-            projectUrl="/customerNeeds"
-            tech="Django, React, MUI"
-            alt="MUI Autocomplete"
-            aria-label="react mui autocomplete"
-          />
+            <ProjectItem
+              title="Customer Needs"
+              backgroundImg={gstoautocomplete}
+              projectUrl="/customerNeeds"
+              tech="Django, React, MUI"
+              alt="MUI Autocomplete"
+              aria-label="react mui autocomplete"
+            />
 
-          <ProjectItem
-            title="Innovative Software"
-            backgroundImg={innoImg}
-            projectUrl="/innovative"
-            tech="Laravel 10"
-            alt="innoImg"
-            aria-label="Innovative Software Website"
-          />
+            <ProjectItem
+              title="Innovative Software"
+              backgroundImg={innoImg}
+              projectUrl="/innovative"
+              tech="Laravel 10"
+              alt="innoImg"
+              aria-label="Innovative Software Website"
+            />
 
-          <ProjectItem
-            title="Eventtech"
-            backgroundImg={EventtechImg}
-            projectUrl="/eventtech"
-            tech="NextJS"
-            alt="Eventtech"
-            aria-label="Eventtech startup website"
-          />
+            <ProjectItem
+              title="Eventtech"
+              backgroundImg={EventtechImg}
+              projectUrl="/eventtech"
+              tech="NextJS"
+              alt="Eventtech"
+              aria-label="Eventtech startup website"
+            />
 
-          <ProjectItem
-            title="Metaverse Clone"
-            backgroundImg={Metaverse}
-            projectUrl="/metaverse"
-            tech="Nextjs"
-            alt="Metaverse"
-            aria-label="figma template clone metaverse"
-          />
-          <ProjectItem
-            title="CISCO VLAN"
-            backgroundImg={VlanImg}
-            projectUrl="/vlan"
-            tech="cisco"
-            alt="vlan"
-            aria-label="cisco vlan configuration"
-          />
-          <ProjectItem
-            title="Border Gateway Protocol (BGP)"
-            backgroundImg={BgpImg}
-            projectUrl="/bgp"
-            tech="cisco"
-            alt="bgp"
-            aria-label="Border Gateway Protocol (BGP) configuration"
-          />
+            <ProjectItem
+              title="Metaverse Clone"
+              backgroundImg={Metaverse}
+              projectUrl="/metaverse"
+              tech="Nextjs"
+              alt="Metaverse"
+              aria-label="figma template clone metaverse"
+            />
+            <ProjectItem
+              title="CISCO VLAN"
+              backgroundImg={VlanImg}
+              projectUrl="/vlan"
+              tech="cisco"
+              alt="vlan"
+              aria-label="cisco vlan configuration"
+            />
+            <ProjectItem
+              title="Border Gateway Protocol (BGP)"
+              backgroundImg={BgpImg}
+              projectUrl="/bgp"
+              tech="cisco"
+              alt="bgp"
+              aria-label="Border Gateway Protocol (BGP) configuration"
+            />
+          </div>
         </div>
       </div>
     </div>
