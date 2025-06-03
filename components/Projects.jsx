@@ -31,12 +31,12 @@ const Projects = () => {
 
         <div className="grid md:grid-cols-3 gap-8">
           <ProjectItem
-            title="Full Stack SASS Project"
+            title="Awards- Winning webiste"
             backgroundImg={AwardsImg}
-            projectUrl="/fsass"
-            tech="Djnago, Next JS"
-            alt="Full Stack SASS Project"
-            aria-label="Service Provider"
+            projectUrl=""
+            tech="Next JS, GSAP, Tailwindcss"
+            alt="Game winnig website"
+            aria-label="Gamming website"
           />
           <ProjectItem
             title="Full Stack SASS Project"
