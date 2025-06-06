@@ -13,28 +13,39 @@ const About = () => {
           </h2>
 
           <p className="py-2 dark:text-slate-200">
-            Hi, I am Mushfiq — an experienced IT Support Engineer helping
-            individuals, startups, and small businesses solve complex IT
-            problems with simple, effective solutions. With years of hands-on
-            experience in tools like Microsoft 365, Google Workspace, domain &
-            DNS management, and email deliverability, I specialize in keeping
-            your business running smoothly and securely online.
+            I am a quick learner, self-motivated, and punctual IT professional
+            with hands-on experience in IT support, web development, and network
+            monitoring. I thrive in solving technical challenges, whether it is
+            ensuring smooth IT operations, building responsive websites, or
+            maintaining secure and efficient networks. With a strong passion for
+            technology and continuous improvement, I am always eager to expand
+            my skills and deliver reliable, scalable solutions.
           </p>
           <h3 className="py-2 dark:text-slate-200">What I Do:</h3>
           <ul className="list-disc pl-6 space-y-2 dark:text-slate-200 text-lg">
-            <li>Professional email setup (Google Workspace, Microsoft 365)</li>
-            <li>Email migration & troubleshooting</li>
-            <li>Domain configuration, DNS, SPF, DKIM, DMARC setup</li>
-            <li>Email security and reputation management</li>
-            <li>Cloud app support for modern business workflows</li>
+            <li>
+              Technical support for desktops, networks, and cloud services
+            </li>
+            <li>
+              Responsive web development using modern frameworks (Next.js,
+              Tailwind CSS)
+            </li>
+            <li>Network monitoring and performance optimization</li>
+            <li>
+              Troubleshooting hardware/software issues across IT environments
+            </li>
+            <li>
+              System setup, user account management, and device configuration
+            </li>
           </ul>
           <p className="py-2 dark:text-slate-200">
-            Whether {`you're`} launching a business or scaling operations, I
-            make sure your digital foundation is{" "}
+            Whether you are supporting a small office or scaling digital
+            services, I ensure your
             <span className="font-semibold">
-              reliable, secure, and professionally managed
+              {" "}
+              IT infrastructure is efficient, secure, and future-ready
             </span>{" "}
-            — so you can focus on what matters most.
+            — so your team can stay focused and productive.
           </p>
 
           <div className="flex gap-10">
