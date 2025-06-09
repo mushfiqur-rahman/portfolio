@@ -31,9 +31,9 @@ const Projects = () => {
 
         <div className="grid md:grid-cols-3 gap-8">
           <ProjectItem
-            title="Awards- Winning webiste"
+            title="Awards"
             backgroundImg={AwardsImg}
-            projectUrl=""
+            projectUrl="/awards"
             tech="Next JS, GSAP, Tailwindcss"
             alt="Game winnig website"
             aria-label="Gamming website"
