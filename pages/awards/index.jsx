@@ -3,13 +3,14 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { RiRadioButtonFill } from "react-icons/ri";
+import AwardsImg from "../../public/projects/awards.webp";
 
 const awards = () => {
   return (
     <>
       <Head>
-        <title>Metaverse - project</title>
-        <link rel="canonical" href="/metaverse" />
+        <title>Awards - project</title>
+        <link rel="canonical" href="/awards" />
         <meta
           name="description"
           content="Figma clone using next js tailwind css"
@@ -23,8 +24,8 @@ const awards = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src={MetaImg}
-            alt="MetaImg"
+            src={AwardsImg}
+            alt="AwardsImg"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
             <h2 className="py-2">Awards app</h2>
@@ -61,13 +62,13 @@ const awards = () => {
               <p className="text-center font-bold pb-2">Technologies</p>
               <div className="grid grid-cols-3 md:grid-cols-1">
                 <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                  <RiRadioButtonFill className="pr-1" /> NextJS 13 beta
+                  <RiRadioButtonFill className="pr-1" /> NextJS 15
                 </p>
                 <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
                   <RiRadioButtonFill className="pr-1" /> Tailwind
                 </p>
                 <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                  <RiRadioButtonFill className="pr-1" /> FramerMotion
+                  <RiRadioButtonFill className="pr-1" /> GSAP
                 </p>
               </div>
             </div>
