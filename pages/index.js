@@ -97,7 +97,6 @@ export default function Home() {
       <About />
       <Projects />
       <Skills />
-      <EduExp />
       <Testimonial />
     </>
   );
