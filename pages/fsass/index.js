@@ -44,6 +44,9 @@ const fsass = () => {
               the development process, I did not use ChatGPT for a single line
               of code.
             </p>
+            <a href="https://gerfin.net" target="_blank" rel="noreferrer">
+              <button className="px-8 py-2 mt-4">Live</button>
+            </a>
           </div>
           <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4 ">
             <div className="p-2 dark:text-slate-200">

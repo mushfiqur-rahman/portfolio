@@ -55,7 +55,7 @@ const blog = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="px-8 py-2 mt-4">Demo</button>
+              <button className="px-8 py-2 mt-4">Live</button>
             </a>
           </div>
           <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4 ">

@@ -2,15 +2,10 @@ import React from "react";
 import HomeImg from "../public/projects/home.webp";
 import Ecommerce from "../public/projects/ecommerce.webp";
 import DjblogImg from "../public/projects/djblogger.webp";
-import PlatformManagerImg from "../public/projects/usermanager.webp";
-import gstoautocomplete from "../public/projects/customerneeds.png";
 import innoImg from "../public/projects/inno.webp";
 import EventtechImg from "../public/projects/eventtech.webp";
 import Metaverse from "../public/projects/metaverse.webp";
-import bigcartImg from "../public/projects/bigcart.webp";
 import gitHubImg from "../public/projects/github.webp";
-import VlanImg from "../public/projects/vlan.webp";
-import BgpImg from "../public/projects/bgp.webp";
 import FlaressaImg from "../public/projects/flaressa.webp";
 import AwardsImg from "../public/projects/awards.webp";
 import ProjectItem from "./ProjecItem";
@@ -72,38 +67,12 @@ const Projects = () => {
           />
 
           <ProjectItem
-            title="Platform Manager"
-            backgroundImg={PlatformManagerImg}
-            projectUrl="/platformManager"
-            tech="Django, React, MUI, DRF"
-            alt="PlatformManagerImg"
-            aria-label="django htmx project"
-          />
-
-          <ProjectItem
             title="GitHub Clone"
             backgroundImg={gitHubImg}
             projectUrl="/github"
             tech="TypeScript, NextJS, Framer Motion"
             alt="gitHubImg"
             aria-label="GitHub Clone"
-          />
-          <ProjectItem
-            title="Big Cart Django Store"
-            backgroundImg={bigcartImg}
-            projectUrl="/bigcart"
-            tech="Python, Django, Bootstrap"
-            alt="bigcartImgImg"
-            aria-label="Big Cart Django Store"
-          />
-
-          <ProjectItem
-            title="Customer Needs"
-            backgroundImg={gstoautocomplete}
-            projectUrl="/customerNeeds"
-            tech="Django, React, MUI"
-            alt="MUI Autocomplete"
-            aria-label="react mui autocomplete"
           />
 
           <ProjectItem
@@ -131,22 +100,6 @@ const Projects = () => {
             tech="Nextjs"
             alt="Metaverse"
             aria-label="figma template clone metaverse"
-          />
-          <ProjectItem
-            title="CISCO VLAN"
-            backgroundImg={VlanImg}
-            projectUrl="/vlan"
-            tech="cisco"
-            alt="vlan"
-            aria-label="cisco vlan configuration"
-          />
-          <ProjectItem
-            title="Border Gateway Protocol (BGP)"
-            backgroundImg={BgpImg}
-            projectUrl="/bgp"
-            tech="cisco"
-            alt="bgp"
-            aria-label="Border Gateway Protocol (BGP) configuration"
           />
         </div>
       </div>
