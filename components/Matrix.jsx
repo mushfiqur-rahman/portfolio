@@ -94,9 +94,9 @@ const Matrix = () => {
           textShadow: "0 0 5px #0f0, 0 0 10px #0f0, 0 0 20px #0f0",
         }}
       >
-        An IT Professional never dies,
+        An IT Support Engineer,
         <br />
-        he just goes offline.
+        Web Developer.
       </div>
     </div>
   );
