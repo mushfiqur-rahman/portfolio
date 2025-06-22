@@ -104,18 +104,11 @@ const Navbar = () => {
               className="font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link href="/services" role="menuitem">
+              <Link href="/#services" role="menuitem">
                 Services
               </Link>
             </li>
-            <li
-              className="font-bold hover:border-b dark:text-green-500"
-              role="none"
-            >
-              <Link href="/blog" role="menuitem">
-                Blog
-              </Link>
-            </li>
+
             <li
               className="font-bold hover:border-b dark:text-green-500"
               role="none"
@@ -127,11 +120,9 @@ const Navbar = () => {
           </ul>
         </div>
 
-        {/* Right Side - CTA Button + Mobile Menu Button */}
         <div className="flex items-center space-x-4">
-          {/* Theme changer (if you have it) */}
           <div className="p-2">{mounted && renderThemeChanger()}</div>
-          {/* Mobile menu open icon */}
+
           <div onClick={handleNav} className="md:hidden dark:text-white">
             <AiOutlineMenu size={25} />
           </div>
@@ -186,17 +177,8 @@ const Navbar = () => {
                   className="py-4 font-bold hover:border-b dark:text-green-500"
                   role="none"
                 >
-                  <Link href="/services" role="menuitem">
+                  <Link href="/#services" role="menuitem">
                     Services
-                  </Link>
-                </li>
-                <li
-                  onClick={() => setNav(false)}
-                  className="py-4 font-bold hover:border-b dark:text-green-500"
-                  role="none"
-                >
-                  <Link href="/blog" role="menuitem">
-                    Blog
                   </Link>
                 </li>
 

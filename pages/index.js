@@ -1,6 +1,9 @@
 import About from "@/components/About";
-import Matrix from "@/components/Matrix";
+import EduExp from "@/components/EduExp";
+import Hero from "@/components/Hero";
+import Pricing from "@/components/Pricing";
 import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
 import Testimonial from "@/components/Testimonial";
 import Head from "next/head";
 
@@ -91,9 +94,12 @@ export default function Home() {
         <title>MUSHFIQ - IT Support Engineer| Software Engineer</title>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
-      <Matrix />
+      <Hero />
       <About />
+      <Skills />
+      <Pricing />
       <Projects />
+      <EduExp />
       <Testimonial />
     </>
   );

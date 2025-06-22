@@ -7,7 +7,6 @@ import EventtechImg from "../public/projects/eventtech.webp";
 import Metaverse from "../public/projects/metaverse.webp";
 import gitHubImg from "../public/projects/github.webp";
 import FlaressaImg from "../public/projects/flaressa.webp";
-import AwardsImg from "../public/projects/awards.webp";
 import ProjectItem from "./ProjecItem";
 
 const Projects = () => {
@@ -25,14 +24,6 @@ const Projects = () => {
         </p>
 
         <div className="grid md:grid-cols-3 gap-8">
-          <ProjectItem
-            title="Awards"
-            backgroundImg={AwardsImg}
-            projectUrl="/awards"
-            tech="Next JS, GSAP, Tailwindcss"
-            alt="Game winnig website"
-            aria-label="Gamming website"
-          />
           <ProjectItem
             title="Full Stack SASS Project"
             backgroundImg={HomeImg}
