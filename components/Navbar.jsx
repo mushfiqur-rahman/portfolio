@@ -104,7 +104,7 @@ const Navbar = () => {
               className="font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link href="/#services" role="menuitem">
+              <Link href="/services" role="menuitem">
                 Services
               </Link>
             </li>
@@ -177,7 +177,7 @@ const Navbar = () => {
                   className="py-4 font-bold hover:border-b dark:text-green-500"
                   role="none"
                 >
-                  <Link href="/#services" role="menuitem">
+                  <Link href="/services" role="menuitem">
                     Services
                   </Link>
                 </li>
