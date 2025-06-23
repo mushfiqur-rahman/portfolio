@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import ContactImg from "../../public/contactImg.webp";
-import SEO from "@/components/SEO";
 
 const Contact = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -43,13 +42,17 @@ const Contact = () => {
   return (
     <>
       <Head>
+        <title>Contact - Get Remote Service</title>
         <link rel="canonical" href="/contact" />
+        <meta
+          name="description"
+          content="Get in touch with Mushfiqur Rahman, a web developer and IT support engineer."
+        />
+        <meta
+          name="keywords"
+          content="contact, web developer, IT support, Mushfiq"
+        />
       </Head>
-      <SEO
-        title="Contact - Remote Service"
-        description="Get in touch with Mushfiqur Rahman, a web developer and IT support engineer."
-        keywords="contact, web developer, IT support, Mushfiq"
-      />
 
       <div className="dark:bg-gradient-to-r from-slate-900 to-slate-700">
         <div

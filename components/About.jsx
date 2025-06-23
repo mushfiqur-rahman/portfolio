@@ -15,15 +15,34 @@ const About = () => {
           <h2 className="py-4">Career Summary</h2>
 
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            Hi, I am Mushfiq — a passionate IT Support Engineer and Web
-            Developer with years of hands-on experience solving complex tech
-            challenges and building impactful digital solutions.
+            Hi, I’m Mushfiq — a passionate IT Support Engineer and Web Developer
+            with years of hands-on experience solving complex tech challenges
+            and building impactful digital solutions.
           </p>
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            I am always learning, improving, and looking for ways to deliver
-            better tech experiences. When I am not coding or troubleshooting,
-            you will probably find me exploring new tools, writing tech tips or
-            making video for youtube.
+            {`By day, I help individuals and businesses stay connected and secure,
+            offering expert support in Microsoft 365, Google Workspace,
+            domain/DNS management, email migration, and more. I specialize in
+            making technical issues simple and seamless — whether it’s fixing
+            email deliverability, setting up cloud tools, or securing your
+            systems.`}
+          </p>
+          <p className="py-2 text-gray-600 dark:text-slate-200">
+            {`By night (and sometimes weekends), I turn ideas into websites. I
+            build fast, modern, SEO-friendly sites using Next.js, Tailwind CSS, WordPress, squarespace, 
+            Custom theme, wix,TypeScript, and Framer Motion. My projects focus on performance,
+            user experience, and scalability — whether it's a sleek portfolio,
+            business site, or a dynamic blog.`}
+          </p>
+          <p className="py-2 text-gray-600 dark:text-slate-200">
+            {` I’m always learning, improving, and looking for ways to deliver
+            better tech experiences. When I’m not coding or troubleshooting,
+            you’ll probably find me exploring new tools, writing tech tips, or
+            helping startups grow their online presence.`}
+          </p>
+          <p className="py-2 text-gray-600 dark:text-slate-200">
+            {`Let’s connect — I’d love to hear about your project or help you
+            solve a tricky tech issue.`}
           </p>
 
           <div className="flex gap-10">
