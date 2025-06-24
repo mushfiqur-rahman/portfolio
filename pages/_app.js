@@ -41,7 +41,6 @@ export default function App({ Component, pageProps }) {
           <PinterestTag />
           <SiteSchema />
           <Progress />
-          <Navbar />
           <Component {...pageProps} />
           <Footer />
           <GoogleAnalytics gaId="G-J2N8PJJ379" />

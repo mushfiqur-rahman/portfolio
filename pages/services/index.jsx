@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import Pricing from "@/components/Pricing";
 
 const index = () => {
   return (
@@ -11,9 +10,7 @@ const index = () => {
         <meta name="description" content="" />
         <meta name="keywords" content="" />
       </Head>
-      <div>
-        <Pricing />
-      </div>
+      <div></div>
     </>
   );
 };

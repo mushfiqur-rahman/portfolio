@@ -20,10 +20,10 @@ const Pricing = () => {
               <ul class="space-y-2 text-gray-700 dark:text-gray-400 mb-6">
                 <li>✔️ 1 Website</li>
                 <li>✔️ Basic SEO</li>
-                <li>✔️ 3 Email Accounts</li>
+                <li>✔️ 1 Web Mail Configuration</li>
               </ul>
               <div class="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                $49
+                $200
               </div>
               <button class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
                 Choose Plan
@@ -38,13 +38,13 @@ const Pricing = () => {
                 A great choice for growing teams needing more power.
               </p>
               <ul class="space-y-2 text-gray-700 dark:text-gray-400 mb-6">
-                <li>✔️ 3 Websites</li>
+                <li>✔️ 1 Websites</li>
                 <li>✔️ Full SEO</li>
-                <li>✔️ 10 Email Accounts</li>
+                <li>✔️ 10 Web Mail Configuration</li>
                 <li>✔️ Priority Support</li>
               </ul>
               <div class="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                $99
+                $500
               </div>
               <button class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
                 Choose Plan
@@ -59,13 +59,13 @@ const Pricing = () => {
                 Everything your business needs to scale effectively.
               </p>
               <ul class="space-y-2 text-gray-700 dark:text-gray-400 mb-6">
-                <li>✔️ Unlimited Websites</li>
+                <li>✔️ Custom Dashboard Websites</li>
                 <li>✔️ Advanced SEO & Analytics</li>
-                <li>✔️ Unlimited Emails</li>
+                <li>✔️ Profession Mail Configuration</li>
                 <li>✔️ Dedicated Manager</li>
               </ul>
               <div class="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                $199
+                $999
               </div>
               <button class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
                 Choose Plan
