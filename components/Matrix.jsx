@@ -97,6 +97,9 @@ const Matrix = () => {
         Hey, I am Mushfiq. I am a Software Engineer
         <br />
         and an IT Support Engineer.
+        <br />
+        This website developed a few years ago to getting job. Thank you for
+        visit 😊. I am making plan to change evrything.
       </div>
     </div>
   );
