@@ -8,6 +8,8 @@ import { ThemeProvider } from "next-themes";
 import SiteSchema from "@/components/SiteName";
 import Progress from "@/components/Progress";
 import PinterestTag from "@/components/PinterestTag";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 const Manrope = localFont({ src: "../public/fonts/ManropeRegular.woff2" });
 
@@ -38,9 +40,10 @@ export default function App({ Component, pageProps }) {
         <main className={`${Manrope.className}`}>
           <PinterestTag />
           <SiteSchema />
+          <Navbar />
           <Progress />
           <Component {...pageProps} />
-
+          <Footer />
           <GoogleAnalytics gaId="G-J2N8PJJ379" />
           <SpeedInsights />
           <Analytics />
