@@ -5,12 +5,14 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>Remote Service</title>
+        <title>Remote IT Services</title>
         <link rel="canonical" href="/services" />
         <meta name="description" content="" />
         <meta name="keywords" content="" />
       </Head>
-      <div></div>
+      <div className="min-h-screen">
+        
+      </div>
     </>
   );
 };
