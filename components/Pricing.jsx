@@ -103,7 +103,7 @@ export default function PricingSection() {
             {category.plans.map((plan, j) => (
               <div
                 key={j}
-                className="p-6 border rounded-2xl flex flex-col justify-between hover:shadow-lg transition"
+                className="p-6 border border-indigo-600 rounded-2xl flex flex-col justify-between hover:shadow-lg transition scale-110 duration-300"
               >
                 <div>
                   <h3 className="text-xl font-semibold mb-1">{plan.name}</h3>
