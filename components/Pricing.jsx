@@ -6,12 +6,13 @@ const pricingData = [
     plans: [
       {
         name: "Starter",
-        price: "$499",
+        price: "$299",
         duration: "5 Days Delivery",
         features: [
           { label: "1 Page Website", included: true },
           { label: "Responsive Design", included: true },
           { label: "Free Hosting Setup", included: true },
+          { label: "1 Web Mail Setup", included: true },
           { label: "Basic SEO Setup", included: false },
           { label: "Custom Contact Form", included: false },
           { label: "1 Month Maintenance", included: false },
@@ -19,12 +20,13 @@ const pricingData = [
       },
       {
         name: "Standard",
-        price: "$999",
+        price: "$499",
         duration: "10 Days Delivery",
         features: [
           { label: "Up to 5 Pages", included: true },
           { label: "Responsive Design", included: true },
           { label: "Free Hosting Setup", included: true },
+          { label: "1 Web Mail Setup", included: true },
           { label: "Basic SEO Setup", included: true },
           { label: "Custom Contact Form", included: true },
           { label: "1 Month Maintenance", included: false },
@@ -38,6 +40,7 @@ const pricingData = [
           { label: "Custom Website (up to 10 pages)", included: true },
           { label: "Responsive Design", included: true },
           { label: "Hosting & Domain Setup", included: true },
+          { label: "1 Web Mail Setup", included: true },
           { label: "Advanced SEO", included: true },
           { label: "Custom Forms & Blog Setup", included: true },
           { label: "3 Months Maintenance", included: true },
@@ -55,7 +58,7 @@ const pricingData = [
         features: [
           { label: "Email Troubleshooting", included: true },
           { label: "DNS Record Fix", included: true },
-          { label: "One Email Migration", included: false },
+          { label: "One Mail Box Migration", included: false },
           { label: "SPF/DKIM Setup", included: false },
           { label: "Remote Support (30 mins)", included: true },
         ],
