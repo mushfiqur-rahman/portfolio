@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import ServiceCards from "@/components/ServiceCards";
 
 const index = () => {
   return (
@@ -10,8 +11,8 @@ const index = () => {
         <meta name="description" content="" />
         <meta name="keywords" content="" />
       </Head>
-      <div className="min-h-screen">
-        
+      <div className="md:min-h-screen py-20">
+        <ServiceCards />
       </div>
     </>
   );

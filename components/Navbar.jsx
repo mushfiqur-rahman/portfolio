@@ -108,6 +108,14 @@ const Navbar = () => {
                 Services
               </Link>
             </li>
+            <li
+              className="font-bold hover:border-b dark:text-green-500"
+              role="none"
+            >
+              <Link href="/#pricing" role="menuitem">
+                Pricing
+              </Link>
+            </li>
 
             <li
               className="font-bold hover:border-b dark:text-green-500"
@@ -179,6 +187,15 @@ const Navbar = () => {
                 >
                   <Link href="/services" role="menuitem">
                     Services
+                  </Link>
+                </li>
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 font-bold hover:border-b dark:text-green-500"
+                  role="none"
+                >
+                  <Link href="/#pricing" role="menuitem">
+                    Pricing
                   </Link>
                 </li>
 
