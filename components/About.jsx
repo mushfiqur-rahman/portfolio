@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import AboutImg from "../public/mushfiqur.jpg";
+import Calendy from "./Calendy";
+import { motion } from "framer-motion";
+import { FaArrowRight } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -15,51 +18,34 @@ const About = () => {
           <h2 className="py-4">Career Summary</h2>
 
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            Hi, I’m Mushfiq — a passionate IT Support Engineer and Web Developer
-            with years of hands-on experience solving complex tech challenges
-            and building impactful digital solutions.
+            I am Mushfiq — a Web Developer & IT Support Engineer helping
+            businesses build trust and grow online. I specialize in fast,
+            SEO-friendly, Responsive websites and professional email setup using
+            Google Workspace and Microsoft 365.
           </p>
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            {`By day, I help individuals and businesses stay connected and secure,
-            offering expert support in Microsoft 365, Google Workspace,
-            domain/DNS management, email migration, and more. I specialize in
-            making technical issues simple and seamless — whether it’s fixing
-            email deliverability, setting up cloud tools, or securing your
-            systems.`}
+            Whether you are launching a new brand, moving your email from
+            cPanel, or struggling with domain/DNS issues, I make complex tech
+            simple and reliable. My goal is to make sure your online presence is
+            not just live — but working for your business 24/7.
           </p>
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            {`By night (and sometimes weekends), I turn ideas into websites. I
-            build fast, modern, SEO-friendly sites using Next.js, Tailwind CSS, WordPress, squarespace, 
-            Custom theme, wix,TypeScript, and Framer Motion. My projects focus on performance,
-            user experience, and scalability — whether it's a sleek portfolio,
-            business site, or a dynamic blog.`}
-          </p>
-          <p className="py-2 text-gray-600 dark:text-slate-200">
-            {` I’m always learning, improving, and looking for ways to deliver
-            better tech experiences. When I’m not coding or troubleshooting,
-            you’ll probably find me exploring new tools, writing tech tips, or
-            helping startups grow their online presence.`}
-          </p>
-          <p className="py-2 text-gray-600 dark:text-slate-200">
-            {`Let’s connect — I’d love to hear about your project or help you
-            solve a tricky tech issue.`}
+            I believe in clear communication, quick turnaround, and long-term
+            support — so you’re never left guessing. Let’s build something that
+            works.
           </p>
 
-          <div className="flex gap-10">
-            <div className="py-5 grid">
-              {/* resume */}
-              <Link
-                className="py-4"
-                href="/contact"
-                locale={false}
-                aria-label="help"
-              >
-                <button className="p-5 font-bold hover:text-white">
-                  contact
-                </button>
-              </Link>
-            </div>
-          </div>
+          <motion.a
+            href="https://calendly.com/mushfiq.kdu/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6, delay: 0.8 }}
+            className="inline-flex items-center gap-2 bg-white text-blue-700 px-6 py-3 text-lg font-semibold rounded-full shadow hover:bg-gray-100 transition border-2 border-indigo-600"
+          >
+            Book a Free Consultation <FaArrowRight />
+          </motion.a>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center p-4 hover:scale-105 ease-in duration-300">
           <Image src={AboutImg} className="rounded-xl" alt="/" />

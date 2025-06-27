@@ -1,81 +1,41 @@
-import React from "react";
-import Link from "next/link";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsYoutube } from "react-icons/bs";
-import { MdEmail } from "react-icons/md";
+import { motion } from "framer-motion";
+import { FaArrowRight } from "react-icons/fa";
 
-const Hero = () => {
-  const email = "mushfiq.kdu@gmail.com";
-
-  const handleClick = () => {
-    window.location.href = `mailto:${email}`;
-  };
+export default function Hero() {
   return (
-    <div id="home" className="w-full h-screen text-center">
-      <div className="relative max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
-        <div className="mt-[10px] w-full justify-center content-center">
-          <div className="py-2 font-bold text-sm md:text-3xl text-blue-600">
-            <p>Assalamu Alaikum Orohmatullah</p>
-          </div>
-          <div className="py-4 font-extrabold text-lg lg:text-5xl xl:text-6xl uppercase duration-300 text-violet-600 leading-none">
-            <h1>
-              <span className="capitalize">{"I'm"}</span> Mushfiqur Rahman
-            </h1>
-          </div>
-          <div className="py-2 font-bold md:text-2xl text-sm">
-            <h2>Web Developer | IT Support Engineer</h2>
-          </div>
-          <div className="flex items-center justify-between max-w-[350px] m-auto py-4">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300">
-              <Link
-                href="https://www.linkedin.com/in/mushfiq1/"
-                rel="noreferrer"
-                target="_blank"
-                aria-label="LinkedIn"
-              >
-                <FaLinkedinIn />
-              </Link>
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300">
-              <Link
-                href="https://github.com/mushfiqur-rahman/"
-                rel="noreferrer"
-                target="_blank"
-                aria-label="GitHub"
-              >
-                <FaGithub />
-              </Link>
-            </div>
+    <section className="bg-gradient-to-br from-blue-700 via-indigo-800 to-purple-800 text-white py-24 px-6 flex items-center justify-center min-h-[90vh]">
+      <div className="max-w-3xl text-center space-y-6">
+        <motion.h1
+          className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight"
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
+          Build Your Website & Email Setup with Confidence
+        </motion.h1>
 
-            <div
-              className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300"
-              onClick={handleClick}
-            >
-              <Link
-                href={`mailto:${email}`}
-                rel="noreferrer"
-                target="_blank"
-                aria-label="email"
-              >
-                <MdEmail />
-              </Link>
-            </div>
+        <motion.p
+          className="text-lg sm:text-xl text-gray-100"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+        >
+          I help businesses create SEO-optimized websites and set up
+          Google Workspace or Microsoft 365 for professional email and growth.
+        </motion.p>
 
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-red-500 hover:text-white ease-in duration-300">
-              <Link
-                href="https://www.youtube.com/@MushfiqFeed"
-                rel="noreferrer"
-                target="_blank"
-                aria-label="YouTube"
-              >
-                <BsYoutube />
-              </Link>
-            </div>
-          </div>
-        </div>
+        <motion.a
+          href="https://calendly.com/mushfiq.kdu/30min"
+          target="_blank"
+          rel="noopener noreferrer"
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6, delay: 0.8 }}
+          className="inline-flex items-center gap-2 bg-white text-blue-700 px-6 py-3 text-lg font-semibold rounded-full shadow hover:bg-gray-100 transition"
+        >
+          Book a Free Consultation <FaArrowRight />
+        </motion.a>
       </div>
-    </div>
+    </section>
   );
-};
-
-export default Hero;
+}
