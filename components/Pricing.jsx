@@ -103,7 +103,7 @@ export default function PricingSection() {
             {category.plans.map((plan, j) => (
               <div
                 key={j}
-                className="p-6 border border-indigo-600 rounded-2xl flex flex-col justify-between hover:shadow-lg transition scale-110 duration-300"
+                className="p-6 border border-indigo-600 rounded-2xl flex flex-col justify-between hover:shadow-lg transition"
               >
                 <div>
                   <h3 className="text-xl font-semibold mb-1">{plan.name}</h3>
@@ -124,7 +124,7 @@ export default function PricingSection() {
                     ))}
                   </ul>
                 </div>
-                <button className="mt-auto w-full rounded-full py-2 px-4 font-semibold hover:from-pink-600 hover:to-pink-700 transition">
+                <button className="mt-auto w-full rounded-full py-2 px-4 font-semibold hover:from-pink-600 hover:to-blue-600 hover:text-white transition">
                   Book a Free Call
                 </button>
               </div>
