@@ -3,6 +3,15 @@ import Head from "next/head";
 const Schema = ({ type = "website", data }) => {
   const baseSchema = {
     "@context": "https://schema.org",
+    "@type": "Person",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Jashore",
+      addressRegion: "Khulna",
+      postalCode: "7400",
+      streetAddress: "20341 Whitworth Institute 405 N. Whitworth",
+    },
+
     "@graph": [
       {
         "@type": "WebSite",
@@ -29,7 +38,7 @@ const Schema = ({ type = "website", data }) => {
     ],
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Jashore",
+      addressLocality: "Chuknagar",
       addressRegion: "Khulna",
       addressCountry: "Bangladesh",
     },
