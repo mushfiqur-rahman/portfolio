@@ -3,43 +3,31 @@ import Head from "next/head";
 const Schema = ({ type = "website", data }) => {
   const baseSchema = {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    url: "https://mushfiq.xyz",
-    name: "MUSHFIQ - IT Support Engineer | Web Developer",
-    description:
-      "I am Mushfiqur Rahman from Bangladesh, a web developer and IT support engineer. My services are Google Workspace administration, Microsoft Office 365 administration, email deliverability, WordPress website bug-free transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website & DNS issue fixes (CNAME, A records, IP, redirects), spam or junk issue fix, email migration, and IT consultancy. You may hire me through international marketplaces, such as Upwork or Fiverr, or directly.",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        url: "https://mushfiq.xyz",
+        name: "MUSHFIQ - IT Support Engineer | Web Developer",
+        description:
+          "I am Mushfiq — a Web Developer & IT Support Engineer helping businesses build trust and grow online. I specialize in fast, SEO-friendly, Responsive websites and professional email setup using Google Workspace and Microsoft 365.Whether you are launching a new brand, moving your email from cPanel, or struggling with domain/DNS issues, I make complex tech simple and reliable. My goal is to make sure your online presence is not just live — but working for your business 24/7. I believe in clear communication, quick turnaround, and long-term support — so you’re never left guessing. Let’s build something that works.",
+      },
+      {
+        "@type": "Person",
+        name: "Mushfiqur Rahman",
+        url: "https://mushfiq.xyz",
+        image: "https://mushfiq.xyz/mushfiqur.jpg",
+        jobTitle: "Web Developer & IT Support Engineer",
+        sameAs: [
+          "https://www.linkedin.com/in/mushfiq1",
+          "https://github.com/mushfiqur-rahman",
+        ],
+        worksFor: {
+          "@type": "Organization",
+          name: "Freelance",
+        },
+      },
+    ],
   };
-
-  const blogSchema =
-    type === "blogpost" && data
-      ? {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          mainEntityOfPage: {
-            "@type": "WebPage",
-            "@id": `https://mushfiq.xyz/blog/${data.slug}`,
-          },
-          headline: data.title,
-          description: data.description,
-          image: data.image || "https://mushfiq.xyz/default-og-image.jpg",
-          author: {
-            "@type": "Person",
-            name: data.author || "Mushfiqur Rahman",
-          },
-          publisher: {
-            "@type": "Organization",
-            name: "Mushfiqur Rahman Portfolio",
-            logo: {
-              "@type": "ImageObject",
-              url: "https://mushfiq.xyz/logo.png",
-            },
-          },
-          datePublished: new Date(data.datePublished || "").toISOString(),
-          dateModified: new Date(data.datePublished || "").toISOString(),
-        }
-      : null;
-
-  const schema = type === "blogpost" && blogSchema ? blogSchema : baseSchema;
 
   return (
     <Head>
