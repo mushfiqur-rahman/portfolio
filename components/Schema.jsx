@@ -27,6 +27,12 @@ const Schema = ({ type = "website", data }) => {
         },
       },
     ],
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Jashore",
+      addressRegion: "Khulna",
+      addressCountry: "Bangladesh",
+    },
   };
 
   return (
