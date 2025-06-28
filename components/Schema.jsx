@@ -4,14 +4,24 @@ const Schema = ({ type = "website", data }) => {
   const baseSchema = {
     "@context": "https://schema.org",
     "@type": "Person",
+    name: "Mushfiqur Rahman",
+    url: "https://mushfiq.xyz",
+    image: "https://mushfiq.xyz/mushfiqur.jpg",
+    jobTitle: "Web Developer & IT Support Engineer",
+    sameAs: [
+      "https://www.linkedin.com/in/mushfiq1",
+      "https://github.com/mushfiqur-rahman",
+    ],
+    worksFor: {
+      "@type": "Organization",
+      name: "Freelance",
+    },
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Jashore",
+      addressLocality: "Chuknagar",
       addressRegion: "Khulna",
-      postalCode: "7400",
-      streetAddress: "20341 Whitworth Institute 405 N. Whitworth",
+      addressCountry: "Bangladesh",
     },
-
     "@graph": [
       {
         "@type": "WebSite",
@@ -20,35 +30,14 @@ const Schema = ({ type = "website", data }) => {
         description:
           "I am Mushfiq — a Web Developer & IT Support Engineer helping businesses build trust and grow online. I specialize in fast, SEO-friendly, Responsive websites and professional email setup using Google Workspace and Microsoft 365.Whether you are launching a new brand, moving your email from cPanel, or struggling with domain/DNS issues, I make complex tech simple and reliable. My goal is to make sure your online presence is not just live — but working for your business 24/7. I believe in clear communication, quick turnaround, and long-term support — so you’re never left guessing. Let’s build something that works.",
       },
-      {
-        "@type": "Person",
-        name: "Mushfiqur Rahman",
-        url: "https://mushfiq.xyz",
-        image: "https://mushfiq.xyz/mushfiqur.jpg",
-        jobTitle: "Web Developer & IT Support Engineer",
-        sameAs: [
-          "https://www.linkedin.com/in/mushfiq1",
-          "https://github.com/mushfiqur-rahman",
-        ],
-        worksFor: {
-          "@type": "Organization",
-          name: "Freelance",
-        },
-      },
     ],
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "Chuknagar",
-      addressRegion: "Khulna",
-      addressCountry: "Bangladesh",
-    },
   };
 
   return (
     <Head>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(Schema) }}
       />
     </Head>
   );
