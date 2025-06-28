@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import ContactImg from "../../public/contactImg.webp";
+import Link from "next/link";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { BsYoutube } from "react-icons/bs";
 
 const Contact = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -85,6 +88,46 @@ const Contact = () => {
                     I am available for freelance or full-time positions. Contact
                     me and lets talk.
                   </p>
+                </div>
+                <div>
+                  <div>
+                    <div className="uppercase tracking-widest text-[#5651e5]">
+                      <p>Lets Connect</p>
+                    </div>
+                    <div className="flex items-center gap-5 my-4 w-full sm:w-[80%]">
+                      <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:bg-indigo-500 hover:text-white ease-in duration-300">
+                        <Link
+                          href="https://www.linkedin.com/in/mushfiq1/"
+                          rel="noreferrer"
+                          target="_blank"
+                          aria-label="LinkedIn"
+                        >
+                          <FaLinkedinIn className="text-blue-500 hover:text-white" />
+                        </Link>
+                      </div>
+                      <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:bg-indigo-500 hover:text-white ease-in duration-300">
+                        <Link
+                          href="https://github.com/mushfiqur-rahman/"
+                          rel="noreferrer"
+                          target="_blank"
+                          aria-label="GitHub"
+                        >
+                          <FaGithub className="text-blue-500 hover:text-white" />
+                        </Link>
+                      </div>
+
+                      <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:bg-red-500 hover:text-white ease-in duration-300">
+                        <Link
+                          href="https://www.youtube.com/@MushfiqFeed"
+                          rel="noreferrer"
+                          target="_blank"
+                          aria-label="YouTube"
+                        >
+                          <BsYoutube className="text-blue-500 hover:text-white" />
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
