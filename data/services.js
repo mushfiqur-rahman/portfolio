@@ -72,7 +72,8 @@ export const services = [
 💡 Benefit: Move to a better registrar without service interruptions
 🚀 Impact: Improved domain management with better pricing and features
 📌 Perfect for: Businesses wanting better domain control or pricing`,
-    image: "",
+    image:
+      "https://res.cloudinary.com/depyaowh3/image/upload/v1744711875/domain_transfer_si4gqc.png",
   },
   {
     title: "WordPress Website Migration",
@@ -157,6 +158,7 @@ export const services = [
 ✅ SSL certificate preservation
 💡 Benefit: Move your domain without affecting your website or email service
 🚀 Impact: Maintain business continuity while getting better domain management`,
-    image: "",
+    image:
+      "https://res.cloudinary.com/depyaowh3/image/upload/v1744711875/domain_transfer_si4gqc.png",
   },
 ];
