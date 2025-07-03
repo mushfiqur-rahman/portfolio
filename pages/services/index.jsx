@@ -1,24 +1,37 @@
 import React from "react";
-import Head from "next/head";
-import ServiceCards from "@/components/ServiceCards";
+import SEO from "@/components/SEO";
+import ServiceCard from "@/components/ServiceCard";
+import { services } from "@/data/services";
 
-const index = () => {
+const service = () => {
   return (
     <>
-      <Head>
-        <title>Remote IT Services</title>
-        <link rel="canonical" href="/services" />
-        <meta name="description" content="" />
-        <meta
-          name="keywords"
-          content="dns management, dns configuration, email deliverability, email migration, data migration, freelancer, website development, domain migration, ssl certification, godaddy office 365 to microsoft 365, IMAP, squarespace, google worksapce, gsuit, office 365, remote it support, shopify developer, it support engineer"
-        />
-      </Head>
-      <div className="md:min-h-screen py-20">
-        <ServiceCards />
+      <SEO
+        title="Remote Services"
+        keywords="Best email marketing setup for Google Workspace in the US, Microsoft 365 email marketing for businesses in the US, Affordable website development services in the US, squarespace dns configuration, email migration, domain migration in US, IT Service in the US"
+        description="Explore my web development & IT services, including React, Next.js, Django, DNS setup, and mail migrations, Email Deliverability & Security,squarespace website design
+, Domain & DNS Management, Expertise in GoDaddy, Cloudflare, Namecheap, Squarespace, HubSpot, IONOS,managed it services for small businesses
+, Bluehost, SiteGround, Shopify, HostGator, etc,it support companies near me
+, Cold Email & Marketing Setup, CCTV Installation & Troubleshooting"
+      />
+      <div className="w-full min-h-screen py-12 pt-[100px]">
+        <div className="max-w-[1240px] mx-auto px-4">
+          <h1 className="text-3xl font-bold text-center mb-8">My Services</h1>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {services.map((service, index) => (
+              <ServiceCard
+                key={index}
+                title={service.title}
+                description={service.description}
+                image={service.image}
+                slug={service.slug} // ✅ Ensure slug is passed
+              />
+            ))}
+          </div>
+        </div>
       </div>
     </>
   );
 };
 
-export default index;
+export default service;
