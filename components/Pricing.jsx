@@ -53,7 +53,7 @@ const pricingData = [
     plans: [
       {
         name: "Starter",
-        price: "$99",
+        price: "$50",
         duration: "Same Day Delivery",
         features: [
           { label: "Email Troubleshooting", included: true },
@@ -65,7 +65,7 @@ const pricingData = [
       },
       {
         name: "Standard",
-        price: "$199",
+        price: "$150",
         duration: "1–2 Days Delivery",
         features: [
           { label: "Up to 3 Email Migrations", included: true },
@@ -77,7 +77,7 @@ const pricingData = [
       },
       {
         name: "Exclusive",
-        price: "$399",
+        price: "$200",
         duration: "3 Days Delivery",
         features: [
           { label: "Full Workspace/Office 365 Setup", included: true },
