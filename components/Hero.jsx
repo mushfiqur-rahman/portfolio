@@ -1,42 +1,81 @@
 import React from "react";
-import { FaArrowRight } from "react-icons/fa";
+import Link from "next/link";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { BsYoutube } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
 
-export default function Hero() {
+const Hero = () => {
+  const email = "mushfiq.kdu@gmail.com";
+
+  const handleClick = () => {
+    window.location.href = `mailto:${email}`;
+  };
   return (
-    <>
-      <div className="bg-gradient-to-br from-blue-700 via-purple-800 to-purple-800 text-white w-full h-screen text-center">
-        <div className="relative max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-cente">
-          <div className="mt-[10px] w-full justify-center content-center">
-            <div className="">
-              <div className="py-4 font-extrabold text-lg lg:text-5xl xl:text-6xl uppercase duration-300 leading-tight tracking-tight">
-                <h1>
-                  Build Your Website &<br className="hidden sm:inline" /> Email
-                  Setup with Confidence
-                </h1>
-              </div>
+    <div id="home" className="w-full h-screen text-center">
+      <div className="relative max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
+        <div className="mt-[10px] w-full justify-center content-center">
+          <div className="py-2 font-bold text-sm md:text-3xl text-blue-600">
+            <p>Assalamu Alaikum Orohmatullah</p>
+          </div>
+          <div className="py-4 font-extrabold text-lg lg:text-5xl xl:text-6xl uppercase duration-300 text-violet-600 leading-none">
+            <h1>
+              <span className="capitalize">{"I'm"}</span> Mushfiqur Rahman
+            </h1>
+          </div>
+          <div className="py-2 font-bold md:text-2xl text-sm">
+            <h2>IT Support Engineer | Web Developer</h2>
+          </div>
+          <div className="flex items-center justify-between max-w-[350px] m-auto py-4">
+            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300">
+              <Link
+                href="https://www.linkedin.com/in/mushfiq1/"
+                rel="noreferrer"
+                target="_blank"
+                aria-label="LinkedIn"
+              >
+                <FaLinkedinIn />
+              </Link>
+            </div>
+            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300">
+              <Link
+                href="https://github.com/mushfiqur-rahman/"
+                rel="noreferrer"
+                target="_blank"
+                aria-label="GitHub"
+              >
+                <FaGithub />
+              </Link>
+            </div>
 
-              <div className="py-2 font-bold md:text-2xl text-sm mb-4">
-                <p>
-                  I help US businesses launch SEO-friendly websites and set up
-                  Google Workspace or Microsoft 365 for secure, professional
-                  email and growth.
-                </p>
-              </div>
+            <div
+              className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300"
+              onClick={handleClick}
+            >
+              <Link
+                href={`mailto:${email}`}
+                rel="noreferrer"
+                target="_blank"
+                aria-label="email"
+              >
+                <MdEmail />
+              </Link>
+            </div>
 
-              <div className="py">
-                <a
-                  href="https://calendly.com/mushfiq.kdu/30min"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-white text-blue-700 px-6 py-3 text-base sm:text-lg font-semibold rounded-full shadow hover:bg-gray-100 transition"
-                >
-                  Book a Free Consultation <FaArrowRight />
-                </a>
-              </div>
+            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-red-500 hover:text-white ease-in duration-300">
+              <Link
+                href="https://www.youtube.com/@MushfiqFeed"
+                rel="noreferrer"
+                target="_blank"
+                aria-label="YouTube"
+              >
+                <BsYoutube />
+              </Link>
             </div>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
-}
+};
+
+export default Hero;
