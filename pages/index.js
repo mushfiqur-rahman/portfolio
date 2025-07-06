@@ -1,10 +1,11 @@
+import Head from "next/head";
 import About from "@/components/About";
+import EduExp from "@/components/EduExp";
 import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Testimonial from "@/components/Testimonial";
-import Head from "next/head";
+import Pricing from "@/components/Pricing";
 
 export default function Home() {
   return (
@@ -97,8 +98,9 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
-      <Pricing />
+      <EduExp />
       <Testimonial />
+      <Pricing />
     </>
   );
 }
