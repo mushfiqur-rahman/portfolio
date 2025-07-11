@@ -99,7 +99,7 @@ const Navbar = () => {
               className="font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link href="/" role="menuitem">
+              <Link href="/" aria-label="Home page" role="menuitem">
                 Home
               </Link>
             </li>
@@ -107,7 +107,7 @@ const Navbar = () => {
               className="font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link href="/#about" aria-label="about-me">
+              <Link href="/#about" aria-label="about-me" role="menuitem">
                 About
               </Link>
             </li>
@@ -115,7 +115,7 @@ const Navbar = () => {
               className="font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link href="/#skills" aria-label="skills section">
+              <Link href="/#skills" aria-label="skills section" role="menuitem">
                 Skills
               </Link>
             </li>
@@ -123,7 +123,11 @@ const Navbar = () => {
               className="font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link href="/#project" aria-label="project section">
+              <Link
+                href="/#project"
+                aria-label="project section"
+                role="menuitem"
+              >
                 Project
               </Link>
             </li>
@@ -132,7 +136,7 @@ const Navbar = () => {
               className="font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link href="/contact" role="menuitem">
+              <Link href="/contact" aria-label="contact" role="menuitem">
                 Contact
               </Link>
             </li>
@@ -199,7 +203,7 @@ const Navbar = () => {
                   className="py-4 font-bold hover:border-b dark:text-green-500"
                   role="none"
                 >
-                  <Link href="/#about" aria-label="about me">
+                  <Link href="/#about" aria-label="about me" role="menuitem">
                     About
                   </Link>
                 </li>
@@ -208,7 +212,11 @@ const Navbar = () => {
                   className="py-4 font-bold hover:border-b dark:text-green-500"
                   role="none"
                 >
-                  <Link href="/#skills" aria-label="skills section">
+                  <Link
+                    href="/#skills"
+                    aria-label="skills section"
+                    role="menuitem"
+                  >
                     Skills
                   </Link>
                 </li>
@@ -217,7 +225,7 @@ const Navbar = () => {
                   className="py-4 font-bold hover:border-b dark:text-green-500"
                   role="none"
                 >
-                  <Link href="/#project" aria-label="project">
+                  <Link href="/#project" aria-label="project" role="menuitem">
                     Project
                   </Link>
                 </li>
@@ -226,7 +234,7 @@ const Navbar = () => {
                   className="py-4 font-bold hover:border-b dark:text-green-500"
                   role="none"
                 >
-                  <Link href="/#edu&exp" aria-label="edu&exp">
+                  <Link href="/#edu&exp" aria-label="edu&exp" role="menuitem">
                     Edu&Exp
                   </Link>
                 </li>
