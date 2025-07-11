@@ -5,7 +5,6 @@ import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Testimonial from "@/components/Testimonial";
-import Pricing from "@/components/Pricing";
 
 export default function Home() {
   return (
@@ -94,13 +93,14 @@ export default function Home() {
         <title>MUSHFIQ - IT Support Engineer| Software Engineer</title>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <EduExp />
-      <Testimonial />
-      <Pricing />
+      <div>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <EduExp />
+        <Testimonial />
+      </div>
     </>
   );
 }

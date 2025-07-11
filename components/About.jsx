@@ -1,8 +1,6 @@
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
 import AboutImg from "../public/mushfiqur.jpg";
-import Calendy from "./Calendy";
 import { motion } from "framer-motion";
 import { FaArrowRight } from "react-icons/fa";
 
@@ -36,7 +34,7 @@ const About = () => {
           </p>
 
           <motion.a
-            href="https://calendly.com/mushfiq.kdu/30min"
+            href="/contact"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, scale: 0.95 }}

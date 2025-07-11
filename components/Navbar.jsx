@@ -85,7 +85,10 @@ const Navbar = () => {
         </Link>
 
         {/* Center - Menu */}
-        <div className="hidden md:flex flex-1 justify-center">
+        <nav
+          aria-label="Main Navigation"
+          className="hidden md:flex flex-1 justify-center"
+        >
           <ul
             style={{ color: `${linkColor}` }}
             className="flex space-x-10"
@@ -104,24 +107,24 @@ const Navbar = () => {
               className="font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link href="/services" role="menuitem">
-                Services
+              <Link href="/#about" aria-label="about-me">
+                About
               </Link>
             </li>
             <li
               className="font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link href="/#pricing" role="menuitem">
-                Pricing
+              <Link href="/#skills" aria-label="skills section">
+                Skills
               </Link>
             </li>
             <li
               className="font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link href="/blog" role="menuitem">
-                Article
+              <Link href="/#project" aria-label="project section">
+                Project
               </Link>
             </li>
 
@@ -134,7 +137,7 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-        </div>
+        </nav>
 
         <div className="flex items-center space-x-4">
           <div className="p-2">{mounted && renderThemeChanger()}</div>
@@ -171,7 +174,10 @@ const Navbar = () => {
                 <AiOutlineClose />
               </div>
             </div>
-            <div className="py-4 flex flex-col cursor-pointer">
+            <nav
+              className="py-4 flex flex-col cursor-pointer"
+              aria-label="Mobile Navigation"
+            >
               <ul
                 className="uppercase"
                 style={{ color: `${linkColor}` }}
@@ -193,8 +199,8 @@ const Navbar = () => {
                   className="py-4 font-bold hover:border-b dark:text-green-500"
                   role="none"
                 >
-                  <Link href="/services" role="menuitem">
-                    Services
+                  <Link href="/#about" aria-label="about me">
+                    About
                   </Link>
                 </li>
                 <li
@@ -202,8 +208,8 @@ const Navbar = () => {
                   className="py-4 font-bold hover:border-b dark:text-green-500"
                   role="none"
                 >
-                  <Link href="/#pricing" role="menuitem">
-                    Pricing
+                  <Link href="/#skills" aria-label="skills section">
+                    Skills
                   </Link>
                 </li>
                 <li
@@ -211,8 +217,17 @@ const Navbar = () => {
                   className="py-4 font-bold hover:border-b dark:text-green-500"
                   role="none"
                 >
-                  <Link href="/blog" role="menuitem">
-                    Article
+                  <Link href="/#project" aria-label="project">
+                    Project
+                  </Link>
+                </li>
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 font-bold hover:border-b dark:text-green-500"
+                  role="none"
+                >
+                  <Link href="/#edu&exp" aria-label="edu&exp">
+                    Edu&Exp
                   </Link>
                 </li>
 
@@ -277,7 +292,7 @@ const Navbar = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </nav>
           </div>
         </div>
       </div>
