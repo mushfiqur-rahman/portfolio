@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 import localFont from "next/font/local";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useTheme } from "next-themes";
@@ -45,6 +45,7 @@ export default function App({ Component, pageProps }) {
           <Component {...pageProps} />
           <Footer />
           <GoogleAnalytics gaId="G-J2N8PJJ379" />
+          <GoogleTagManager gaId="gtmId-MSLF9J5J" />
           <SpeedInsights />
           <Analytics />
         </main>
