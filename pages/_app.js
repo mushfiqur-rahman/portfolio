@@ -45,7 +45,7 @@ export default function App({ Component, pageProps }) {
           <Component {...pageProps} />
           <Footer />
           <GoogleAnalytics gaId="G-J2N8PJJ379" />
-          <GoogleTagManager gaId="gtmId-MSLF9J5J" />
+          <GoogleTagManager gtmId="MSLF9J5J" />
           <SpeedInsights />
           <Analytics />
         </main>
