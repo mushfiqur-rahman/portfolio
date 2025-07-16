@@ -27,12 +27,12 @@ export default function Home() {
         <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
-          content="Experienced IT Support Engineer helping remotly US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
+          content="Experienced IT Support Engineer helping remotly US, Australia, United Kingdom businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
           key="desc"
         />
         <meta content="#ffffff" name="theme-color" />
         <meta
-          content="Experienced IT Support Engineer helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
+          content="Experienced IT Support Engineer helping US, Australia, United Kingdom businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
           name="position"
         />
         <meta name="distribution" content="Global" />
@@ -48,7 +48,7 @@ export default function Home() {
         <meta property="og:site_name" content="Mushfiqur Rahman" />
         <meta
           property="og:description"
-          content="Experienced IT Support Engineer helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
+          content="Experienced IT Support Engineer helping US, Australia, United Kingdom businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
         />
         <meta
           property="og:title"
@@ -69,7 +69,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="Experienced IT Support Engineer  helping US businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
+          content="Experienced IT Support Engineer  helping US, Australia, United Kingdom businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
         />
         <meta
           name="twitter:image"
@@ -90,7 +90,7 @@ export default function Home() {
           name="author"
         />
         <meta content="Mushfiqur Rahman Portfolio" name="application-name" />
-        <title>MUSHFIQ - IT Support Engineer</title>
+        <title>MUSHFIQ - IT Support Engineer | Web Developer</title>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <div>

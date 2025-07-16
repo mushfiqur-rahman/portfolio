@@ -69,6 +69,13 @@ const Skills = () => {
           </div>
 
           <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
+            <h3>Squarespace</h3>
+          </div>
+          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
+            <h3>Wix</h3>
+          </div>
+
+          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
             <h3>Docker Container</h3>
           </div>
           <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">

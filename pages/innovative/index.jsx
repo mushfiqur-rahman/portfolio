@@ -9,7 +9,7 @@ const innovative = () => {
   return (
     <>
       <Head>
-        <title>Innovative Software</title>
+        <title>Innovative Software - MUSHFIQ</title>
         <link rel="canonical" href="/innovative" />
         <meta
           name="description"
