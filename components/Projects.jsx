@@ -1,6 +1,7 @@
 import React from "react";
 import HomeImg from "../public/projects/home.webp";
 import Ecommerce from "../public/projects/ecommerce.webp";
+import PlatformManagerImg from "../public/projects/usermanager.webp";
 import DjblogImg from "../public/projects/djblogger.webp";
 import innoImg from "../public/projects/inno.webp";
 import EventtechImg from "../public/projects/eventtech.webp";
@@ -31,6 +32,14 @@ const Projects = () => {
             tech="Djnago, Next JS"
             alt="Full Stack SASS Project"
             aria-label="Service Provider"
+          />
+          <ProjectItem
+            title="Platform Manager"
+            backgroundImg={PlatformManagerImg}
+            projectUrl="/platformManager"
+            tech="Django, React, MUI, DRF"
+            alt="PlatformManagerImg"
+            aria-label="django htmx project"
           />
           <ProjectItem
             title="Jashore Installation Service"
