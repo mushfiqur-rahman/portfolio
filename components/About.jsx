@@ -34,7 +34,7 @@ const About = () => {
           </p>
 
           <motion.a
-            href="/contact"
+            href="/services"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, scale: 0.95 }}
@@ -42,7 +42,7 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.8 }}
             className="inline-flex items-center gap-2 bg-white text-blue-700 px-6 py-3 text-lg font-semibold rounded-full shadow hover:bg-gray-100 transition border-2 border-indigo-600"
           >
-            Book a Free Consultation <FaArrowRight />
+            Services <FaArrowRight />
           </motion.a>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center p-4 hover:scale-105 ease-in duration-300">
