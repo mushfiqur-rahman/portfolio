@@ -31,6 +31,17 @@ const Services = () => {
         {/* Grid */}
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           <ServicePackageCard
+            title="Figma to Next JS"
+            price="200"
+            features={[
+              "5 Section",
+              "Landing Page",
+              "PWA",
+              "Pagespeed Optimized",
+            ]}
+            cta="Get Started"
+          />
+          <ServicePackageCard
             title="Webmail to Google Workspace"
             price="149"
             features={[
