@@ -34,7 +34,7 @@ const About = () => {
           </p>
 
           <motion.a
-            href="/services"
+            href="/contact"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, scale: 0.95 }}
