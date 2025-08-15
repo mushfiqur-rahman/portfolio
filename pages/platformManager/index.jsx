@@ -3,79 +3,94 @@ import Image from "next/image";
 import Link from "next/link";
 import UserManagerImg from "../../public/projects/usermanager.webp";
 import { RiRadioButtonFill } from "react-icons/ri";
+import Head from "next/head";
 
 const platformManager = () => {
   return (
-    <div className="w-full">
-      <div className="w-screen h-dvh relative">
-        <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
-        <Image
-          className="absolute z-1"
-          layout="fill"
-          objectFit="cover"
-          src={UserManagerImg}
-          alt="UserManagerImg"
-          priority
+    <>
+      <Head>
+        <title>Platform Manager - project</title>
+        <link rel="canonical" href="/platformManager" />
+        <meta
+          name="description"
+          content="This is full stack project which developed using python django mysql for backend, API developed using DRF and front developed using react material ui. Admin is able to manege whole company and product using it."
         />
-        <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Platform Manager</h2>
-          <h3>Django / DRF / React JS / Material UI</h3>
-        </div>
-      </div>
-
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
-        <div className="col-span-4">
-          <p>Project</p>
-          <h2>Overview</h2>
-          <p>
-            I built this application in Django, DRF, React JS, MUI. This app has
-            two individual part as Backend which made by Python Django Framework
-            with DRF and Frontend part which made by React JS, MUI.
-          </p>
-          <p className="py-5">
-            This app features are <span className="font-bold">admin</span> is
-            able to see server start time, admin dashboard login session,
-            company clock, product wise user ugase, product control, paid and
-            unpaid customer.
-          </p>
-          <p className="py-5">
-            Also, <span className="font-bold">admin</span> is able to enable and
-            disable user and product .
-          </p>
-          <a href="" target="_blank" rel="noreferrer">
-            <button className="px-8 py-2 mt-4 mr-8">Code</button>
-          </a>
-          <a href="/" target="_blank" rel="noreferrer">
-            <button className="px-8 py-2 mt-4">Demo</button>
-          </a>
-        </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
-          <div className="p-2">
-            <p className="text-center font-bold pb-2">Technologies</p>
-            <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                <RiRadioButtonFill className="pr-1" /> Django
-              </p>
-              <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                <RiRadioButtonFill className="pr-1" /> DRF
-              </p>
-              <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                <RiRadioButtonFill className="pr-1" /> React JS
-              </p>
-              <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                <RiRadioButtonFill className="pr-1" /> Material UI
-              </p>
-              <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
-                <RiRadioButtonFill className="pr-1" /> React Icons
-              </p>
-            </div>
+        <meta
+          name="keywords"
+          content="React js, MUI, MySQL, Python, DJnago, Django Rest Framework, kafka"
+        />
+      </Head>
+      <div className="w-full">
+        <div className="w-screen h-dvh relative">
+          <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
+          <Image
+            className="absolute z-1"
+            layout="fill"
+            objectFit="cover"
+            src={UserManagerImg}
+            alt="UserManagerImg"
+            priority
+          />
+          <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
+            <h2 className="py-2">Platform Manager</h2>
+            <h3>Django / DRF / React JS / Material UI</h3>
           </div>
         </div>
-        <Link href="/#project">
-          <p className="underline cursor-pointer">Back</p>
-        </Link>
+
+        <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
+          <div className="col-span-4">
+            <p>Project</p>
+            <h2>Overview</h2>
+            <p>
+              I built this application in Django, DRF, React JS, MUI. This app
+              has two individual part as Backend which made by Python Django
+              Framework with DRF and Frontend part which made by React JS, MUI.
+            </p>
+            <p className="py-5">
+              This app features are <span className="font-bold">admin</span> is
+              able to see server start time, admin dashboard login session,
+              company clock, product wise user ugase, product control, paid and
+              unpaid customer.
+            </p>
+            <p className="py-5">
+              Also, <span className="font-bold">admin</span> is able to enable
+              and disable user and product .
+            </p>
+            <a href="" target="_blank" rel="noreferrer">
+              <button className="px-8 py-2 mt-4 mr-8">Code</button>
+            </a>
+            <a href="/" target="_blank" rel="noreferrer">
+              <button className="px-8 py-2 mt-4">Demo</button>
+            </a>
+          </div>
+          <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
+            <div className="p-2">
+              <p className="text-center font-bold pb-2">Technologies</p>
+              <div className="grid grid-cols-3 md:grid-cols-1">
+                <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
+                  <RiRadioButtonFill className="pr-1" /> Django
+                </p>
+                <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
+                  <RiRadioButtonFill className="pr-1" /> DRF
+                </p>
+                <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
+                  <RiRadioButtonFill className="pr-1" /> React JS
+                </p>
+                <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
+                  <RiRadioButtonFill className="pr-1" /> Material UI
+                </p>
+                <p className="text-gray-600 py-2 flex items-center dark:text-slate-200">
+                  <RiRadioButtonFill className="pr-1" /> React Icons
+                </p>
+              </div>
+            </div>
+          </div>
+          <Link href="/#project">
+            <p className="underline cursor-pointer">Back</p>
+          </Link>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
