@@ -3,6 +3,7 @@ import Link from "next/link";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsYoutube } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import { SiOpenai } from "react-icons/si";
 
 const Hero = () => {
   const email = "mushfiq.kdu@gmail.com";
@@ -17,10 +18,11 @@ const Hero = () => {
           <div className="py-2 font-bold text-sm md:text-3xl text-blue-600">
             <p>Assalamu Alaikum Orohmatullah</p>
           </div>
-          <div className="py-4 font-extrabold text-lg lg:text-5xl xl:text-6xl uppercase duration-300 text-violet-600 leading-none">
-            <h1>
-              <span className="capitalize">{"I'm"}</span> Mushfiqur Rahman
-            </h1>
+          <div className="py-4  text-violet-600 leading-none">
+            <p>
+              This website Developed before Released <b>ChatGpt</b> for job
+              application. New website for future is under development
+            </p>
           </div>
           <div className="py-2 font-bold md:text-2xl text-sm">
             <h2>IT Support Engineer | Web Developer</h2>
