@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import AboutImg from "../public/mushfiqur.jpg";
+import AboutImg from "../public/mushfiq.png";
 import { motion } from "framer-motion";
 import { FaArrowRight } from "react-icons/fa";
 
