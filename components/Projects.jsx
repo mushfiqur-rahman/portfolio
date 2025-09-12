@@ -10,6 +10,8 @@ import gitHubImg from "../public/projects/github.webp";
 import FlaressaImg from "../public/projects/flaressa.webp";
 import VlanImg from "../public/projects/vlan.webp";
 import BgpImg from "../public/projects/bgp.webp";
+import MediImg from "../public/projects/medicalwp.webp";
+import GourgeImg from "../public/projects/gourgesourcing.webp";
 import ProjectItem from "./ProjecItem";
 
 const Projects = () => {
@@ -27,6 +29,22 @@ const Projects = () => {
         </p>
 
         <div className="grid md:grid-cols-3 gap-8">
+          <ProjectItem
+            title="RMG Supplier"
+            backgroundImg={GourgeImg}
+            projectUrl="/"
+            tech="WordPress"
+            alt="WordPress Development"
+            aria-label="Service Provider"
+          />
+          <ProjectItem
+            title="Medical Training"
+            backgroundImg={MediImg}
+            projectUrl="/"
+            tech="WordPress"
+            alt="WordPress Development"
+            aria-label="Service Provider"
+          />
           <ProjectItem
             title="Full Stack SASS Project"
             backgroundImg={HomeImg}

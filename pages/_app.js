@@ -10,7 +10,6 @@ import Progress from "@/components/Progress";
 import PinterestTag from "@/components/PinterestTag";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import WhatsAppButton from "@/components/WhatsAppButton";
 
 const Manrope = localFont({ src: "../public/fonts/ManropeRegular.woff2" });
 
@@ -44,7 +43,6 @@ export default function App({ Component, pageProps }) {
           <Navbar />
           <Progress />
           <Component {...pageProps} />
-          <WhatsAppButton />
           <Footer />
           <GoogleAnalytics gaId="G-J2N8PJJ379" />
           <GoogleTagManager gtmId="MSLF9J5J" />
