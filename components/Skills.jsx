@@ -1,4 +1,6 @@
+import Image from "next/image";
 import React from "react";
+import { skill } from "@/data/skills";
 
 const Skills = () => {
   return (
@@ -9,78 +11,27 @@ const Skills = () => {
         </div>
 
         <h2 className="py-4">What I learnt</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>Microsoft 365 / Office 365</h3>
-          </div>
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>Google Worksapce</h3>
-          </div>
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>DNS Management</h3>
-          </div>
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>Email Migration</h3>
-          </div>
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>Ubuntu</h3>
-          </div>
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>Kali Linux</h3>
-          </div>
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>GitHub CI/CD</h3>
-          </div>
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>AWS</h3>
-          </div>
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>HTML</h3>
-          </div>
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>CSS</h3>
-          </div>
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>SCSS</h3>
-          </div>
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>Tailwind CSS</h3>
-          </div>
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>BootStrap</h3>
-          </div>
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>React / Next JS</h3>
-          </div>
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>Python</h3>
-          </div>
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>Django</h3>
-          </div>
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>Django Rest Framework</h3>
-          </div>
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>MySQL</h3>
-          </div>
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>API Development</h3>
-          </div>
-
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>Squarespace</h3>
-          </div>
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>Wix</h3>
-          </div>
-
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>Docker Container</h3>
-          </div>
-          <div className="p-6 shadow-xl border border-amber-400 rounded-xl hover:scale-105 ease-in duration-300">
-            <h3>Pagespeed</h3>
-          </div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {skill.map((item) => (
+            <div
+              key={item.id}
+              className="p-6 shadow-xl shadow-lime-200 rounded-xl hover:scale-105 ease-in duration-300"
+            >
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="m-auto">
+                  <Image
+                    src={item.image}
+                    alt={item.name}
+                    width={64}
+                    height={64}
+                  />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>{item.name}</h3>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
