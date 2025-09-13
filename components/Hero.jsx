@@ -16,9 +16,8 @@ const Hero = () => {
         <div className="mt-[10px] w-full justify-center content-center">
           <div className="py-2 font-bold text-sm md:text-3xl text-blue-600">
             <h1>
-              I help businesses grow by providing expert web development,
-              seamless email migration, DNS configuration, and deliverability
-              solutions.
+              Helping Business Owners Reduce IT Headaches & Boost Growth | IT
+              Support & Web Development That Adds Real Value.
             </h1>
           </div>
 
