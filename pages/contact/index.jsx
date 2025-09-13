@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import ContactImg from "../../public/contactImg.webp";
 import Link from "next/link";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { BsYoutube } from "react-icons/bs";
 
 const Contact = () => {
@@ -82,7 +82,10 @@ const Contact = () => {
                     Mushfiqur Rahman
                   </h2>
 
-                  <p className="font-bold">IT Support Engineer</p>
+                  <p className="font-bold">
+                    {" "}
+                    Web Developer | IT Support Engineer
+                  </p>
                   <p>Khulna, Bangladesh</p>
                   <p className="py-4">
                     I am available for freelance or full-time positions. Contact
@@ -124,6 +127,16 @@ const Contact = () => {
                           aria-label="YouTube"
                         >
                           <BsYoutube className="text-blue-500 hover:text-white" />
+                        </Link>
+                      </div>
+                      <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:bg-green-600 hover:text-white ease-in duration-300">
+                        <Link
+                          href="https://wa.me/8801737760068"
+                          rel="noreferrer"
+                          target="_blank"
+                          aria-label="YouTube"
+                        >
+                          <FaWhatsapp className="text-green-500 hover:text-white" />
                         </Link>
                       </div>
                     </div>

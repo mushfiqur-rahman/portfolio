@@ -1,0 +1,158 @@
+import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { FaStar } from "react-icons/fa";
+import Image from "next/image";
+
+const testimonials = [
+  {
+    feedback:
+      "Working with Mushfiqur was an absolute pleasure. He delivered high-quality work ahead of schedule, communicated clearly throughout the entire project, and was incredibly responsive to feedback. His professionalism and attention to detail truly stood out. I highly recommend Mushfiqur to anyone looking for reliable, top-notch freelance support. I’ll definitely be working with him again in the future!",
+    rating: 5,
+    name: "Joanne Fernandez",
+    avatar: "/clients/Joanne Fernandez.png",
+    designation: "Entrepreneur",
+    work: "Google Drive and Workspace Assistance for E-commerce Store",
+  },
+  {
+    feedback:
+      "Thank you for your excellent work on the project! Your API Development & implementations were precise, well-documented, and easy to integrate. I really appreciate your problem-solving skills and proactive communication. While we needed more frontend design input, your work fully met the functional requirements and was delivered professionally. Looking forward to collaborating again!",
+    rating: 5,
+    name: "Ferdinand Netsch",
+    avatar: "/clients/Ferdinand Netsch.png",
+    designation: "CEO",
+    work: "Django Front-End Developer",
+  },
+  {
+    feedback:
+      "If you need help with Microsoft or Google migrations, look no further! Mushfiqur is a wizard",
+    rating: 5,
+    name: "Eric Arbuzow",
+    avatar: "/clients/Eric Arbuzow.png",
+    designation: "CEO",
+    work: "Google Migration from Microsoft 365",
+  },
+  {
+    feedback:
+      "Very helpful workshop with Mushfiqur solved my complicated Microsoft / Google synching calendar nightmare. He has a quiet strength and is very smart when it comes to multi-step operations. I could not have solved this without him! Will return for any tech issue",
+    rating: 5,
+    name: "Lexie Kier",
+    avatar: "/clients/Lexie Kier.png",
+    designation: "CEO",
+    work: "Outlook Calendar to Google Calendar Sync Specialist",
+  },
+  {
+    feedback:
+      "We hired Mushfiqur to manage our email migration from Google to Microsoft 365 and handle DNS record updates, and the entire process was seamless. He was an excellent communicator and always available to answer questions. His professionalism and polite manner made the experience stress-free. Everything was completed efficiently, on time and to a very high standard. We’re very happy with the outcome and would absolutely recommend him to anyone looking for reliable IT support and won't hesitate to hire him again in the future. Thank you Mushfiqur.",
+    rating: 5,
+    name: "Melissa Walsh",
+    avatar: "/clients/Melissa Walsh.png",
+    designation: "Founder",
+    work: "Gmail Accounts Transfer to Microsoft 365 Account",
+  },
+  {
+    feedback:
+      "Amazing freelancer. Will hire next time we need help with a client's email.",
+    rating: 5,
+    name: "Eric Dingler",
+    avatar: "/clients/Eric Dingler.png",
+    designation: "Entrepreneur & coach",
+    work: "Email Migration from SiteGround to Namecheap.",
+  },
+
+  {
+    feedback:
+      "Couldn't be happier with the service provided! Great communicator and got the job done promptly!",
+    rating: 5,
+    name: "Sam Muggleton",
+    avatar: "/clients/avatar.png",
+    designation: "CEO",
+    work: "Fix Email Deliverability & DNS Records(SPF,DKIM,DMARC).",
+  },
+  {
+    feedback:
+      "Mushfiqur is an outstanding IT support engineer and web developer. He helped me get my Google Workspace email fully operational, configured DNS records correctly, and ensured smooth email forwarding for multiple addresses. He is highly knowledgeable, responsive, and communicates clearly throughout the process. Even with complex setups involving GoDaddy, Squarespace, and Google Workspace, he was patient, thorough, and proactive in solving issues. I highly recommend him for anyone needing expert IT support or web development services.",
+    rating: 5,
+    name: "Tony DiSanza",
+    avatar: "/clients/Tony DiSanza.png",
+    designation: "Chief Revenue Officer",
+    work: "Website and Email Configuration Specialist",
+  },
+  {
+    feedback:
+      "Mushfiqur was fantastic to work with! He quickly diagnosed and fixed my email delivery issues, ensuring Google Workspace, HubSpot, and Squarespace were all properly configured. He communicated clearly, was patient with my questions, and followed up to make sure everything was working smoothly. Highly recommended for any IT or email setup needs!",
+    rating: 5,
+    name: "Sophia Lux",
+    avatar: "/clients/Sophia Lux.png",
+    designation: "CEO",
+    work: "Email Issues that need to be resolved",
+  },
+
+  {
+    feedback:
+      "Mushfiqur did a fantastic job performing our migration from DreamHost to Google Workspace. He stayed in constant communication and agreed to work during my company's off-hours. He was professional and delivered a complete project on time. I have nothing but good things to say about Mushfiqur's service, and I will use him again in the future should my company need someone with his skill set.",
+    rating: 5,
+    name: "Corey Mach",
+    avatar: "/clients/Corey MacH.png",
+    designation: "Director of Operations",
+    work: "Migration Project Manager Google Workspace Experience Required",
+  },
+];
+
+const TestimonialMotion = () => {
+  const [index, setIndex] = useState(0);
+
+  // Auto-slide every 5s
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((prev) => (prev + 1) % testimonials.length);
+    }, 5000);
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <div className="w-full max-w-3xl mx-auto py-12 px-4 h-screen">
+      <h2 className="text-3xl font-bold text-center mb-8">What Clients Say</h2>
+      <div className="relative">
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={index}
+            initial={{ opacity: 0, x: 50 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -50 }}
+            transition={{ duration: 0.6 }}
+            className="shadow-lg shadow-lime-300 rounded-2xl p-6 flex flex-col items-center text-center"
+          >
+            <Image
+              width={125}
+              height={125}
+              src={testimonials[index].avatar}
+              alt={testimonials[index].name}
+              className="w-20 h-20 rounded-full mb-4 object-cover border-2 border-gray-200"
+            />
+            <p className="italic mb-4">
+              <span>{`"`}</span>
+              {testimonials[index].feedback}
+              <span>{`"`}</span>
+            </p>
+            <div className="flex justify-center mb-2">
+              {Array.from({ length: testimonials[index].rating }, (_, i) => (
+                <FaStar key={i} className="text-yellow-400" />
+              ))}
+            </div>
+            <h4 className="text-lg font-semibold">
+              {testimonials[index].name}
+            </h4>
+            <p className="text-sm">{testimonials[index].designation}</p>
+            {testimonials[index].work && (
+              <p className="text-sm font-medium mt-1">
+                {testimonials[index].work}
+              </p>
+            )}
+          </motion.div>
+        </AnimatePresence>
+      </div>
+    </div>
+  );
+};
+
+export default TestimonialMotion;

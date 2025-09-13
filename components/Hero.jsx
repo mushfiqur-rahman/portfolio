@@ -15,13 +15,13 @@ const Hero = () => {
       <div className="relative max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="mt-[10px] w-full justify-center content-center">
           <div className="py-2 font-bold text-sm md:text-3xl text-blue-600">
-            <p>Assalamu Alaikum Orohmatullah</p>
-          </div>
-          <div className="py-4 font-extrabold text-lg lg:text-5xl xl:text-6xl uppercase duration-300 text-violet-600 leading-none">
             <h1>
-              <span className="capitalize">{"I'm"}</span> Mushfiqur Rahman
+              I help businesses grow by providing expert web development,
+              seamless email migration, DNS configuration, and deliverability
+              solutions.
             </h1>
           </div>
+
           <div className="py-2 font-bold md:text-2xl text-sm">
             <h2>IT Support Engineer | Web Developer</h2>
           </div>
