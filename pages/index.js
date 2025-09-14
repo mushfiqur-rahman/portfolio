@@ -43,7 +43,6 @@ export default function Home() {
         <meta name="robots" content="index,follow,noodp,noydir" />
         <meta name="copyright" content="Copyright © Mushfiqur Rahman" />
         <meta name="googlebot" content="index, follow" />
-        <time datetime="2022-06-20">June 2022</time>
         <meta property="og:type" content="website" />
         <meta name="msvalidate.01" content="3EA8D19855F5F7D04AEABD2C2A95FA33" />
         <meta property="og:site_name" content="Mushfiqur Rahman" />
@@ -62,6 +61,7 @@ export default function Home() {
         <meta property="fb:app_id" content="353614617613762" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="628" />
+        <meta property="og:og:publish_date" content="2022-06-01" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@MushfiqFeed" />
         <meta
