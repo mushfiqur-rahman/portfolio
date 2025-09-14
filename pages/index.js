@@ -27,12 +27,12 @@ export default function Home() {
         <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
-          content="Experienced IT Support Engineer helping remotly US, Australia, United Kingdom businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
+          content="Get expert custom web development and reliable IT support services at mushfiq.xyz. From building high-performing websites to email & DNS management, we help your business run smoothly."
           key="desc"
         />
         <meta content="#ffffff" name="theme-color" />
         <meta
-          content="Experienced IT Support Engineer helping US, Australia, United Kingdom businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
+          content="Get expert custom web development and reliable IT support services at mushfiq.xyz. From building high-performing websites to email & DNS management, we help your business run smoothly."
           name="position"
         />
         <meta name="distribution" content="Global" />
@@ -43,16 +43,17 @@ export default function Home() {
         <meta name="robots" content="index,follow,noodp,noydir" />
         <meta name="copyright" content="Copyright © Mushfiqur Rahman" />
         <meta name="googlebot" content="index, follow" />
+        <time datetime="2022-06-20">June 2022</time>
         <meta property="og:type" content="website" />
         <meta name="msvalidate.01" content="3EA8D19855F5F7D04AEABD2C2A95FA33" />
         <meta property="og:site_name" content="Mushfiqur Rahman" />
         <meta
           property="og:description"
-          content="Experienced IT Support Engineer helping US, Australia, United Kingdom businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
+          content="Get expert custom web development and reliable IT support services at mushfiq.xyz. From building high-performing websites to email & DNS management, we help your business run smoothly."
         />
         <meta
           property="og:title"
-          content="Mushfiqur Rahman  and an IT support engineer"
+          content="Mushfiqur Rahman is a Professional Web Developer and an IT support engineer"
         />
         <meta
           property="og:image"
@@ -65,11 +66,11 @@ export default function Home() {
         <meta name="twitter:site" content="@MushfiqFeed" />
         <meta
           name="twitter:title"
-          content="Mushfiqur Rahman and an IT support engineer"
+          content="Mushfiqur Rahman is a Professional Web Developer and an IT support engineer"
         />
         <meta
           name="twitter:description"
-          content="Experienced IT Support Engineer  helping US, Australia, United Kingdom businesses with Microsoft 365, Google Workspace, DNS, email, and SEO-friendly websites."
+          content="Get expert custom web development and reliable IT support services at mushfiq.xyz. From building high-performing websites to email & DNS management, we help your business run smoothly."
         />
         <meta
           name="twitter:image"
@@ -86,7 +87,7 @@ export default function Home() {
         <link href="https://mushfiq.xyz" rel="canonical" />
         <meta content="https://mushfiq.xyz" property="og:url" />
         <meta
-          content="Mushfiqur Rahman is an IT support engineer"
+          content="Mushfiqur Rahman is a Professional Web Developer and an IT support engineer"
           name="author"
         />
         <meta content="Mushfiqur Rahman Portfolio" name="application-name" />
