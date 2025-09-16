@@ -96,6 +96,41 @@ const testimonials = [
     designation: "Director of Operations",
     work: "Migration Project Manager Google Workspace Experience Required",
   },
+  {
+    feedback:
+      "Mushfiqur did an excellent job! He quickly helped us resolve our email delivery issue, and it's clear that he is highly experienced and knowledgeable. It was a pleasure working with him!",
+    rating: 5,
+    name: "Natalie Harari",
+    avatar: "/clients/avatar.png",
+    designation: "VP Strategic Alliances",
+    work: "IT Support Engineer",
+  },
+  {
+    feedback: "Mushfiqur was very helpful and completed the task set for him",
+    rating: 5,
+    name: "Rael Fassy",
+    avatar: "/clients/avatar.png",
+    designation: "CEO",
+    work: "FIx email on my macbook",
+  },
+  {
+    feedback:
+      "Fast and succeeded in completing my MX, SPF, DMARC and DKIM setup for instantly.ai campaign. I can recommend Mushfiq",
+    rating: 5,
+    name: "Carlo Rubinstein",
+    avatar: "/clients/Carlo Rubinstein.png",
+    designation: "Coach",
+    work: "Email Campaign Authentication Setup: SPF, DMARC, and DKIM",
+  },
+  {
+    feedback:
+      "Mushfiq was very responsive and professional, it was a pleasure working with him. He was able to troubleshoot and fix my problem in a very timely manner. I truly appreciate his help and I would both hire him again and recommend him to others.",
+    rating: 5,
+    name: "Jennifer Goodwin",
+    avatar: "/clients/avatar.png",
+    designation: "CEO",
+    work: "Google Workspace Mail Delivery Troubleshooting Expert",
+  },
 ];
 
 const TestimonialMotion = () => {
@@ -110,48 +145,54 @@ const TestimonialMotion = () => {
   }, []);
 
   return (
-    <div className="w-full max-w-3xl mx-auto py-12 px-4 h-screen">
-      <h2 className="text-3xl font-bold text-center mb-8">What Clients Say</h2>
-      <div className="relative">
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={index}
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -50 }}
-            transition={{ duration: 0.6 }}
-            className="shadow-lg shadow-lime-300 rounded-2xl p-6 flex flex-col items-center text-center"
-          >
-            <Image
-              width={125}
-              height={125}
-              src={testimonials[index].avatar}
-              alt={testimonials[index].name}
-              className="w-20 h-20 rounded-full mb-4 object-cover border-2 border-gray-200"
-            />
-            <p className="italic mb-4">
-              <span>{`"`}</span>
-              {testimonials[index].feedback}
-              <span>{`"`}</span>
-            </p>
-            <div className="flex justify-center mb-2">
-              {Array.from({ length: testimonials[index].rating }, (_, i) => (
-                <FaStar key={i} className="text-yellow-400" />
-              ))}
-            </div>
-            <h4 className="text-lg font-semibold">
-              {testimonials[index].name}
-            </h4>
-            <p className="text-sm">{testimonials[index].designation}</p>
-            {testimonials[index].work && (
-              <p className="text-sm font-medium mt-1">
-                {testimonials[index].work}
+    <section className="py-16">
+      <div className="container mx-auto px-4">
+        <h2 className="text-3xl font-bold text-center mb-10">
+          Client Testimonials
+        </h2>
+        <div className="grid md:grid-cols-3 gap-8">
+          {testimonials.map((t, index) => (
+            <motion.div
+              key={index}
+              whileHover={{ scale: 1.02 }}
+              className=" rounded-2xl shadow-md shadow-lime-200 border-2 border-amber-400 p-6 flex flex-col items-center text-center"
+            >
+              <Image
+                src={t.avatar}
+                alt={t.name}
+                width={80}
+                height={80}
+                className="rounded-full mb-4"
+              />
+              <h3 className="text-xl font-semibold">{t.name}</h3>
+              <h4 className="text-base font-light py-2">{t.designation}</h4>
+              <p className="font-semibold py-2">{t.work}</p>
+
+              {/* Star Rating */}
+              <div className="flex items-center mb-3">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <span
+                    key={i}
+                    className={`text-yellow-400 text-lg ${
+                      i < Math.floor(t.rating) ? "fill-current" : "opacity-30"
+                    }`}
+                  >
+                    ★
+                  </span>
+                ))}
+                <span className="ml-2">{t.rating}</span>
+              </div>
+
+              <p className="italic">
+                {`"`}
+                {t.feedback}
+                {`"`}
               </p>
-            )}
-          </motion.div>
-        </AnimatePresence>
+            </motion.div>
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
