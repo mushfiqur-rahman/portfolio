@@ -155,7 +155,7 @@ const TestimonialMotion = () => {
             <motion.div
               key={index}
               whileHover={{ scale: 1.02 }}
-              className=" rounded-2xl shadow-md shadow-lime-200 border-2 border-amber-400 p-6 flex flex-col items-center text-center text-sm"
+              className=" rounded-2xl shadow-sm shadow-indigo-200 border-2 p-6 flex flex-col items-center text-center text-sm"
             >
               <Image
                 src={t.avatar}

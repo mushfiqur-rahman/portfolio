@@ -15,7 +15,7 @@ const Skills = () => {
           {skill.map((item) => (
             <div
               key={item.id}
-              className="p-6 shadow-xl shadow-lime-200 rounded-xl hover:scale-105 ease-in duration-300"
+              className="p-6 shadow-xl shadow-indigo-200 rounded-xl hover:scale-105 ease-in duration-300"
             >
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">

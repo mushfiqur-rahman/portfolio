@@ -23,7 +23,7 @@ const Testimonial = () => {
             >
               {message.map((item, index) => (
                 <div key={index} className="w-full flex carousel-item mx-2">
-                  <div className="card bg-base-100 dark:bg-black/30 rounded-lg shadow-lg shadow-lime-300">
+                  <div className="card bg-base-100 dark:bg-black/30 rounded-lg shadow-lg shadow-indigo-300">
                     <figure className="p-5">
                       <Image
                         src={item.image}

@@ -14,7 +14,7 @@ const Hero = () => {
     <div id="home" className="w-full h-screen text-center">
       <div className="relative max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="mt-[10px] w-full justify-center content-center">
-          <div className="py-2 font-bold text-sm md:text-3xl text-blue-600">
+          <div className="py-2 font-bold text-sm md:text-3xl text-indigo-600">
             <h1>
               Helping Business Owners Reduce IT Headaches & Boost Growth | IT
               Support & Web Development That Adds Real Value.
@@ -25,7 +25,7 @@ const Hero = () => {
             <h2>IT Support Engineer | Web Developer</h2>
           </div>
           <div className="flex items-center justify-between max-w-[350px] m-auto py-4">
-            <div className="rounded-full shadow-lg shadow-lime-200 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300">
+            <div className="rounded-full shadow-lg shadow-indigo-200 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300">
               <Link
                 href="https://www.linkedin.com/in/mushfiq1/"
                 rel="noreferrer"
@@ -35,7 +35,7 @@ const Hero = () => {
                 <FaLinkedinIn />
               </Link>
             </div>
-            <div className="rounded-full shadow-lg shadow-lime-200 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300">
+            <div className="rounded-full shadow-lg shadow-indigo-200 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300">
               <Link
                 href="https://github.com/mushfiqur-rahman/"
                 rel="noreferrer"
@@ -47,7 +47,7 @@ const Hero = () => {
             </div>
 
             <div
-              className="rounded-full shadow-lg shadow-lime-200 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300"
+              className="rounded-full shadow-lg shadow-indigo-200 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300"
               onClick={handleClick}
             >
               <Link
@@ -60,7 +60,7 @@ const Hero = () => {
               </Link>
             </div>
 
-            <div className="rounded-full shadow-lg shadow-lime-200 p-6 cursor-pointer hover:scale-110 hover:bg-red-500 hover:text-white ease-in duration-300">
+            <div className="rounded-full shadow-lg shadow-indigo-200 p-6 cursor-pointer hover:scale-110 hover:bg-red-500 hover:text-white ease-in duration-300">
               <Link
                 href="https://www.youtube.com/@MushfiqFeed"
                 rel="noreferrer"
