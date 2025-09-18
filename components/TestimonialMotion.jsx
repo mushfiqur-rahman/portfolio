@@ -155,7 +155,7 @@ const TestimonialMotion = () => {
             <motion.div
               key={index}
               whileHover={{ scale: 1.02 }}
-              className=" rounded-2xl shadow-md shadow-lime-200 border-2 border-amber-400 p-6 flex flex-col items-center text-center"
+              className=" rounded-2xl shadow-md shadow-lime-200 border-2 border-amber-400 p-6 flex flex-col items-center text-center text-sm"
             >
               <Image
                 src={t.avatar}
@@ -164,8 +164,8 @@ const TestimonialMotion = () => {
                 height={80}
                 className="rounded-full mb-4"
               />
-              <h3 className="text-xl font-semibold">{t.name}</h3>
-              <h4 className="text-base font-light py-2">{t.designation}</h4>
+              <h3 className=" font-semibold">{t.name}</h3>
+              <h4 className=" font-light py-2">{t.designation}</h4>
               <p className="font-semibold py-2">{t.work}</p>
 
               {/* Star Rating */}
@@ -173,7 +173,7 @@ const TestimonialMotion = () => {
                 {Array.from({ length: 5 }).map((_, i) => (
                   <span
                     key={i}
-                    className={`text-yellow-400 text-lg ${
+                    className={`text-yellow-400 ${
                       i < Math.floor(t.rating) ? "fill-current" : "opacity-30"
                     }`}
                   >
