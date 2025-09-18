@@ -3,13 +3,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { FaCheckCircle, FaWhatsapp } from "react-icons/fa";
 
-const ServicesCard = ({
-  title,
-  description,
-  features,
-  price,
-  whatsappLink,
-}) => {
+const ServicesCard = () => {
   const whatsappNumber = "+880 1737-760068";
   return (
     <>
@@ -42,9 +36,6 @@ const ServicesCard = ({
                 </div>
 
                 <div className="mt-auto">
-                  <p className="text-lg font-semibold text-indigo-600 mb-4">
-                    {service.price}
-                  </p>
                   <div className="items-center">
                     <Link
                       href="https://wa.me/8801737760068"
