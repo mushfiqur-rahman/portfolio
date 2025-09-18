@@ -5,6 +5,7 @@ import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import TestimonialMotion from "@/components/TestimonialMotion";
 import Testimonial from "@/components/Testimonial";
+import ServicesCard from "@/components/ServicesCard";
 
 export default function Home() {
   return (
@@ -97,7 +98,7 @@ export default function Home() {
       <div>
         <Hero />
         <About />
-
+        <ServicesCard />
         <Projects />
         <Skills />
         <TestimonialMotion />

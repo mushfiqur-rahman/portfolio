@@ -107,28 +107,16 @@ const Navbar = () => {
               className="font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link href="/#about" aria-label="about-me" role="menuitem">
-                About
+              <Link href="/services" aria-label="services" role="menuitem">
+                Services
               </Link>
             </li>
             <li
               className="font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link href="/#skills" aria-label="skills section" role="menuitem">
-                Skills
-              </Link>
-            </li>
-            <li
-              className="font-bold hover:border-b dark:text-green-500"
-              role="none"
-            >
-              <Link
-                href="/#project"
-                aria-label="project section"
-                role="menuitem"
-              >
-                Project
+              <Link href="/blog" aria-label="blog" role="menuitem">
+                Blog
               </Link>
             </li>
 
@@ -203,8 +191,8 @@ const Navbar = () => {
                   className="py-4 font-bold hover:border-b dark:text-green-500"
                   role="none"
                 >
-                  <Link href="/#about" aria-label="about me" role="menuitem">
-                    About
+                  <Link href="/#Services" aria-label="Services" role="menuitem">
+                    Services
                   </Link>
                 </li>
                 <li
@@ -212,30 +200,8 @@ const Navbar = () => {
                   className="py-4 font-bold hover:border-b dark:text-green-500"
                   role="none"
                 >
-                  <Link
-                    href="/#skills"
-                    aria-label="skills section"
-                    role="menuitem"
-                  >
-                    Skills
-                  </Link>
-                </li>
-                <li
-                  onClick={() => setNav(false)}
-                  className="py-4 font-bold hover:border-b dark:text-green-500"
-                  role="none"
-                >
-                  <Link href="/#project" aria-label="project" role="menuitem">
-                    Project
-                  </Link>
-                </li>
-                <li
-                  onClick={() => setNav(false)}
-                  className="py-4 font-bold hover:border-b dark:text-green-500"
-                  role="none"
-                >
-                  <Link href="/#edu&exp" aria-label="edu&exp" role="menuitem">
-                    Edu&Exp
+                  <Link href="/blog" aria-label="blog" role="menuitem">
+                    blog
                   </Link>
                 </li>
 
@@ -290,7 +256,7 @@ const Navbar = () => {
 
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:bg-red-500 hover:text-white ease-in duration-300">
                     <Link
-                      href="https://www.youtube.com/@MushfiqFeed"
+                      href="https://www.youtube.com/@itmushfiq"
                       rel="noreferrer"
                       target="_blank"
                       aria-label="YouTube"
