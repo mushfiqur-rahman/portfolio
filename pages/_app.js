@@ -1,8 +1,6 @@
 import "@/styles/globals.css";
 import localFont from "next/font/local";
 import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
-import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useTheme } from "next-themes";
 import { ThemeProvider } from "next-themes";
 import SiteSchema from "@/components/SiteName";
@@ -42,12 +40,10 @@ export default function App({ Component, pageProps }) {
           <SiteSchema />
           <Navbar />
           <Progress />
-          <Component {...pageProps} />
-          <Footer />
-          <GoogleAnalytics gaId="G-J2N8PJJ379" />
           <GoogleTagManager gtmId="MSLF9J5J" />
-          <SpeedInsights />
-          <Analytics />
+          <Component {...pageProps} />
+          <GoogleAnalytics gaId="G-J2N8PJJ379" />
+          <Footer />
         </main>
       </ThemeProvider>
     </>

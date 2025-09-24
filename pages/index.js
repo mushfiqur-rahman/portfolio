@@ -28,12 +28,12 @@ export default function Home() {
         <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
-          content="Get expert custom web development and reliable IT support services at mushfiq.xyz. From building high-performing websites to email & DNS management, we help your business run smoothly."
+          content="Professional IT Support Engineer helping businesses with Google Workspace, Microsoft 365, MSP, DNS, cloud & email solutions for smooth digital operations."
           key="desc"
         />
         <meta content="#ffffff" name="theme-color" />
         <meta
-          content="Get expert custom web development and reliable IT support services at mushfiq.xyz. From building high-performing websites to email & DNS management, we help your business run smoothly."
+          content="Professional IT Support Engineer helping businesses with Google Workspace, Microsoft 365, MSP, DNS, cloud & email solutions for smooth digital operations."
           name="position"
         />
         <meta name="distribution" content="Global" />
@@ -49,12 +49,9 @@ export default function Home() {
         <meta property="og:site_name" content="Mushfiqur Rahman" />
         <meta
           property="og:description"
-          content="Get expert custom web development and reliable IT support services at mushfiq.xyz. From building high-performing websites to email & DNS management, we help your business run smoothly."
+          content="Professional IT Support Engineer helping businesses with Google Workspace, Microsoft 365, MSP, DNS, cloud & email solutions for smooth digital operations."
         />
-        <meta
-          property="og:title"
-          content="Mushfiqur Rahman is a Professional Web Developer and an IT support engineer"
-        />
+        <meta property="og:title" content="MUSHFIQ - IT Support Engineer" />
         <meta
           property="og:image"
           content="https://res.cloudinary.com/depyaowh3/image/upload/v1743254614/mushfiq-wide_image_q4up1c.png"
@@ -65,13 +62,10 @@ export default function Home() {
         <meta property="og:og:publish_date" content="2022-06-01" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@MushfiqFeed" />
-        <meta
-          name="twitter:title"
-          content="Mushfiqur Rahman is a Professional Web Developer and an IT support engineer"
-        />
+        <meta name="twitter:title" content="MUSHFIQ - IT Support Engineer" />
         <meta
           name="twitter:description"
-          content="Get expert custom web development and reliable IT support services at mushfiq.xyz. From building high-performing websites to email & DNS management, we help your business run smoothly."
+          content="Professional IT Support Engineer helping businesses with Google Workspace, Microsoft 365, MSP, DNS, cloud & email solutions for smooth digital operations."
         />
         <meta
           name="twitter:image"
@@ -87,12 +81,9 @@ export default function Home() {
         />
         <link href="https://mushfiq.xyz" rel="canonical" />
         <meta content="https://mushfiq.xyz" property="og:url" />
-        <meta
-          content="Mushfiqur Rahman is a Professional Web Developer and an IT support engineer"
-          name="author"
-        />
+        <meta content="MUSHFIQ - IT Support Engineer" name="author" />
         <meta content="Mushfiqur Rahman Portfolio" name="application-name" />
-        <title>MUSHFIQ - IT Support Engineer | Web Developer</title>
+        <title>MUSHFIQ - IT Support Engineer</title>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <div>
