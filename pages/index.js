@@ -3,7 +3,6 @@ import About from "@/components/About";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
-import TestimonialMotion from "@/components/TestimonialMotion";
 import Testimonial from "@/components/Testimonial";
 import ServicesCard from "@/components/ServicesCard";
 
@@ -92,7 +91,6 @@ export default function Home() {
         <ServicesCard />
         <Projects />
         <Skills />
-        <TestimonialMotion />
         <Testimonial />
       </div>
     </>

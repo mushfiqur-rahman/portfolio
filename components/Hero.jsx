@@ -15,14 +15,11 @@ const Hero = () => {
       <div className="relative max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="mt-[10px] w-full justify-center content-center">
           <div className="py-2 font-bold text-sm md:text-3xl text-indigo-600">
-            <h1>
-              Helping Business Owners Reduce IT Headaches & Boost Growth | IT
-              Support & Web Development That Adds Real Value.
-            </h1>
+            <h1>IT Support Engineer</h1>
           </div>
 
           <div className="py-2 font-bold md:text-2xl text-sm">
-            <h2>IT Support Engineer | Web Developer</h2>
+            <h2>Helping CEO, Founders to run smooth IT operations</h2>
           </div>
           <div className="flex items-center justify-between max-w-[350px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-indigo-200 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300">
