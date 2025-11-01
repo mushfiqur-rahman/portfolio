@@ -24,7 +24,7 @@ const Hero = () => {
           <div className="flex items-center justify-between max-w-[350px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-indigo-200 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300">
               <Link
-                href="https://www.linkedin.com/in/mushfiq1/"
+                href="https://www.linkedin.com/in/itMushfiq"
                 rel="noreferrer"
                 target="_blank"
                 aria-label="LinkedIn"
@@ -59,7 +59,7 @@ const Hero = () => {
 
             <div className="rounded-full shadow-lg shadow-indigo-200 p-6 cursor-pointer hover:scale-110 hover:bg-red-500 hover:text-white ease-in duration-300">
               <Link
-                href="https://www.youtube.com/@MushfiqFeed"
+                href="https://www.youtube.com/@itMushfiq"
                 rel="noreferrer"
                 target="_blank"
                 aria-label="YouTube"
