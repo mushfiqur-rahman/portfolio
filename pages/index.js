@@ -5,6 +5,8 @@ import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Testimonial from "@/components/Testimonial";
 import ServicesCard from "@/components/ServicesCard";
+import TestimonialMotion from "@/components/TestimonialMotion";
+import PricingSection from "@/components/Pricing";
 
 export default function Home() {
   return (
@@ -89,8 +91,10 @@ export default function Home() {
         <Hero />
         <About />
         <ServicesCard />
+        <PricingSection />
         <Projects />
         <Skills />
+        <TestimonialMotion />
         <Testimonial />
       </div>
     </>
