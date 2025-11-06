@@ -1,6 +1,11 @@
 import Head from "next/head";
 import About from "@/components/About";
 import Hero from "@/components/Hero";
+import TestimonialMotion from "@/components/TestimonialMotion";
+import Skills from "@/components/Skills";
+import ServicesCard from "@/components/ServicesCard";
+import Projects from "@/components/Projects";
+import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
   return (
@@ -84,6 +89,11 @@ export default function Home() {
       <div>
         <Hero />
         <About />
+        <TestimonialMotion />
+        <ServicesCard />
+        <Skills />
+        <Projects />
+        <Testimonial />
       </div>
     </>
   );
