@@ -145,9 +145,9 @@ const TestimonialMotion = () => {
   }, []);
 
   return (
-    <section className="py-16">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-10">
+    <section id="testimonial" className="py-16">
+      <div className="max-w-7xl mx-auto px-4">
+        <h2 className="text-3xl font-bold text-center mb-10 dark:text-slate-200">
           Client Testimonials
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
@@ -164,12 +164,14 @@ const TestimonialMotion = () => {
                 height={80}
                 className="rounded-full mb-4"
               />
-              <h3 className=" font-semibold">{t.name}</h3>
-              <h4 className=" font-light py-2">{t.designation}</h4>
-              <p className="font-semibold py-2">{t.work}</p>
+              <h3 className="dark:text-slate-200 font-semibold">{t.name}</h3>
+              <h4 className="dark:text-slate-200 font-light py-2">
+                {t.designation}
+              </h4>
+              <p className="dark:text-slate-200 font-semibold py-2">{t.work}</p>
 
               {/* Star Rating */}
-              <div className="flex items-center mb-3">
+              <div className="flex items-center mb-3 dark:text-slate-200">
                 {Array.from({ length: 5 }).map((_, i) => (
                   <span
                     key={i}
@@ -183,7 +185,7 @@ const TestimonialMotion = () => {
                 <span className="ml-2">{t.rating}</span>
               </div>
 
-              <p className="italic">
+              <p className="italic dark:text-slate-200">
                 {`"`}
                 {t.feedback}
                 {`"`}

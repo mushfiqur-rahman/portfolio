@@ -3,6 +3,7 @@ import About from "@/components/About";
 import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
 import Testimonial from "@/components/Testimonial";
+import TestimonialMotion from "@/components/TestimonialMotion";
 
 export default function Home() {
   return (
@@ -86,8 +87,8 @@ export default function Home() {
       <div>
         <Hero />
         <About />
-
         <Skills />
+        <TestimonialMotion />
         <Testimonial />
       </div>
     </>

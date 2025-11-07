@@ -15,31 +15,28 @@ const About = () => {
 
           <h2 className="py-4">Career Summary</h2>
 
+          <p className="py-2 text-gray-600 dark:text-slate-200">Hi There 👋,</p>
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            I’m Mushfiqur Rahman, a Web Developer and IT Support Engineer
-            passionate about building solutions that help businesses grow and
-            run smoothly. With years of hands-on experience, I combine technical
-            expertise with a strategic mindset, ensuring that every website I
-            build and every IT system I manage not only works flawlessly but
-            also drives measurable results.
+            I am Mushfiqur Rahman.
           </p>
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            💻 As a Web Developer I specialize in creating fast, secure, and
-            SEO-friendly websites tailored to your brand. From portfolio sites
-            to blogs and business platforms, I focus on user experience, clean
-            design, and long-term scalability.
+            an IT Support Engineer with a passion for building reliable, secure,
+            and efficient IT solutions. My background in internet infrastructure
+            and software development allows me to provide end-to-end IT support
+            that helps businesses run smoothly.
           </p>
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            As an IT Support Engineer I bring deep expertise in Google
-            Workspace, Microsoft 365, DNS configuration, and email migration.
-            Whether you need seamless email setup, troubleshooting, or system
-            migration, I ensure minimal downtime and maximum efficiency.
+            Through my agency, I have served over 50 clients across the US, UK,
+            Australia, Germany, Europe and local businesses offering both
+            on-site and remote solutions. I specialise in Microsoft 365, Google
+            Workspace, email infrastructure, DNS management, and IT operations,
+            combining technical expertise with practical problem-solving to
+            ensure systems are robust and resilient.
           </p>
           <p className="py-2 text-gray-600 dark:text-slate-200">
-            I don’t just deliver websites and IT support — I align them with
-            your business goals. I help you optimize your online presence,
-            improve email deliverability, and create systems that support growth
-            and client engagement.
+            I take pride in making technology simple and effective for
+            businesses, enabling them to focus on growth while I handle their IT
+            backbone.
           </p>
 
           <motion.a

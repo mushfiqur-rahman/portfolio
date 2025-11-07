@@ -81,16 +81,24 @@ const Navbar = () => {
               className="font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link href="/services" aria-label="services" role="menuitem">
-                Services
+              <Link href="/#about" aria-label="About section" role="menuitem">
+                About
               </Link>
             </li>
             <li
               className="font-bold hover:border-b dark:text-green-500"
               role="none"
             >
-              <Link href="/blog" aria-label="blog" role="menuitem">
-                Blog
+              <Link href="/#skills" aria-label="skills section" role="menuitem">
+                Skills
+              </Link>
+            </li>
+            <li
+              className="font-bold hover:border-b dark:text-green-500"
+              role="none"
+            >
+              <Link href="/#testimonial" aria-label="services" role="menuitem">
+                Testimonial
               </Link>
             </li>
 
@@ -106,7 +114,7 @@ const Navbar = () => {
         </nav>
 
         <div className="flex items-center space-x-4">
-          <div onClick={handleNav} className="md:hidden">
+          <div onClick={handleNav} className="md:hidden dark:text-white">
             <AiOutlineMenu size={25} />
           </div>
         </div>
