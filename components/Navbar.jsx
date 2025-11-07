@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { useTheme } from "next-themes";
 
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsYoutube } from "react-icons/bs";
-import { IoMoonOutline, IoSunnyOutline } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 
 const Navbar = () => {
@@ -31,36 +29,12 @@ const Navbar = () => {
     window.addEventListener("scroll", handleShadow);
   }, []);
 
-  const { SystemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
+    // Defer state update to the microtask queue
+    Promise.resolve().then(() => setMounted(true));
   }, []);
-  //Next Theme or dark mood setup========
-  const renderThemeChanger = () => {
-    if (!mounted) return null;
-
-    const currentTheme = theme === "system" ? SystemTheme : theme;
-
-    if (currentTheme === "dark") {
-      return (
-        <IoSunnyOutline
-          className="w-6 h-6 text-yellow-400"
-          role="button"
-          onClick={() => setTheme("light")}
-        />
-      );
-    } else {
-      return (
-        <IoMoonOutline
-          className="w-6 h-6 text-gray-400"
-          role="button"
-          onClick={() => setTheme("dark")}
-        />
-      );
-    }
-  };
 
   const email = "mushfiq.kdu@gmail.com";
 
@@ -72,8 +46,8 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100] bg-white dark:bg-black/50"
-          : "fixed w-full h-20 z-[100]"
+          ? "fixed w-full h-20 shadow-xl z-100 bg-white dark:bg-black/50"
+          : "fixed w-full h-20 z-100"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 cursor-pointer">
@@ -132,9 +106,7 @@ const Navbar = () => {
         </nav>
 
         <div className="flex items-center space-x-4">
-          <div className="p-2">{mounted && renderThemeChanger()}</div>
-
-          <div onClick={handleNav} className="md:hidden dark:text-white">
+          <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} />
           </div>
         </div>
@@ -149,7 +121,7 @@ const Navbar = () => {
           className={
             nav
               ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen p-10 ease-in duration-500 bg-white dark:bg-black/50"
-              : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
+              : "fixed left-full top-0 p-10 ease-in duration-500"
           }
         >
           <div>

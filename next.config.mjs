@@ -1,11 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  /* config options here */
+  reactCompiler: true,
   reactStrictMode: true,
-  i18n: {
-    locales: ["default", "en-US", "ar"],
-    defaultLocale: "default",
-    localeDetection: false,
-  },
   images: {
     remotePatterns: [
       {
@@ -18,4 +15,4 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;

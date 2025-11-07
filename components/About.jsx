@@ -15,7 +15,7 @@ const About = () => {
 
           <h2 className="py-4">Career Summary</h2>
 
-          <p className="py-2 text-gray-600 dark:text-slate-200">
+          <p className="py-2 text-gray-600">
             I’m Mushfiqur Rahman, a Web Developer and IT Support Engineer
             passionate about building solutions that help businesses grow and
             run smoothly. With years of hands-on experience, I combine technical
@@ -23,19 +23,19 @@ const About = () => {
             build and every IT system I manage not only works flawlessly but
             also drives measurable results.
           </p>
-          <p className="py-2 text-gray-600 dark:text-slate-200">
+          <p className="py-2 text-gray-600">
             💻 As a Web Developer I specialize in creating fast, secure, and
             SEO-friendly websites tailored to your brand. From portfolio sites
             to blogs and business platforms, I focus on user experience, clean
             design, and long-term scalability.
           </p>
-          <p className="py-2 text-gray-600 dark:text-slate-200">
+          <p className="py-2 text-gray-600">
             As an IT Support Engineer I bring deep expertise in Google
             Workspace, Microsoft 365, DNS configuration, and email migration.
             Whether you need seamless email setup, troubleshooting, or system
             migration, I ensure minimal downtime and maximum efficiency.
           </p>
-          <p className="py-2 text-gray-600 dark:text-slate-200">
+          <p className="py-2 text-gray-600">
             I don’t just deliver websites and IT support — I align them with
             your business goals. I help you optimize your online presence,
             improve email deliverability, and create systems that support growth
@@ -43,7 +43,7 @@ const About = () => {
           </p>
 
           <motion.a
-            href="/contact"
+            href="https://itsupporteng.com"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, scale: 0.95 }}

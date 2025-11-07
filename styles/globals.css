@@ -1,17 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  /* Your default theme */
-  --background: white;
-  --foreground: black;
-}
-
-[data-theme="dark"] {
-  --background: black;
-  --foreground: white;
-}
+@import "tailwindcss";
 
 html {
   scroll-behavior: smooth;
@@ -20,8 +7,6 @@ html {
 @layer base {
   body {
     overflow-x: hidden;
-    @apply tracking-wide;
-    @apply dark:bg-gray-800 bg-white dark:text-slate-200;
   }
 
   h1,
@@ -32,10 +17,8 @@ html {
   h6 {
     @apply font-bold;
   }
+
   button {
-    @apply shadow-sm shadow-gray-400 rounded-xl uppercase bg-gradient-to-r bg-[#14A800] text-black;
-  }
-  li {
-    @apply text-black dark:text-white uppercase;
+    @apply shadow-sm shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#14A800] to-[#14A800] text-black;
   }
 }
