@@ -12,7 +12,7 @@ const Testimonial = () => {
           <div className="max-w-2xl text-xl font-bold tracking-widest uppercase text-indigo-500">
             <p>Testimonial</p>
           </div>
-          <h2 className="py-4">Web Development Clients</h2>
+          <h2 className="py-4 dark:text-slate-200">Web Development Clients</h2>
 
           <div className="py-5 text-center items-center drop-shadow-xl">
             <Marquee

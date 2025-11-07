@@ -14,11 +14,11 @@ const Hero = () => {
     <div id="home" className="w-full h-screen text-center">
       <div className="relative max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="mt-2.5 w-full justify-center content-center">
-          <div className="py-2 font-bold text-sm md:text-3xl text-indigo-600">
+          <div className="py-2 font-bold text-sm md:text-3xl text-indigo-600 dark:text-slate-200">
             <h1>IT Support Engineer</h1>
           </div>
 
-          <div className="py-2 font-bold md:text-2xl text-sm">
+          <div className="py-2 font-bold md:text-2xl text-sm dark:text-slate-200">
             <h2>Helping CEO, Founders to run smooth IT operations</h2>
           </div>
           <div className="flex items-center justify-between max-w-[350px] m-auto py-4">
@@ -29,7 +29,7 @@ const Hero = () => {
                 target="_blank"
                 aria-label="LinkedIn"
               >
-                <FaLinkedinIn />
+                <FaLinkedinIn className="dark:text-slate-200" />
               </Link>
             </div>
             <div className="rounded-full shadow-lg shadow-indigo-200 p-6 cursor-pointer hover:scale-110 hover:bg-indigo-500 hover:text-white ease-in duration-300">
@@ -39,7 +39,7 @@ const Hero = () => {
                 target="_blank"
                 aria-label="GitHub"
               >
-                <FaGithub />
+                <FaGithub className="dark:text-slate-200" />
               </Link>
             </div>
 
@@ -53,7 +53,7 @@ const Hero = () => {
                 target="_blank"
                 aria-label="email"
               >
-                <MdEmail />
+                <MdEmail className="dark:text-slate-200" />
               </Link>
             </div>
 
@@ -64,7 +64,7 @@ const Hero = () => {
                 target="_blank"
                 aria-label="YouTube"
               >
-                <BsYoutube />
+                <BsYoutube className="dark:text-slate-200" />
               </Link>
             </div>
           </div>

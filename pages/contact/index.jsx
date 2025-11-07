@@ -58,10 +58,7 @@ const Contact = () => {
       </Head>
 
       <div className="dark:bg-gradient-to-r from-slate-900 to-slate-700">
-        <div
-          id="contact"
-          className="max-w-[1240px] m-auto md:pl-5 p-4 py-16 glassmorphism"
-        >
+        <div id="contact" className="max-w-[1240px] m-auto md:pl-5 p-4 py-16">
           <h1 className="py-8 text-4xl font-bold text-center text-indigo-500">
             Get in Touch
           </h1>
@@ -77,7 +74,7 @@ const Contact = () => {
                   />
                 </div>
 
-                <div className="text-center md:text-start">
+                <div className="text-center md:text-start dark:text-slate-200">
                   <h2 className="py-2 text-3xl text-indigo-500">
                     Mushfiqur Rahman
                   </h2>
@@ -165,8 +162,8 @@ const Contact = () => {
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit}>
-                    <div className="flex flex-col">
-                      <label className="uppercase text-sm py-2">
+                    <div className="flex flex-col dark:text-slate-200">
+                      <label className="uppercase text-sm py-2 dark:text-slate-200">
                         Your Name
                       </label>
                       <input
@@ -178,12 +175,12 @@ const Contact = () => {
                       />
                     </div>
 
-                    <div className="flex flex-col">
-                      <label className="uppercase text-sm py-2">
+                    <div className="flex flex-col dark:text-slate-200">
+                      <label className="uppercase text-sm py-2 dark:text-slate-200">
                         Your Email
                       </label>
                       <input
-                        className="border-2 rounded-lg p-3 flex border-gray-300"
+                        className="border-2 rounded-lg p-3 flex border-gray-300 dark:text-slate-200"
                         type="email"
                         name="email"
                         placeholder="you@somewhere.com"
@@ -191,11 +188,13 @@ const Contact = () => {
                       />
                     </div>
 
-                    <div className="flex flex-col">
-                      <label className="uppercase text-sm py-2">Message</label>
+                    <div className="flex flex-col dark:text-slate-200">
+                      <label className="uppercase text-sm py-2 dark:text-slate-200">
+                        Message
+                      </label>
                       <textarea
                         rows="10"
-                        className="border-2 rounded-lg p-3 flex border-gray-300"
+                        className="border-2 rounded-lg p-3 flex border-gray-300 dark:text-slate-200"
                         name="message"
                         placeholder="Write your message"
                         required

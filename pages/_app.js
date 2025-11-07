@@ -12,7 +12,7 @@ const Manrope = localFont({ src: "../public/fonts/ManropeRegular.woff2" });
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <main className={`${Manrope.className}`}>
+      <main className={`${Manrope.className} dark:bg-slate-800`}>
         <PinterestTag />
         <SiteSchema />
         <Navbar />

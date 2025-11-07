@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+:root {
+  --background: white;
+  --foreground: black;
+}
+
+[data-theme="dark"] {
+  --background: black;
+  --foreground: white;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -20,5 +30,8 @@ html {
 
   button {
     @apply shadow-sm shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#14A800] to-[#14A800] text-black;
+  }
+  li {
+    @apply text-black dark:text-white uppercase;
   }
 }

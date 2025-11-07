@@ -10,7 +10,7 @@ const Skills = () => {
           <p>Skills</p>
         </div>
 
-        <h2 className="py-4">What I learnt</h2>
+        <h2 className="py-4 dark:text-slate-200">What I learnt</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {skill.map((item) => (
             <div
@@ -26,7 +26,7 @@ const Skills = () => {
                     height={64}
                   />
                 </div>
-                <div className="flex flex-col items-center justify-center">
+                <div className="flex flex-col items-center justify-center dark:text-slate-200">
                   <h3>{item.name}</h3>
                 </div>
               </div>

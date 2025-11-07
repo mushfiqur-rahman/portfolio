@@ -30,7 +30,7 @@ const EduExp = () => {
             <p className="text-xl tracking-widest uppercase font-bold text-indigo-500">
               Education
             </p>
-            <h2 className="py-4">What I have achived</h2>
+            <h2 className="py-4 dark:text-slate-200">What I have achived</h2>
             <div className="grid lg:grid-cols-4 gap-8">
               {/* Left */}
               <div className="col-span-3 lg:col-span-2 w-full h-full shadow-sm shadow-gray-300 rounded-xl p-4">
