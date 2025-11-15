@@ -31,7 +31,7 @@ const EduExp = () => {
               Education
             </p>
             <h2 className="py-4 dark:text-slate-200">What I have achived</h2>
-            <div className="grid lg:grid-cols-4 gap-8">
+            <div className="grid lg:grid-cols-4 gap-8 dark:text-slate-200">
               {/* Left */}
               <div className="col-span-3 lg:col-span-2 w-full h-full shadow-sm shadow-gray-300 rounded-xl p-4">
                 <h2 className="text-center text-2xl border-b-4">Experience</h2>
@@ -61,7 +61,7 @@ const EduExp = () => {
                     <div className="mt-1 flex">
                       <AiFillCaretRight className=" text-blue-500 md:block" />
                       <div className="md:-mt-1 md:pl-8">
-                        <span className="block font-bold dark:text-slate-200">
+                        <span className="block font-bold">
                           Jan 2023 - Jan 2025
                         </span>
                         <span className="pt-2 block text-lg font-bold">
@@ -82,7 +82,7 @@ const EduExp = () => {
                     <div className="mt-1 flex">
                       <AiFillCaretRight className=" text-blue-500 md:block" />
                       <div className="md:-mt-1 md:pl-8">
-                        <span className="block font-bold dark:text-slate-200">
+                        <span className="block font-bold">
                           April 2022 - Present
                         </span>
                         <span className="pt-2 block text-lg font-bold">
@@ -175,16 +175,14 @@ const EduExp = () => {
                     <div className="mt-1 flex">
                       <AiFillCaretRight className=" text-blue-500 md:block" />
                       <div className="md:-mt-1 md:pl-8">
-                        <span className="block font-bold dark:text-slate-200">
+                        <span className="block font-bold">
                           July 2024 - Oct 2024
                         </span>
                         <span className="pt-2 block text-lg font-bold">
                           International English Language Testing System{" "}
                           <span className="capitalize">(IELTS)</span>
                         </span>
-                        <span className="text-sm dark:text-slate-200">
-                          British Council
-                        </span>
+                        <span className="text-sm">British Council</span>
                       </div>
                     </div>
                   </div>
@@ -196,16 +194,14 @@ const EduExp = () => {
                     <div className="mt-1 flex">
                       <AiFillCaretRight className=" text-blue-500 md:block" />
                       <div className="md:-mt-1 md:pl-8">
-                        <span className="block font-bold dark:text-slate-200">
+                        <span className="block font-bold">
                           July 2023 - Dec 2023
                         </span>
                         <span className="pt-2 block text-lg font-bold">
                           The Ultimate Django Series{" "}
                           <span className="capitalize">(1-3)</span>
                         </span>
-                        <span className="text-sm dark:text-slate-200">
-                          Code with Mosh
-                        </span>
+                        <span className="text-sm">Code with Mosh</span>
                       </div>
                     </div>
                   </div>
@@ -217,16 +213,14 @@ const EduExp = () => {
                     <div className="mt-1 flex">
                       <AiFillCaretRight className=" text-blue-500 md:block" />
                       <div className="md:-mt-1 md:pl-8">
-                        <span className="block font-bold dark:text-slate-200">
+                        <span className="block font-bold">
                           Oct 2018 - Jan 2019
                         </span>
                         <span className="pt-2 block text-lg font-bold">
                           Basic Spoken in English at{" "}
                           <span className="capitalize">Lexicon</span>
                         </span>
-                        <span className="text-sm dark:text-slate-200">
-                          Khulna, Bangladesh
-                        </span>
+                        <span className="text-sm">Khulna, Bangladesh</span>
                       </div>
                     </div>
                   </div>
@@ -238,16 +232,14 @@ const EduExp = () => {
                     <div className="mt-1 flex">
                       <AiFillCaretRight className=" text-blue-500 md:block" />
                       <div className="md:-mt-1 md:pl-8">
-                        <span className="block font-bold dark:text-slate-200">
+                        <span className="block font-bold">
                           Nov 2017 - Feb 2018
                         </span>
                         <span className="pt-2 block text-lg font-bold">
                           Web Application Development(PHP Laravel){" "}
                           <span className="capitalize">at BITM</span>
                         </span>
-                        <span className="text-sm dark:text-slate-200">
-                          Dhaka, Bangladesh
-                        </span>
+                        <span className="text-sm">Dhaka, Bangladesh</span>
                       </div>
                     </div>
                   </div>
@@ -259,7 +251,7 @@ const EduExp = () => {
                     <div className="mt-1 flex">
                       <AiFillCaretRight className=" text-blue-500 md:block" />
                       <div className="md:-mt-1 md:pl-8">
-                        <span className="block font-bold dark:text-slate-200">
+                        <span className="block font-bold">
                           April 2012 - Oct 2017
                         </span>
                         <span className="pt-2 block text-lg font-bold">
@@ -268,9 +260,7 @@ const EduExp = () => {
                             ILACS(National University)
                           </span>
                         </span>
-                        <span className="text-sm dark:text-slate-200">
-                          Khulna, Bangladesh
-                        </span>
+                        <span className="text-sm">Khulna, Bangladesh</span>
                       </div>
                     </div>
                   </div>
@@ -282,14 +272,12 @@ const EduExp = () => {
                     <div className="mt-1 flex">
                       <AiFillCaretRight className=" text-blue-500 md:block" />
                       <div className="md:-mt-1 md:pl-8">
-                        <span className="block font-bold dark:text-slate-200">
-                          2008-2010
-                        </span>
+                        <span className="block font-bold">2008-2010</span>
                         <span className="pt-2 block text-lg font-bold">
                           H.S.C(Science) at{" "}
                           <span className="capitalize">Keshabpur College</span>
                         </span>
-                        <span className="text-sm dark:text-slate-200">
+                        <span className="text-sm">
                           Keshabpur, Jashore, Bangladesh
                         </span>
                       </div>
