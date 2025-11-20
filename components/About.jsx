@@ -40,7 +40,7 @@ const About = () => {
           </p>
 
           <motion.a
-            href="https://itsupporteng.com"
+            href="/"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, scale: 0.95 }}
