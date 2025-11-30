@@ -61,7 +61,7 @@ export default function Home() {
         <meta property="og:image:height" content="628" />
         <meta property="og:og:publish_date" content="2022-06-01" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@MushfiqFeed" />
+        <meta name="twitter:site" content="@itmushfiq" />
         <meta name="twitter:title" content="MUSHFIQ - IT Support Engineer" />
         <meta
           name="twitter:description"
@@ -73,7 +73,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="Mushfiqur Rahman, itmushfiq experienced freelancer, IT Expert,Remote Services,Remote IT Service, IT support engineer, Start up Software Engineer, Software Engineer, Next js Software Engineer, python django Software Engineer, Google Workspace administration, Microsoft Office 365 administration, email deliverability, WordPress website bug-free transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website & DNS issue fixes (CNAME, A records, IP, redirects), spam or junk issue fix, cold mail setup, email migration, and IT consultancy"
+          content="Mushfiqur Rahman, itmushfiq, experienced freelancer, IT Expert,Remote Services,Remote IT Service, IT support engineer, Start up Software Engineer, Software Engineer, Next js Software Engineer, python django Software Engineer, Google Workspace administration, Microsoft Office 365 administration, email deliverability, WordPress website bug-free transfer, DNS management (GoDaddy, Cloudflare, Namecheap), website & DNS issue fixes (CNAME, A records, IP, redirects), spam or junk issue fix, cold mail setup, email migration, and IT consultancy"
         />
         <meta
           name="impact-site-verification"
